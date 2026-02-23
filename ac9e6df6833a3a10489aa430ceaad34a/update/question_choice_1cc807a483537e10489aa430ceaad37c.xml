@@ -5,6 +5,7 @@
         <order>100</order>
         <published_ref/>
         <question display_value="Screen Size">18b7472483537e10489aa430ceaad30d</question>
+        <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-23 10:20:05</sys_created_on>
