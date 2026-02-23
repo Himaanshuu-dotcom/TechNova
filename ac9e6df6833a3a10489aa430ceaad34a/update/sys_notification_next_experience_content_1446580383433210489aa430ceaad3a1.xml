@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_next_experience_content">
+    <sys_notification_next_experience_content action="INSERT_OR_UPDATE">
+        <action_name/>
+        <action_payload/>
+        <active>true</active>
+        <is_default>false</is_default>
+        <message><![CDATA[Project ${project_name} is completed
+Actual Completion Date : ${completion_date}
+Total Assigned Resources :
+
+Architect: ${number_of_architect}
+Developer : ${number_of_developer_needed}
+QA : ${numeber_of_qa_needed}
+
+Description: ${description}]]></message>
+        <message_heading><![CDATA[Project ${project_name} is completed]]></message_heading>
+        <name>Notify PM when Status is completed</name>
+        <notification display_value="Notify PM when Project is Completed">ed25948f83033210489aa430ceaad3b4</notification>
+        <route display_value="Next Experience Route">bccd1214533201107cd3ddeeff7b1289</route>
+        <sys_class_name>sys_notification_next_experience_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-18 05:29:21</sys_created_on>
+        <sys_id>1446580383433210489aa430ceaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notify PM when Status is completed</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_notification_next_experience_content_1446580383433210489aa430ceaad3a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-18 05:29:21</sys_updated_on>
+        <use_action>false</use_action>
+    </sys_notification_next_experience_content>
+</record_update>
