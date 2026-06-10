@@ -1,172 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Project Issue" section_id="1dc05bd283633e50489aa430ceaad30b" sys_domain="global" table="x_1912290_techno_0_project_issue" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>418293d683633e50489aa430ceaad3eb</sys_id>
+            <sys_created_on>2026-03-13 08:55:39</sys_created_on>
+            <sys_id>f63223d683e33e50489aa430ceaad344</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
+            <sys_ui_formatter display_value="Process Flow">f5ae879e83233e50489aa430ceaad342</sys_ui_formatter>
+            <sys_ui_section caption="Project Issue" display_value="Project Issue" name="x_1912290_techno_0_project_issue" sys_domain="global" view="Default view">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
+            <sys_updated_on>2026-03-13 08:55:39</sys_updated_on>
             <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>issue_assigned_to</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>0d8293d683633e50489aa430ceaad3eb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>issue_status</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>c58293d683633e50489aa430ceaad3ec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>issue_severity</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>0182d3d683633e50489aa430ceaad306</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assignment_group</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>c982d3d683633e50489aa430ceaad306</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>8582d3d683633e50489aa430ceaad307</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>4182d3d683633e50489aa430ceaad308</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>issue_title</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>0d82d3d683633e50489aa430ceaad308</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>project_name</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>c582d3d683633e50489aa430ceaad309</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>8182d3d683633e50489aa430ceaad30a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>4d82d3d683633e50489aa430ceaad30a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 07:47:00</sys_created_on>
-            <sys_id>0982d3d683633e50489aa430ceaad30b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section display_value="">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:47:00</sys_updated_on>
-            <sys_user/>
-            <type/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Project Issue</caption>
@@ -175,21 +21,21 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-02-06 11:19:41</sys_created_on>
+            <sys_created_on>2026-03-13 07:39:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1dc05bd283633e50489aa430ceaad30b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>x_1912290_techno_0_project_issue</sys_name>
             <sys_overrides/>
-            <sys_package display_value="">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+            <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
             <sys_policy/>
-            <sys_scope display_value="">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+            <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
             <sys_update_name>sys_ui_section_1dc05bd283633e50489aa430ceaad30b</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 07:39:22</sys_updated_on>
+            <sys_updated_on>2026-03-13 08:55:39</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>
