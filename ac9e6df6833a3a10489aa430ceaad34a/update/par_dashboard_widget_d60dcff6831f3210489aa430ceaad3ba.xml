@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">8cd9a67e83d73210489aa430ceaad31e</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"filterConfigurations":[],"scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":true,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":{"datasourceConfigurations":{"table":{"timeZone":"SESSION","useSeriesLabels":false}},"colorDetails":{"4fc5987977212110f5f16e7f6b5a99a9":[{"sysId":"4fc5987977212110f5f16e7f6b5a99a9","defaultColor":"228,35,56","cssCustomProperty":"--now-color_alert--critical-2"}]}},"colors":{},"componentId":"ewut70fg","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","rangesConfig":{},"colorConfig":{"type":"singleColor","values":[{"color":"4fc5987977212110f5f16e7f6b5a99a9","metric":"ZEdGaWJHVjRYekU1TVRJeU9UQmZkR1ZqYUc1dlh6QmZjSEp2YW1WamRGOXBjM04xWlRFM056STBORFV4TmpjNE5qVT0xNzcyNDQ1MTcxNTcw","rules":[]}]},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Project Issue","sourceType":"table","tableOrViewName":"x_1912290_techno_0_project_issue","filterQuery":"active=true^issue_severity=Critical","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MTIyOTBfdGVjaG5vXzBfcHJvamVjdF9pc3N1ZTE3NzI0NDUxNjc4NjU=","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4XzE5MTIyOTBfdGVjaG5vXzBfcHJvamVjdF9pc3N1ZTE3NzI0NDUxNjc4NjU=","id":"ZEdGaWJHVjRYekU1TVRJeU9UQmZkR1ZqYUc1dlh6QmZjSEp2YW1WamRGOXBjM04xWlRFM056STBORFV4TmpjNE5qVT0xNzcyNDQ1MTcxNTcw","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"headerTitle":"Critical Issues","headerColor":{"themeVariable":"--now-color_alert--critical-2","value":"#e42338"}}</component_props>
+        <h>9</h>
+        <name>Critical Issue Watchlist</name>
+        <stored_component display_value="Critical Issue Watchlist">ffa68f3a83db3210489aa430ceaad353</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 10:24:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d60dcff6831f3210489aa430ceaad3ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Critical Issue Watchlist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>par_dashboard_widget_d60dcff6831f3210489aa430ceaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 05:26:15</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <widget_props/>
+        <x>25</x>
+        <y>21</y>
+    </par_dashboard_widget>
+</record_update>

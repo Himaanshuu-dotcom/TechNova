@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>568c05dd83df7250489aa430ceaad3be</copied_from>
+        <copied_from_name>Generate Resource Allocation Rec</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_generate_resource_allocation_records</internal_name>
+        <label_cache>[{"name":"d8a3e953-7561-4261-8c23-45425d82bfc6.record","label":"9➛Resource Allocation Record","reference":"x_1912290_techno_0_resouce_allocation","reference_display":"Resource Allocation","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"96e40481-b54e-4cff-9e61-fd12d748021d.__action_status__.message","label":"7➛Action Status➛Message","reference":"","reference_display":"Message","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"":""}},{"name":"flow_variable.no_of_devs","label":"Flow Variables➛No. of Devs","reference":"","reference_display":"","type":"integer","base_type":"integer","parent_table_name":null,"column_name":"","choices":[{"order":0.0}],"usedInstances":{"dd5568ea-5e8a-40db-9985-222da2a977a6":["condition"],"70a649f0-32a6-4470-9d46-3c8587909b82":["number_of_assignment"],"8b02ed48-d36d-46d8-b30d-424bca11ebca":["condition"]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"970a3022-4296-448e-a654-1d23f6a6ebe5"}},{"name":"Created_1.current.number_of_developer_needed","label":"Trigger - Record Created➛Project Record➛Number of Developer Needed","reference":"","reference_display":"Number of Developer Needed","type":"integer","base_type":"integer","parent_table_name":"x_1912290_techno_0_project","column_name":"number_of_developer_needed","choices":[{"order":0.0}],"usedInstances":{"b29dfcb3-4587-4814-a554-4ab9f52e9852":["no_of_devs-0"]},"attributes":null},{"name":"96e40481-b54e-4cff-9e61-fd12d748021d.record","label":"7➛Resource Allocation Record","reference":"x_1912290_techno_0_resouce_allocation","reference_display":"Resource Allocation","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5cbd111a-88d6-4d8c-8be7-9780edee958a.record","label":"27➛Resource Allocation Record","reference":"x_1912290_techno_0_resouce_allocation","reference_display":"Resource Allocation","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.project_s_manager_name.name","label":"Trigger - Record Created➛Project Record➛Project's Manager Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":[{"order":0.0}],"usedInstances":{"ef2df14c-21b0-4671-9012-d38a48134d33":["parm1"]},"attributes":null},{"name":"flow_variable.no_of_architect","label":"Flow Variables➛No. of Architect","reference":"","reference_display":"","type":"integer","base_type":"integer","parent_table_name":null,"column_name":"","choices":null,"usedInstances":{"dde1d74b-1e8f-44db-acf4-79d171a1ddc0":["number_of_assignment"],"2ced8a7c-e12f-4f26-a387-9af563ba7ff4":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"172c8454-fe1f-4d3d-9dcb-e48fafe276ff","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.status","label":"Flow Variables➛Status","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":[{"order":0.0}],"usedInstances":{"ccf142dd-634d-4893-bf3e-a9b2b0e00d18":[null]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"b5c3bab7-5f02-419a-adf4-b1500edc6b4f"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Project Record","reference":"x_1912290_techno_0_project","reference_display":"Project","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"6f662a10-070b-478c-8c7b-c749491e5e4c":["project_name"],"dde1d74b-1e8f-44db-acf4-79d171a1ddc0":["project_name"],"96e40481-b54e-4cff-9e61-fd12d748021d":["project_name"],"25152dc5-1925-46a6-a5c4-c1f518fcacac":["project_name"],"5283e851-2552-437d-81bb-a40ec89378ba":["project_name"],"ccf142dd-634d-4893-bf3e-a9b2b0e00d18":["record"],"b6f9b01c-efd7-4be8-acb6-cf41e61b9dcf":["project_name"],"70a649f0-32a6-4470-9d46-3c8587909b82":["project_name"],"d8a3e953-7561-4261-8c23-45425d82bfc6":["project_name"],"ef2df14c-21b0-4671-9012-d38a48134d33":["record"],"c9819a12-a58b-442a-a652-86a5fc49e9bf":["project_name"],"5cbd111a-88d6-4d8c-8be7-9780edee958a":["project_name"]},"attributes":{}},{"name":"flow_variable.no_of_qa","label":"Flow Variables➛No. of QA","reference":"","reference_display":"","type":"integer","base_type":"integer","parent_table_name":null,"column_name":"","choices":[{"order":0.0}],"usedInstances":{"6f662a10-070b-478c-8c7b-c749491e5e4c":["number_of_assignment"],"5dded3b2-e7a3-427f-afaa-f3424ca6c946":["condition"],"924d284d-3c03-4eb2-a796-f697998f541b":["condition"]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"4269efa3-ad0a-4da1-a665-8a897371aaac"}},{"name":"Created_1.current.project_s_manager_name.email","label":"Trigger - Record Created➛Project Record➛Project's Manager Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"ccf142dd-634d-4893-bf3e-a9b2b0e00d18":["ah_to"],"ef2df14c-21b0-4671-9012-d38a48134d33":["parm1"]},"attributes":null},{"name":"Created_1.current.numeber_of_qa_needed","label":"Trigger - Record Created➛Project Record➛Numeber of QA Needed","reference":"","reference_display":"Numeber of QA Needed","type":"integer","base_type":"integer","parent_table_name":"x_1912290_techno_0_project","column_name":"numeber_of_qa_needed","choices":[{"order":0.0}],"usedInstances":{"b29dfcb3-4587-4814-a554-4ab9f52e9852":["no_of_qa-1"]},"attributes":null},{"name":"flow_variable.total_assignment","label":"Flow Variables➛Total Assignment","reference":"","reference_display":"","type":"integer","base_type":"integer","parent_table_name":null,"column_name":"","choices":null,"usedInstances":{"6f662a10-070b-478c-8c7b-c749491e5e4c":["total_assignment"],"dde1d74b-1e8f-44db-acf4-79d171a1ddc0":["total_assignment"],"64cbd7f8-72c8-4245-9ddb-9dcba1645791":["condition"],"d7394dec-733d-438f-b45f-3b68da579d39":["condition"],"b29dfcb3-4587-4814-a554-4ab9f52e9852":["temp_total-4"],"70a649f0-32a6-4470-9d46-3c8587909b82":["total_assignment"],"87994009-71d6-4912-94c7-ed8860f7bbcf":["condition"],"90694590-91db-4ba1-8c9e-f00048a26712":["condition"],"dab08dda-7b93-43e7-98af-bcdbc2dfc4b8":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c394aa22-4a9d-405b-a7ea-94c0cb911398","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.temp_total","label":"Flow Variables➛Temp Total","reference":"","reference_display":"","type":"integer","base_type":"integer","parent_table_name":null,"column_name":null,"choices":[{"order":0.0}],"usedInstances":{"90694590-91db-4ba1-8c9e-f00048a26712":["condition"]},"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":"","uiUniqueId":"41ba12c5-c03c-46f5-9350-07ddb6b4db59"}},{"name":"Created_1.current.number_of_architect","label":"Trigger - Record Created➛Project Record➛Number of Architect","reference":"","reference_display":"Number of Architect","type":"integer","base_type":"integer","parent_table_name":"x_1912290_techno_0_project","column_name":"number_of_architect","choices":[{"order":0.0}],"usedInstances":{"b29dfcb3-4587-4814-a554-4ab9f52e9852":["no_of_architect-2"]},"attributes":null},{"name":"96e40481-b54e-4cff-9e61-fd12d748021d.__action_status__","label":"7➛Action Status","reference":null,"reference_display":"Action Status","type":"object","base_type":"object","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.project_s_manager_name","label":"Trigger - Record Created➛Project Record➛Project's Manager Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project","column_name":"project_s_manager_name","choices":[{"order":0.0}],"usedInstances":{"ef2df14c-21b0-4671-9012-d38a48134d33":["parm1"]},"attributes":null},{"name":"Created_1.current.project_name","label":"Trigger - Record Created➛Project Record➛Project Name","reference":"","reference_display":"Project Name","type":"string","base_type":"string","parent_table_name":"x_1912290_techno_0_project","column_name":"project_name","choices":[{"order":0.0}],"usedInstances":{"96e40481-b54e-4cff-9e61-fd12d748021d":["project_name"],"5283e851-2552-437d-81bb-a40ec89378ba":["project_name"],"ccf142dd-634d-4893-bf3e-a9b2b0e00d18":["ah_subject"],"b6f9b01c-efd7-4be8-acb6-cf41e61b9dcf":["project_name"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Copy of Generate Resource Allocation Records</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>929dde2d835b3650489aa430ceaad3f1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Copy of Generate Resource Allocation Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_hub_flow_929dde2d835b3650489aa430ceaad3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:50:29</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>82ee1221839b3650489aa430ceaad357</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=929dde2d835b3650489aa430ceaad3f1^sys_idNOT INde9dde2d835b3650489aa430ceaad3f1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>929dde2d835b3650489aa430ceaad3f1</id>
+        <name>Copy of Generate Resource Allocation Records</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>de9dde2d835b3650489aa430ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=de9dde2d835b3650489aa430ceaad3f1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=929dde2d835b3650489aa430ceaad3f1^sys_idNOT IN229d126d835b3650489aa430ceaad34e,229d126d835b3650489aa430ceaad360"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>229d126d835b3650489aa430ceaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=229d126d835b3650489aa430ceaad34e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>229d126d835b3650489aa430ceaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=229d126d835b3650489aa430ceaad360"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=929dde2d835b3650489aa430ceaad3f1^sys_idNOT INba9d126d835b3650489aa430ceaad3a7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>ba9d126d835b3650489aa430ceaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxlLdtkkUDbDet7W0fglSgJNJmS5OuRCnxLvLvHepiyxLl2LGydZ4CkfTMmcMzF+b+m8lQgJl5aU5RwLB5ZlIuccwRm66WGJalWvY5Wqi9BeIRkiJemZcyTvGZSWKxmOLFkiEJhwliCSyKOMKxeWmfmRliKZ6sktsILMHvczOlTbPchu8n3/Zsx/EsX+JwzoVv+ctY/I1DCYcimoD51R/l2d/WG+GcsijG3Ly8fzgzlygG41I5/tbYosp7SELkOdgKXdt1HMtyLgZ2cO4GthO5CFsWGGwy0UArNYRsQsVPEvMIR2sWWlzFGEV3nK3WJ+ZAdcHLAj0l9CtYv7DUOYIBe4iLvfWnXzJRLIdzQUN8t5RU8GKlwFlsCpYu+OcCv+IQE5QyWXEIK2kC9vBSQVYgSkRkMheP48rhR8rz6MpNJkLE1l9IypgGqcSJIpxQBtT7BTeJSOMc/fjm6m587f/5YXr1y83YH99MpuPbq+nNtfmcx+X/myqLBcISi1+E87y++I8UM3WBpSIq5pMwpkv5IZQ0q5T3fLZR85XgEc25aSk6rLaSbUVXHOyStGV1ijqseayE/dfN720FF4uHqff8HKEIow71BqSm3nrkGmhSQ0I9ul06Llf2EfLAsv4nKZeF6bVKfkRcJr4UPooiv8YSJD4YViGKCLPrjT9Yp7MZiJ/yZSqTF6VdxNbW98uajlMOJvz1DbWVnRO5ZvQTTQDfPWRnxVYZAvlUWhyn3BDcCNMYaJIG3LRRWTdynEod5HaBZiXXZIIZJGFNHuRLUv/6lSYJ5bMa+rXzfKXtna3qEKpie4zThz7Tuk161oinkd4H57ZtExJg4lgjldm25QbEtkbWEJHItazQqeV2G0wnStmQxJvk+GEZnuRiZHvcfpPiErxVz4a9tJttC78iQUmkLCRX/UCze4LmKGiNgugeVBHXsiyWr7fVuSu0nmcCFGUIfhFVMe7T8/eogISJR6i1r6h+RMR4FouUR80qpGwaFP5uneip7gUo/Ge3280J44fy2n48tRq4ob0SLuKrHqqfS+zAwwNsQdFzod4FQ88LQuQQMjofYcduVL8NDC22d1H1Xrj2TKebrgqoVW6mE/wBte8IgK06eDDA4ytgKUxt/Sv23kele5xj7gPU2GeqlrUK3ozRCFd7/WZ7y3W2ye9jM55ceOHQHo3CEbxjIOPJAAfIHjhD5I3O3YthI+NbUHbBlBpmvsvrJlklOZCOavCl2DqtR/tbyjbBUqp2dHiXzs+jwkGtX6orMfKCImJD0Wncbg4aEwzdL3/f9ta1hZy3+jW4/hnWt1yr6e6z4D9p4PT5euIw3u9DTQeUUxsnGiLJtlk/+kmFBxdDj7j6EkM8XYnZgOmGefLjxZ5SyDpFpZsz9k29TJvBnYPBK5KpIZP6xLBjpOmLFLt3Upy3I8U9eoyqcrHzHfkasO+oheVzxev7mODYF0Rbpykxyn8a4sgIVoacYyCTwaQMrgzlt8/OUYy8rUYGy0Y5sfTXoxTNzbCvhQEbRvxdAn+bRtWQQr8vYByN0HDodszDXvMFrAP0At6Tb1sHSyTTKW5n7zrMbtOmtnvVMmhbEXv2pV6j1jen46LWtqeXoj6+8ex6v2tQnGhLefgPR4aWg1wfAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=929dde2d835b3650489aa430ceaad3f1^sys_idNOT IN329d126d835b3650489aa430ceaad3a5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <generation_source/>
+        <order>13</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>329d126d835b3650489aa430ceaad3a5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>ccf142dd-634d-4893-bf3e-a9b2b0e00d18</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1b3W6bSBR+lRHXwcXGxia96iaKNlL/1ETdi6ZCwzDEs8UMywxNvJGlvd9HWGkfbp9kz8Bg8E8caJLGablKmN/vnPm+c8bo8OnGYIFxaIzcieX44RCPLXtgW9Zk4Lq+7YbWZOxa/QAbB0aMZxRG4qknOTx+xVGmnm9ujlKKJQ28fo9kaUpj2UtS/jsl0hPeDMf4kqaemtyjM8yixQLB7ICJJMLzj/dahExZFMBY4/DT5wMjwSn0S5oahzdrXU1NjLBPIxh6zjftlfNEPQqZsvhSP7/W48/KRp4Gan/7wKDXksYBhY1DHAl6YIARAZY8nRuHMs2gAQwO3sXRvDbiWrA/YZOJZVmqP6RgAVG7GrVHT/uuaA6PscSwf0ZkluqhZMoZoaKwPaAhziJ5VG8rBrxLJONxMUViPypn8yibxW8L643lAuVRQUsmAARNlH2xXMIPz6b86kOJ8oTFuSt0Z8QJjpZPWILD/EwqPDcGjegMFoJjThJwowcH/5XlkwHLrHcZwUMvjPgVbCrYZdzDRAHvgTtx7wTaj/Pmjzhlyoo3sAxMVsAjNmM5IQzlcmNxYIi5OIqwEJV54Ffvj0yBK4zVZnmFZ9QUkrJEvoI9v1JtweJAy8ZyHN93/NHYrjjlkjAY+6GDx8SuaHQF7E5nOP3i5QSuCai/KYccbVt+N8BS8vs0JlEWUPRbCWoXTk18n/OI4niN+eeA9MWJ8knF/sFu9uuWDfpPmSKTUbASSY7gHKM5wmgJSTXKKUU5MvgPS8QEEipYoHOOmLaqNuMAzXmGZpmQMExCj8TpJfyTUgJge0ZNdMP9lZymg2493sqVZ6HJhxdgP9gV1KmzEsd9Qmq625Rda8k12L2U3C9HR1uwtEkqo2+TVZdVnl1WwTtpFQ5WicSDeY3VF5ll2SRBygxTsng+IzTlXPrgqy95Z3BhXBTD6PviioUOUTFNJDhGRFlSjlTLeCADhT1hUXRhICHnEV32F6w5hOAbsZi+hH7CY2Ap3OVYfvzlyNxE6M6BqaVyxGXvzU0YeDLFsQh5Ojt0Q9sdYToxCcVjcxg6Y9N38cB0HeI6g8GgPyRksSjN2A0etkIIE0ITKaotvDCL8wMXgAmAKmJdlxOt72yGPi0qJAvKpZQC38P6p0ETM3Mopsac/8VwHOldU9Us0WQQgLuWS6BwFZAsMSuw+SU5bzznyfowjaoce56yS7jNIxN9yLMw0lf/nIMD51K+RCUv9YDNDiW0RrAFJHxZjrxt52KFF2qJBkviNOVXzc8kTwAmAQnJtpNWdvrv339uwVlr6PV6e4aonW8hSq7Hpvyov3UbyAYSLpMVUTf174WY4IB6TbSqwkId862roZjXQo26yDKgmYFUMilcWS7xDjIDWg5F5TooYeQLUBUa0W20Bf+vCqXW0EQgRcg2i0xkMpDplhnbo33M81ivefDX340PqDiQdoe42ZDop1hnOy1vLnEErhA8SwlFr4TK3+oOsH/5rR9aoW3bgTmZjB1zOBmH5sR1bZO6wdChw/FoaPnPIL81NeOnym/q7ojKa6OoJa+CnxUt2yew1aV/nLT1zUliw6XfIVE0If3TJIpVeoDn2zLuR8sIZxLLTOxf+A/77tAeOaE5mDi+OewTx/QDZ2Q6rjUehb41tsP+Mwj/Tc3owr8K/wUZu6B/76CvHfkdQn0Tgu9JqG/Grmcf4Ddf2q4E/Md4ofUwQXhvYlzb8NO9NHlGobF7adK9NLkjgj7JS5OfPIZ2V7jud3v3u/1Jf7d3EaiLQN2PyO5HpFX8iGxX59OgIGNZ51OUY2zUZ+hKn6mcRWt1Pr+ev3ldVfmM71nl44xGttOV+dy7zCe5CgZBypNE2/ZIpT7DncwiQUWlomRxd+H1YvEARW0NIC3rpItqyg8ltHWomvQBJ1l+SCxY4/6x7kGnx5UErHvVj8KtiRMGfhG1WtErJqcIbyv7tAerYmExYTkzt4vmtOreA/EUheQttBOeUZyS6QmjkTrqOJv5OdtXNUUiGOWtMVnXme5LYWjutvyLgDtLRHfX/Q8r3tbWrGR27fXd/mDgWp6kZArp1/L0lwmbWnu/7GhZR3o3xEpyii7bIWu5bbS9rs/N33JUYuu3FFtBOa21cxDYSkU1khpereq0S0b3TkZMeAXDtW355o+QjUa765nJysVGZL4meymVt/Sq/gIJLpu7vutRKy0W6P1tYrrnai0/Drrb8lKBZ0u7t/miTUW3030m9OTiengRBTuDObVWiPPQXyQ02Lzk8doHCa2/Rxh23yM8PX0f9XuEz/8DodHjkB46AAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=329d126d835b3650489aa430ceaad3a5"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=929dde2d835b3650489aa430ceaad3f1^sys_idNOT IN1a2e96ad835b3650489aa430ceaad33a,1b8ed2ed835b3650489aa430ceaad35e,548e52ed835b3650489aa430ceaad3c8"/>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Developer Record Creation</comment>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <generation_source/>
+        <order>3➛4</order>
+        <parent_ui_id>aecd13e9-c2b8-4a02-b80f-0995b3ec2eb7</parent_ui_id>
+        <show_stages>false</show_stages>
+        <subflow display_value="Resource Allocation Record Creation ">a35dd62d835b3650489aa430ceaad3bd</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+1X32/TMBD+V6o811V+NU73Nm2ahAQDNuAFoehiXzYjNwmOUzaq/u/YSZpko1QFtQghHn0+O9/dfd/58nHtCO6cOZjOOY98HgfzNIjmbhgvAMLAZQjAA86dqZPDEo1nXi9TVEmRJVBV4i5fYq7N7gpkbbfX60wWX5MVKAGpxFleWFeOq2qzMW5cVKWExw+dt7GweyG5wtw5+/hp6pSgzGc0Kuds/WzrUJwSUpTG9boBOimyyfkY6P4w9GNpd0Wu8c6AaA0vuxtf9NZCcQvRnzr4oDHnaLBlICucOkvIOehCPfYWhcBf53Iw3Jvr2+CX8FCJb+aLoWv9MjTRsi4x/TLpktaas0vQcKtVzXSt+hwWgmHV5oljBrXUF2Nb6/C61KLI2yPaVqc7Xch6mV+3eXH6C0Y1qisDAksbqEXehZHd3hdfb7Yor0Te5KTblAUD2a9AayXSWls8a6cW73ZmFSXaMiRLKEuR3yWlKlaiudRgXM7upFnMGnpxtDWbAbMBzUy+YXZl7JeN+UPHvVfmmube9ntPylqL97n4UuMLS6p5ii4NI5/wKOIkdBcBgQXNCPNSyl3uM4aes5k61WN1IQ1dhlSZGiVfahtom7guRUmbZXuEKVHqc4NzhV02NtNOczTbx+WMDmQdKJqowpRtkNslrlAWbZjPtDXe+jWRHQBsK7JBWpObFtlPIXfSaqn4TFkXW2MnrPBowgr84whr3YdMyOS6yHFCyKgOA3TX1nfrO67BrpJ1Z7zxmbfnI+dmse02Y69zZQqnkY1779jWnQk2uzrCwcF4vxGMf1AwwW8EE25+bGXeX9XLeh6fvJX1MnrSyWJIKVAakoh7CxLOKSUxg5gseECRYsR9mp6gk+1/lZk7tAVdaJCHTQ7PXf/A/NAg3ZLynf3+ztlhRxC/Njd4/+eGf2Fu8ClgGGVmWvCN5EKW+mThBZxQzGjAM5+FFE6gNp/u4zDGA1FNIj6bDpo0y7HSLgy3NPLEm7FaqWOJ6wBgW3G9aZFNrltku/F2ohr4/VRWNyP79lU52dzwkHgLz/cXbmLepHvzV+MmHdqfSO5Nv3tk5e1F8gc0md0imLf5SqDkP9Zsn2LHBTu5ZseseaJaK1ZMwSNemDISRkFI4pgDgSigYRCwOM38I6r203dtzwrGYw8AAA==</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:47:06</sys_created_on>
+        <sys_id>1a2e96ad835b3650489aa430ceaad33a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:21</sys_updated_on>
+        <ui_id>70a649f0-32a6-4470-9d46-3c8587909b82</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Architect Record Creation</comment>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <generation_source/>
+        <order>7➛8</order>
+        <parent_ui_id>f098b0ca-c132-4e27-b97f-ec60ca4b1725</parent_ui_id>
+        <show_stages>false</show_stages>
+        <subflow display_value="Resource Allocation Record Creation ">a35dd62d835b3650489aa430ceaad3bd</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+1X227bOBD9FUPPpqGbRTlvQYIABXbTbtLtS1EII3KUcEFLKkW5yRr+9yV1T+IabmEXi8U+cjgkz8ycMxp93jqCOxcOpkvOI5/HwTINoqUbxiuAMHAZAvCAc2fu5LBG45nX6xRVUmQJVJV4yNeYa7O7AVnb7e02k8W3ZANKQCpxkReNq2KPQiPTu53x5aIqJTx/6o4Yi9mVXGHuXHz+MndKUOYtjcq52L7aOhashBSlcb1t0M6KbHY5RXs4Fv1c2l2Ra3wwIFrDb92N7wZrobiF6M8dfNKYczTYMpAVzp015Bx0oZ4Hi0Lg73M5Gh7N9W3wa3iqxN/mxdC1fhmaaFmXmGGZdElrzdk1aLjXqma6VkMOC8GwavPEMYNa6quprXV4X2pR5O0RbUvUnS5kvc5v27w4wwWTGtWVAYGlDdQi78LI7h+Lb3c9yhuRNznpNmXBQA4r0FqJtNYWz9apxce9WUWJtgzJGspS5A9JqYqNaC41GNeLB2kWi4ZjHG3NFsBsQAuTb1jcGPt1Y/7UEfB3c01zb/vei7LW4s9cfK3xnSXVMkWXhpFPeBRxErqrgMCKZoR5KeUu9xlDz9nNneq5upKGLmOqTI2Sr7UNtE1cl6KkzbI9wpQo9aXBucEuG7t5JzyaHeJyRkeyjhRNVGHKNmruslfXW21Nt35MZEcA60U2Smt21yL7LuROWi0VXynrqjd2wgpPJqzAP42wtkPIhMxuixxnhEzqMEJ3bX1732vcoCxaFvauU1t3xpue+eNy4tws+m4z9ZpWdx8ZujPBbl9HODoY7yeC8Y8KJviJYMLd21bm/at62cDjs7eyQUYvOlkMKQVKQxJxb0XCJaUkZhCTFQ8oUoy4T9MzdLLDX2Xmjm1BFxrkcePDa9dfMD80SHtSfrTv750d9gTxY3OD9//c8F+YG3wKGEaZmRZ8I7mQpT5ZeQEnFDMa8MxnIYUzqM2nhziM8UhUk4i/TAdNmuVUaVeGWxp54i1YrdSpxHUEsF5cH1pks9sW2X68nahGfr+U1d3E3n9VzjY3PCXeyvP9lZuYb9Kj+bVxkw7tdyT3Ydg9sfIOIvkFmszu0f7T3QiU/G3NDil2WrCza3bKmheqtWLFFDzihSkjYRSEJI45EIgCGgYBi9PMP6Fqv/wDYwt1UWgPAAA=</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:48:48</sys_created_on>
+        <sys_id>1b8ed2ed835b3650489aa430ceaad35e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:50:19</sys_updated_on>
+        <ui_id>dde1d74b-1e8f-44db-acf4-79d171a1ddc0</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>QA Record Creation</comment>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <generation_source/>
+        <order>5➛6</order>
+        <parent_ui_id>2e777910-fe0e-4717-ac1d-fedf1f7bdfd5</parent_ui_id>
+        <show_stages>false</show_stages>
+        <subflow display_value="Resource Allocation Record Creation ">a35dd62d835b3650489aa430ceaad3bd</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+1XbW/TMBD+K1U+11XeGqf7Nm2ahAQDNuALQtHFvmxGbpIlTtmo+t+x896tVAW1CCE++nx2nrt7nvPl89oS3DqzMJ5zHrg89OaxF8xtP1wA+J7NEIB7nFtTK4Ulas+0WsZYRFkSQVmKu3SJqdK7K5CV2V6vE5l9i1ZQCIglztLMuD7AZqOduChzCU+fWl9tYfdC8gJT6+zzl6mVQ6E/orCwztbPtg5FKSFGqV2va5iTLJmcj2HuD0I95WZXpArvNIjG8Lq98VVvzQpuILpTCx8Vphw1tgRkiVNrCSkHlRVPvaVA4G9TORju9fVN8Et4LMV3/UXfNn4J6mhZm5h+GbVJa8zJJSi4VUXFVFX0OcwEw7LJE8cEKqkuxrbG4W2uRJY2R5SpTXs6k9UyvW7yYvUXjGpUlRoE5iZQg7wNI7m9z77ddCivRFrnpN2UGQPZr0CpQsSVMnjWViU+7MwqSjRliJaQ5yK9i/IiW4n6Uo1xObuTejGrycXR1GwGzAQ00/mG2ZW2X9bmTy3z3uhr6nub722VtRIfU/FQ4StDqnmMNvUDl/Ag4MS3Fx6BBU0Ic2LKbe4yho61mVrlU3khNV2GVOkaRQ+VCbRJXJuiqMmyOcIKkatzjXOFbTY201ZxNNnH5YQOZB0oGhWZLtsgtvfnL0VV235NVgdA6WQ1iGly02D5KchWTA35nmnpojO2UvKPJiXPPY6U1n3IhEyusxQnhIwyP0C3TUU730tcocwa3nWuY1t7xhmfqQu2VdGuv4y9zgtdOIVs3GvHtvaMt9nVAw4OxvmNYNyDgvF+Ixh/87J5OX9V9+p5fPLm1ctoq3eFEFOg1CcBdxbEn1NKQgYhWXCPIsWAuzQ+Qe/a/w4ze2gLKlMgD5sUnrv+gYmhRtqR8oP5/s5pYUcQvzYpOP8nhX9hUnApoB8kej5wteR8Frtk4XicUEyoxxOX+RROoDaX7uMwhgNRdSK+6g4a1cux0i40txTyyJmxqiiOJa4DgHXietcgm1w3yHbjbUU18HtbVjcje/eqnGxueIycheO6CzvSb9K9/ouxoxbtTyT3rt89svL2IvkDmkxuEfTbfCVQ8pc126fYccFOrtkxa7ZUa8SKMTjE8WNG/MDzSRhyIBB41Pc8FsaJe0TVfvkBlUfFYVMPAAA=</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:48:36</sys_created_on>
+        <sys_id>548e52ed835b3650489aa430ceaad3c8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:49:36</sys_updated_on>
+        <ui_id>6f662a10-070b-478c-8c7b-c749491e5e4c</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=929dde2d835b3650489aa430ceaad3f1^sys_idNOT IN1a2e56ad835b3650489aa430ceaad3e8,2a9d126d835b3650489aa430ceaad378,4b8ed2ed835b3650489aa430ceaad34c,7a9d126d835b3650489aa430ceaad399,7e9d126d835b3650489aa430ceaad396,948e52ed835b3650489aa430ceaad3b6,a69d126d835b3650489aa430ceaad37b,f29d126d835b3650489aa430ceaad398,fe9d126d835b3650489aa430ceaad39a"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">122e56ad835b3650489aa430ceaad3e8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>980d8a4e-96c9-4494-b758-b08db09d7762</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:47:05</sys_created_on>
+        <sys_id>1a2e56ad835b3650489aa430ceaad3e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:47:05</sys_updated_on>
+        <ui_id>aecd13e9-c2b8-4a02-b80f-0995b3ec2eb7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4a9d81d18313b250489aa430ceaad3af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned>no_of_devs,no_of_qa,no_of_architect,total_assignment,temp_total,status</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>2a9d126d835b3650489aa430ceaad378</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <ui_id>b29dfcb3-4587-4814-a554-4ab9f52e9852</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1a227jNhD9FUKPWUvR3VL2yUi6aIA2i9bpvtQLY3hz1MqSIlG5NPC/dyjJstdJNgng9JLozRpxOGeG55DUwHdGXquiVtV5PqmqZJEZR79/HRlJpm34+85IuHFkUBpx3+FO5DkedQPbj2IA37OZAOAejI2RkcFS4Mgsn+dyzsVVhbYrSGttvLs7LgUoweeOxeqyFJmysnpJRdkNFmle4EMmBBd8tUJXnlRFCrdfuhnQwi6SlKNri7CAEgMqURpHdzuvnos4BSpSHHqWWySX5KTF/FAe6rbQtiRTYoERW8NPnftpb81LrvH4I0PcKJFhKsaRhLQSI2MJGQeVl7e9BQvCP2fpxnCB07eZLuGmSv7CiL6tx0mBqbGuCv3jvKtQa5YnoGCqypqpuuwLlidMVG1RuJBQp+p429YO+FyoJM9aFwU0XXvnab3MztpqGP0EWwtSVwhCFDpRjbxLQ04v8utf1yg/JVlTk+5lmjNI+ydQqkxorTSeO6NOznfL3JruF1qkYokx50soiiRbzIsyv0qaOAh7aS1SfLBkml8jPk1qC5jO0cIlAOsT2k8a8xcoE53wzzhNF++3LLmsxalmUDy2wbNd1/TdODR9PxImhIFvOtz1ZAihoCIwViOjuq2OU6iqTalwjeaXtU60LVxXonlbZe3CyqRQEwR1JbpqrEad1LxxxG0eP0Jcz92l6CU8LTTRKe0S9imxZyDdkdgvkwfRv0xewSCvtyAv3w1jzNkzgdtg+hwclFcYmBFE8dgbOwDAXkFeVH6PtC7bJSiUyHwlmHr2cdZ77OccexrvjsgmW4gfTeVlkgsHyb0FyTljl0U+HmFSOBIl53Ez5oyawo8kSOGOQylfQXKO7fleEASRF4zvUzgINjxVuYJ0Ds1FVJdjS3N7kNIzcKyldK6BkMk2kMchvkxL3t60FAa2Pcjp35MT82IfQF8QIeambwfUhLEAM/aZzWjsOF4c7UVOuGpibdOFuMdBtH3Pwzg8mGUHBxOGC1sRnd7hpMmX6HxJXWGJiLoQRPJ5Y8npH3hMWGTaTECWdaVIKZA4GQHSKNIiesbPmtKkPfpIUuHpIyuhCL0lHxySZOSHssxL8iOyO9UhpqKtcgPmCpJU15bkDb0q0tGV1AUCK0qEqn1mhjUzCEiU9Rqedhc3sCxScYRoSlJd5KXCFWNkVtu2x9cDLWTPAgnRH9LNQL3kTV4Y9aOeq8usn0UbD2fZLEsxl6bWu/M2zMHI1uYrkXx47G1/7D4+5BIwZgejCfhRhzdWq821JXKpjPXnbPzA3iWdrQ1KLIt5M8k3N5Z1xIbP1i6D9nNVeRpjv78iSHLegXwI+Mv2VHfYU9/Inuo7FByXBSazPWb6oQzM2Ats0x5zTkPqcxrEr3BFsSmADMLmauCFu9T15YallQJVb/e2zsT1fe20xpfJ5xkY1vKZrkHsgupkU+ESZ4sd1UzXxk40zt5EE71TzfRl/lYyfaH/EcXQgHkU6NgMpI1XEScG/KKWvkkd3MoEZyiafV7qv2rmt3iG/vDQH37HR9XQHx76w4O8hv7w0B8e+sNvQ3JDf3joDw9yGvrDQ3946A8P/eFhT/0P7qlDf3joD/9vNPNO+8NcsKRCnOca1On6n8T6xS3yMWHbpuu8/FNnuLGt/gY945H3kywAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">438ed2ed835b3650489aa430ceaad34c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>980d8a4e-96c9-4494-b758-b08db09d7762</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:48:48</sys_created_on>
+        <sys_id>4b8ed2ed835b3650489aa430ceaad34c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>f098b0ca-c132-4e27-b97f-ec60ca4b1725</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">592bf9a583573650489aa430ceaad3b1</block>
+        <comment/>
+        <connected_to>d7394dec-733d-438f-b45f-3b68da579d39</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>7a9d126d835b3650489aa430ceaad399</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>ee55de25-0d61-47d2-b949-9e5c395f796b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">152bf9a583573650489aa430ceaad3a0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>7e9d126d835b3650489aa430ceaad396</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>d7394dec-733d-438f-b45f-3b68da579d39</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPUZSPgta+VXSVJrFVWlFftiq6sR2w5tiZ7UBZxH/fdeIA2phGtz3uBeHj63vPOdwjOqJb17TOLvWttWKlyM2n54gI5TH83hHByA2pEqjSa5rSPJvlWZJkb67ScpaXacZy4JCTiCioOVZSrZhwQquiByKyAdn6i6V2ICcLbu1kuQY1efu1xbPTkzTBKiZsI2H3dFExXQvJDA9cGzA4yXFDbrofri7lLqHkEkvnI/nJokd+rcrtGo9bZ4RahfMidHkcQW2YZ5UmEeEvjivGkU8F0vKI1KAYOG12B8RwYA9KHoG1UA7bEV/8YsU3HJhNp76w4iiR8uHycCyCiQNc3YEDpNJS15pQStdaUG4HcxivoJVufooNBQ+Nlzo8cVDK8bWWba0+DI6QQ4PxN0OktUiCN16ppx50VI9rvf04srwXqnclXEpNQR5O4NC7snWeT0e45DU2KmpoGnS0aIzeiP4xcqnjlcRDXEm9xaF+d2OgnniMxkJ8j/hdDz+BEV7Fe2yDjweaJVhBi37PsR3axMk+InZn5xKsPYpEdwu/fKPkIK4Y/PFPqBGNu8XJGx507KMQm2uYVtM0mZ5fvavZmQU7SUzX9do2gX7sfCgK6GPqfdnvP7dJktP+k52L0R90eF22LhD4U7bOi35NoLLfBMr/mhfmKUmS/4H660AJWwwxCNr64f8wT88+FMPMg9dUWKS29Ni78d/KX+xwuQQ9hbbafPGijtj+OyY6ZPv3BgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9c8e52ed835b3650489aa430ceaad3b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>980d8a4e-96c9-4494-b758-b08db09d7762</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:48:36</sys_created_on>
+        <sys_id>948e52ed835b3650489aa430ceaad3b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:36</sys_updated_on>
+        <ui_id>2e777910-fe0e-4717-ac1d-fedf1f7bdfd5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">637ec5158313b250489aa430ceaad38e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>a69d126d835b3650489aa430ceaad37b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>980d8a4e-96c9-4494-b758-b08db09d7762</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5d2bf9a583573650489aa430ceaad3a2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned>status</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>d7394dec-733d-438f-b45f-3b68da579d39</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>f29d126d835b3650489aa430ceaad398</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>1860a1ca-2c77-4389-8354-3641b2d85aeb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V227bMAz9Fz0nhnPrkrwVLQoU2FpgzfoyFAYt0YkwWXJ1SeoF+fdRkeN06S/kzTy8HR6R8J6Z4Jvg3crcOifXmi1/vw2Y1BGj7z2Tgi0ZGzANNdKX8+CDI3sLKkTgCXdkCekaBe3rfyDfSCUsdjUbsFTCo2XL/YXr2GMxXgiBYzGfzMrJzSyfzhcA00nOEUBMqpIKKihRUejLicQlKd82ybZSrzv7e5/UgcaKSGI0YPjhUQuk7hUohwNWgxbgjW17xCKIZ63OwEZqnxSp4cPJv9Rvnud5jKyQJuKYvL1ZdNokuLoHD0QlcB9sF8o3RnJ0SQuBFQTl7z5jKeC58dLolOKhVKdso0Ktn5ISrC9wegpCgiMS2MRRI/dukOplY3Y/TywfpD6q0jmV4aB6CzxpVwYf+exZkKsLmRPyRWhUWFPHooamIaRorNnKYxciXWdrRUZWKbMjdnH3MuBxwoyeALIHwu+P8CtYGcf9QWUoObb7peV7wMe4NuWMT0oovw1nVT4eTkcLGIKopsNyNMtzFPymnFbsMGCudXcKnDsLRS9UvIc4ZpKtE6hIGscUbmXjb4nUFjstDm9x8xOf631c7+N6H1/vQyCXjniuIqnH058kOlraR8k/Qztj/8QJz9jhH8899vCTBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1d2bf9a583573650489aa430ceaad3b2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</flow>
+        <flow_variables_assigned>status</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <parent_ui_id>ee55de25-0d61-47d2-b949-9e5c395f796b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>fe9d126d835b3650489aa430ceaad39a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:48:48</sys_updated_on>
+        <ui_id>59c056a5-a5b6-46c1-a26f-2fd65e65e311</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V224aMRD9Fz8DWm4p8BYlihSpbaqG5qWKVrP2LFj12htfIFvEv3eMd5eIqH/Am+fM7cyxRz4wE3wdvFubW+fkRrPV79cBkzpidD4wKdiKsQHTUCGdnAcfHNk7UCECP1ALqTeECOlqBc3LJwffSiUstrVrsFTKo2Wrw4Xr1Gs5WQqBE7GYzovpzTybLZYAs2nGEUBMy4IKKihQUehzR+aSnG/qZNvEINpf+6QWNFZEEuMBw3dPZJG6l6AcDlgFWoA3tukRiyCetDoDW6l9UqaCdyf/Ur9FlmUxskSaiGPy9mbe6pPg8h48EJXAfbBtKN8aydElLQSWEJS/+4ilgKfaS6NTiodCddlGhUp/T0qwvkB3HYQERySwjqNG7u0g5fPW7H92LB+kPqnSOpXhoHoLPGlXBB/5HFiQ6wuZE/JJaFRYUce8gromJK+t2clTFyJdjTaKjFGpzJ7YxTc4Ah4nHNEVwOiB8PsT/AJWxnG/URlKju1+afkW8DE+m2LOpwUUX4bzMpsMZ+MlDEGUs2ExnmcZCn5TzEp2HDDXuDsFzp2FohvK30IcM8nWCpQnjWMKt7L2t0Rqh60Wx9e4AYnPdU+ue3Ldk//viUAuHfFcR1KP3c8SHQ29R8k/Qntj/8QJz9jxHx+R/0ujBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=929dde2d835b3650489aa430ceaad3f1^sys_idNOT IN329d126d835b3650489aa430ceaad3b7,369d126d835b3650489aa430ceaad3b6,3a9d126d835b3650489aa430ceaad3b5,729d126d835b3650489aa430ceaad3b6,769d126d835b3650489aa430ceaad3b5,7e9d126d835b3650489aa430ceaad3b6,b29d126d835b3650489aa430ceaad3b5,ba9d126d835b3650489aa430ceaad3b6,be9d126d835b3650489aa430ceaad3b5,f29d126d835b3650489aa430ceaad3b7,f69d126d835b3650489aa430ceaad3b6,fa9d126d835b3650489aa430ceaad3b5,fe9d126d835b3650489aa430ceaad3b4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.project_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>329d126d835b3650489aa430ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7d1e241a-5c36-4d5e-8fc1-cd09ac285119</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.no_of_devs}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>369d126d835b3650489aa430ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>46f9f3bd-4a22-4e1d-8e6e-7ad20bba137c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>a937f624-ef83-4a44-834a-45c8885e8657</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>3a9d126d835b3650489aa430ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[{"id":"fbd73006c303201027d44077d840dd2b","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{"":""},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="subtract">eeb68171c303201027d44077d840dd57</transform_definition_id>
+        <ui_id>3a05cb1d-dcc3-4312-82c4-787058d46cab</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.total_assignment}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>729d126d835b3650489aa430ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1f0f333d-8876-487f-8993-e9d46e47540b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.no_of_qa}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>769d126d835b3650489aa430ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a937f624-ef83-4a44-834a-45c8885e8657</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.total_assignment}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>7e9d126d835b3650489aa430ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e8845116-ef70-4e74-9883-0db388911db2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.project_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>b29d126d835b3650489aa430ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9f395ae8-cea7-4f67-b9a2-96c9622214cc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.total_assignment}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>ba9d126d835b3650489aa430ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>aec89254-2d5c-4c70-8bc8-d9670d465c4c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e83c4651-bbe8-410d-a57f-5aa7a5002b75</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>be9d126d835b3650489aa430ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[{"id":"fbd73006c303201027d44077d840dd2b","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{"":""},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="subtract">eeb68171c303201027d44077d840dd57</transform_definition_id>
+        <ui_id>57528b5b-c71b-49bc-81cf-525de9629d5d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>46f9f3bd-4a22-4e1d-8e6e-7ad20bba137c</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>f29d126d835b3650489aa430ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[{"id":"fbd73006c303201027d44077d840dd2b","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{"":""},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="subtract">eeb68171c303201027d44077d840dd57</transform_definition_id>
+        <ui_id>419d694e-f277-45fc-94b7-80f27b4f29fb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.no_of_architect}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>f69d126d835b3650489aa430ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e83c4651-bbe8-410d-a57f-5aa7a5002b75</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.status}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>fa9d126d835b3650489aa430ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f194356f-286b-41c6-bd65-69075fb073f1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>929dde2d835b3650489aa430ceaad3f1</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.project_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>fe9d126d835b3650489aa430ceaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>20010479-6d55-431e-827c-02f323992927</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=929dde2d835b3650489aa430ceaad3f1^sys_idNOT IN269d126d835b3650489aa430ceaad317,669d126d835b3650489aa430ceaad312,929dde2d835b3650489aa430ceaad3fb,a29d126d835b3650489aa430ceaad321,e29d126d835b3650489aa430ceaad31c,ee9d126d835b3650489aa430ceaad300"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=970a3022-4296-448e-a654-1d23f6a6ebe5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>no_of_devs</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>No. of Devs</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>269d126d835b3650489aa430ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=c394aa22-4a9d-405b-a7ea-94c0cb911398</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_assignment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Assignment</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>669d126d835b3650489aa430ceaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b5c3bab7-5f02-419a-adf4-b1500edc6b4f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>929dde2d835b3650489aa430ceaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=172c8454-fe1f-4d3d-9dcb-e48fafe276ff</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>no_of_architect</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>No. of Architect</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>a29d126d835b3650489aa430ceaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=4269efa3-ad0a-4da1-a665-8a897371aaac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>no_of_qa</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>No. of QA</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>e29d126d835b3650489aa430ceaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=41ba12c5-c03c-46f5-9350-07ddb6b4db59</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>temp_total</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Temp Total</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of Generate Resource Allocation Records">929dde2d835b3650489aa430ceaad3f1</model>
+        <model_id>929dde2d835b3650489aa430ceaad3f1</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_929dde2d835b3650489aa430ceaad3f1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>ee9d126d835b3650489aa430ceaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_929dde2d835b3650489aa430ceaad3f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:39</sys_created_on>
+        <sys_id>aa9d126d835b3650489aa430ceaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_929dde2d835b3650489aa430ceaad3f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 09:44:40</sys_created_on>
+        <sys_id>e69d126d835b3650489aa430ceaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 09:44:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=929dde2d835b3650489aa430ceaad3f1"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=929dde2d835b3650489aa430ceaad3f1"/>
+</record_update>

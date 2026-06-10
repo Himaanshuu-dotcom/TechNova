@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>expected_finish_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-08 18:01:39</sys_created_on>
+        <sys_id>36a22b3b83b27250489aa430ceaad39f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>expected_finish_date</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_36a22b3b83b27250489aa430ceaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 09:43:11</sys_updated_on>
+        <table>x_1912290_techno_0_project</table>
+        <ui_policy display_value="When project status is not completed than expected date should be mandatory">7e32e7f783b27250489aa430ceaad368</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=36a22b3b83b27250489aa430ceaad39f"/>
+</record_update>

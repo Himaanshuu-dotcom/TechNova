@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Automatically Send Warning and Delete Old Project Issue Record</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>cleanup_of_closed_project_issue</internal_name>
+        <label_cache>[{"name":"2b5ab61d-46b2-4cba-944e-bd77289104f8.Records","label":"5➛Project Issue Records","reference":"x_1912290_techno_0_project_issue","reference_display":"Project Issue Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01c351c9-1c41-46ff-8e00-4e44b2b6f45a.item","label":"2➛Project Issue Record","reference":"x_1912290_techno_0_project_issue","reference_display":"Project Issue Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"pills_draggable_outside_block":"false","pills_draggable_inside_block":"true"}},{"name":"34fd96df-c1a9-49ea-98fb-33eabf0c591f.Records","label":"1➛Project Issue Records","reference":"x_1912290_techno_0_project_issue","reference_display":"Project Issue Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"01c351c9-1c41-46ff-8e00-4e44b2b6f45a.item.project_name.project_s_manager_name.email","label":"2➛Project Issue Record➛Project Name➛Project's Manager Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"5ceeb767-a8a0-4a20-86cd-defb4ea84d82":["ah_to"]},"attributes":null},{"name":"01c351c9-1c41-46ff-8e00-4e44b2b6f45a.item.assigned_to.email","label":"2➛Project Issue Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"5ceeb767-a8a0-4a20-86cd-defb4ea84d82":["ah_to"]},"attributes":null},{"name":"37847dd8-3dbe-42b0-a1f6-976d16fb1b03.item","label":"6➛Project Issue Record","reference":"x_1912290_techno_0_project_issue","reference_display":"Project Issue Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"pills_draggable_outside_block":"false","pills_draggable_inside_block":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Cleanup of Closed Project Issue</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 07:24:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e77dfda983573650489aa430ceaad385</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Cleanup of Closed Project Issue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_hub_flow_e77dfda983573650489aa430ceaad385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 15:43:16</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>2aaf6fed83d37650489aa430ceaad384</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e77dfda983573650489aa430ceaad385"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e77dfda983573650489aa430ceaad385"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e77dfda983573650489aa430ceaad385"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e77dfda983573650489aa430ceaad385^sys_idNOT IN2b7dfda983573650489aa430ceaad386"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e77dfda983573650489aa430ceaad385</id>
+        <name>Cleanup of Closed Project Issue</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 07:24:22</sys_created_on>
+        <sys_id>2b7dfda983573650489aa430ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 07:24:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2b7dfda983573650489aa430ceaad386"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e77dfda983573650489aa430ceaad385"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e77dfda983573650489aa430ceaad385"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e77dfda983573650489aa430ceaad385"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e77dfda983573650489aa430ceaad385^sys_idNOT IN398d3de983573650489aa430ceaad302"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 07:24:32</sys_created_on>
+        <sys_id>398d3de983573650489aa430ceaad302</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 07:24:42</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnVZDs9KVbkMBAgTQBaiOXIBBW5MomyldIyolq+N+7lGTFSSPwwtnd2ZkRHw5MQYOKVWwjNbKMSRPRG1Cb3iGhWyUF1nGsaTACovU9q6LvMGOtt3qD2imI1NyCCgRaL9CzqiyKjO1Bdbjuw09BXMRgQCfWiW+o0rX88a34XJR0PhVFNRyqChmIuL+fmgjhO6mER8Oqh8eMOfDEFtOuwyz7Rpo/HzXLJGAJ4gIFL/hyQV9RLL5flM3XZVMuxBIQv9DUuzTe6o0fZJKwm7dD5wHgS0QjUMzp/JehRxB3RvVzx468jBY0vAT5Fycqjy2SHz6FMV/rKagRbq8hwpqoeez8nJuVHMOYhMAWOhWvzrGx4c5Fac04EqFRp2mrOm1uxyTYTHD2X7pAItAlo0n65KNd7+zz75PKlTRDKlNRWQ5qvkGMXjZdTHoODBVqIqo1OCfNtnbe7uUwTFp0PsSft8o+09IgtyYHnoTnlCvkK8KvB/gevEwufhENDR8zFvpwpSCEVy8UYv3UJSWjs8lDPcZwnB/hSqKannDgXrp4SSv3pzd/fPwHlkXQT0gDAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e77dfda983573650489aa430ceaad385^sys_idNOT IN0e10462983573650489aa430ceaad317,27f9eae583db3650489aa430ceaad3b8,7b6aaa2983db3650489aa430ceaad3ba,a51fa3ad83d37650489aa430ceaad31a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 07:35:44</sys_created_on>
+        <sys_id>0e10462983573650489aa430ceaad317</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 10:38:02</sys_updated_on>
+        <ui_id>34fd96df-c1a9-49ea-98fb-33eabf0c591f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K1Weq8qhpXw8gQpMSGVMgHhhYDmx03q4cRY7LQXx33f9kbRrQ2mnauq0pyjX177H555j++Et4DQ4DlDSQYiE+4cHCLXbCHW77ZiEUdTuxhGK9o+CZpCSEYNMJXON9TRjEBoTUVQxomIIUa4yQab3foQ0tGy8QjweckFzlgbHD4/NICM5rKZZHhy/LQytC0eQiAlIvYXajTuHpwai/RxDDcnj8r/vp/bKoMypgdJuBuxFs5QywJAQoVgzGJGUEi3zaRXJGaHXqZgFhjzVsFpgkl8Uf4V67T2TlzDYVczcWPWLPUUunJwRTW51XsS6yH2qA6uAj7dqmxWRNZx7+Oi9Oct/NflkMZ+y+QnhO/BNWUIKoXt/VjPctOaeqek2eJ1pLqHrQdv0hUSi3L4UxSj96noZVAjva8TmRs4+0FyhgGyWmYaaDvl2JbdDObkpu3HBU4vLDwoZE1H9Ea1zHhXa8PIWJBQnnAmKeSp4aipB24x8mGAjqIBHJMt4OsBZLsfcrgp7GbUGAn5aiZATwwUfpC0Sm523QFikdQHxMxu+Jzk3LFzBMjC5aQoOYaqvh1Wc80zjCacDpmfVyywq9YSI57pxrzhcNspuL3hvBmqqeoIoNSMbZIp/FoYDR71nD9tG2SkWxSnsYMw8UUYD1rbxwUrb7i9Y1DV6Ti/L58fGJ8caEEoWro0iG9H0I1T+6HA9txm/Hx8XZqDx1Q2U8t7aEXKItnOE1Fl82YIbOXDZWkZq/46zNhe+4+YT9XdWXlrdcKYzaDLOmQJK1Zz6Q4TQsgPCpgtvZoM1sJQ2uCIvjZsKTC1C7wQQKRvYk2neBpdV1HugszUPdHbXA2Wzam+gsmdbvoB2xQ2fGeFw9esNzWQWy5Ryg3HeB4AGFxmAZhTq3Zz3T+8u78/7dyeUTGUyYez5hAzkycFTfeKXxcQQPXGlCrhANdGF+l4AKtoTUoE+l+z2d4tvZuo1eC1N3Zsnto7s8l28GOvXLVA+9rZobLS71t769bYrvl3rFlstsk4005NbbubbFxwehXt7RwhrFg9TiZHZ6Q8Wa2wtsGy2b264cemHt2kHi7S0w52HuoDcm8D+1r3w7LSFFx76P194u3l3ASAuQCHYtVDJIrdUjnEsCmUHcpIqt9YWb7rHX3CCGh04EQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0e10462983573650489aa430ceaad317"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 10:38:47</sys_created_on>
+        <sys_id>27f9eae583db3650489aa430ceaad3b8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 15:43:10</sys_updated_on>
+        <ui_id>2b5ab61d-46b2-4cba-944e-bd77289104f8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWy07jMBT9lSrrqnJoeXUFKiAh8RgBYsMwlhM7rQc3zsQOpVT8+1w/knbaUNpRFh3NKsq9tu/xuefYfpoFnAb9ACU9hEi4f3SIULeL0MFBNyZhFHUP4ghF+8dBO0jJmMFIJXON9TRjEHoloqhiRMUQolxlgkwffYa0tGy9QzwecUFzlgb9p+d2kJEcVtMsD/qzpdSmcASJmICh91C79eDw1EC0nz7UkDwu/6/81EEZlDk1ULrtgL1pllIGGBIiFGsHY5JSomU+rSI5I/Q2FfPAiKcaVgvM4DfF36Fed8+MSxjsKmYuV/1iT5ELJ2dEk3udF7Eucj/UgVXAx6zaZkVkDecePvpoz8e/m/FkeTxlixPCD+CbsoQUQg/+rma4bc09U9Nt8DbTXELXg67pC4lEuX0pinF643oZVAgfa8TmMmefaK5QQDbLTENNh3y7kvuRnNyV3bjgqcXlk0LGRFR/ROucR4U2vMyChOKEM0ExTwVPTSVom5EPE2wMFfCYZBlPhzjL5Su3q8Jexp2hgJ9OIuTEcMGHaYfEZucdEBbpXED8zIYfSc4NC9ewDExum4IjmOrrYRXnPNN4wumQ6Xn1chSVekLES13eKw6XjbLbCz7agZqqgSBKzckGmeJfheHAUe/Zw7ZRdopFcQo7eGWeKKMBa9v4cK1t95cs6hq9oJfV82Prk2MDCCULt0aRrWj6GSp/dLie2xF/Hh8XJtG6cYlS3o0dIUeomSOkzuKrFtzKgavWMlL7d5y1vfAdN1+ov7f20joI5zqDJuOcKaBULag/RAitOiBsu/B2NtgAS2mDa/LWuqvA1CL0TgCRsqE9mRZtcFlFvQd6jXmgt7seKJtVewOVPWv4AtoVN3xlhKP1rzc0l1ksU8oNxkUfABpcZACaUah3d351+nD5eH71cELJVCYTxl5OyFCehOgHV6qAe1ETXajvBRSjAyEVyG7FRY2suZ0FN2ChtOBgkYY6aspX7HLsqm6B8mnWoA3R7hqx8ctoV1y20Z2zXmS9aK4nt9zcZW84PA739o4R1iwepRIjs9OfLNbYWmDVQ99cunXp003awSIt7fDgoS4h9yawv3XvMTtt6T2G/s/32G7eNACIC1AIdi1Ussgtla84FoWyiZykyq3V4L30/BscNprY5hAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=27f9eae583db3650489aa430ceaad3b8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>37847dd8-3dbe-42b0-a1f6-976d16fb1b03</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 10:40:43</sys_created_on>
+        <sys_id>7b6aaa2983db3650489aa430ceaad3ba</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 15:43:10</sys_updated_on>
+        <ui_id>26bbe2c4-3843-4c98-aa33-4efd6e562739</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/42ST2vcMBDFv0rR2Wvs9eL9cytZAoW2gQRyCcGMpPGuQJZcSd7ENfvdO7K9Tsipx3maJ/3es18GpiQ7sIxjtt/npSjyolhn2Xq3yXlZ8HwtC0DMWcIMNEibDoV1kuYL6C4Kw1Bsd5utlLtVITmuNmuerSCvy9V+W8q8rHnOsyJVAZvrlXxS+VZD/zzbSRFnpaVDww4vrwlrwdFLAR07DF+O/hdVA0dNq4831q/soW/jLK3oGjShUjfx5+w8zifffhzphEwRJ0sYvgc0EomjBu0xYQ0YCcG6nh2C60hwCPLB6H7ZOCsTppwNvHv1lx7eZHGvRgom5g6WsZr7meT6CAGe6GYROrfUZZVAP1UisYZOh7vP2rTw0AZlzWQJwPXNbXXXmN9TIWy54NPn6DxBYBtzRvIpVv10tm+PN8h7ZcZG5ojaCtDLBCE4xbsQcQaGGseKG2hbZU5V6+xFjWZCadKTpiGttX2jN706mRRE5E6pVUjvST+O8jM4FUP8omvIfE2Y7/2dBu8/olCH1Z8ukkzB5gjV2MJYQTX+CNEsnGrDd3rqgjP49fUfSOB5Yw0DAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7b6aaa2983db3650489aa430ceaad3ba"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>01c351c9-1c41-46ff-8e00-4e44b2b6f45a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 15:40:40</sys_created_on>
+        <sys_id>a51fa3ad83d37650489aa430ceaad31a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 15:43:10</sys_updated_on>
+        <ui_id>5ceeb767-a8a0-4a20-86cd-defb4ea84d82</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW3PaOhD+Kx4/AzUYSMh5aklDYQo9CZcQmg4jSzJWIl9qy6FOJv/9rHwBcxkanyTTdCYPjNFqJe2uvk+r1fcHlRH1RG20jrWmYdbRkabXdE07rrVaht4yteOjllYlSC2pDrIpaCJrLlxo3iEeyvbDg1bFeqOKW+UqrlfL9aZplo+pppXrtF43akbTrDdQhQlqVzzfvaFYzOVUq0Ywt5GDFtRPxNRGjD8+KkXmRUHAFg4lYNlqPJhIWOBxFE3evqXYYpz41FFPvv8oqR7yYX5BffXkYavrqZvFkUE5qI7c3Z0TkSebgfCZs0jbX1P9YSZ0fSLX10sq/SWoQygsbCIe0JIKQSBIuH6kngg/BIFPEfnm8Cin8Stg97DIsaZpst+k4AGWq6q55jzdoERsniKBYP0Qi9BPVbHlMkyDxHdCTRRy0c7LEoVvnmCukwwRyODZaJeHtjNIvFdXE2R4AEkYgBHUk/45YmW+ObTc5UVm5Rlz4lCkndzFiK9aSEDAjFBIex5UyqkNEwFMPA/COAfg3LF4MNhiVxYcGhWTu0tYVOKggrA0vALhRJUzkJ/G4gnymfSiD9PAYGk4ZzaLAaHKkKuPJTWIgjYHOK3dg7jOf4bSuMTZ1K15Ehk5BPvMEx9hzTuaevBYSg8Ardk0jKbRONLXmGphkxwZZhMdYX0NoyUCQ2zk385jAOeOguou52Jri+L7CbZk+O46mIeEKpeZUYfsTIFvuC6nyNlC/ggs/XAmY7JGf+0w+lPJDvwtJsGkJqhUhKvAPvJIQcrKJCkUFlViy+AfEgoLlAB2q6KMXIWlXuVGlJTIDRU7DASoCegRyF/AH59iMLai5khXf7uUS+GQSk/3YuWv4OTLE7BKDh3qtLlxjhsY53i3S7vClHvC6hnlPrXbe2wpklQa/49W71nlr8sq6CCszNomkFwS5VB9HWqajj1FulEWzIlsTH3XFQbE6jbuJNfqdaJGE+XAQ44SiIjTrH9pgYNlkGN6ong+/edaTSYMOJysZdNHCxnbTL03Iu3eqBsZtd7P2eVAk/97o8En+Z11WjfkssoN55z3b7q8f9uHb+/2anphrfXkePK5N+qdxvPYrdvZtJ/oa5/5YNzlA60rx91d2R6/0s9XfSBjBqyBonHUZ+PoXH6diwbujPM6y6tpz5rpPQt3Fq9lhzabWqnv6fjOxCL25H49/6R9KFZSf8Y2/OD0y8Ya59huZeOWw+ngnlxKPz/p6PJXIGVX04lm1KoW6fCbK5DRIczT6XHZN+tMgtn0gs/a9XwMBMTGx0n87s+H4+o5G1cv2mMdfvu/H9Odz+AUg+nf5L6vdIMgpMqSca6gULg2EgxYCpncoAqQB45TUkmA90EiL4/ED17S2j2aU1gXhu1rmFYsRzyBzKsckVB5h9tplrCEzbdyxJdR/+s6Qxw9M0M0Gw29+Z4inp0ivCWpEd/1vNS3V0oT9YPIwmQNpeS6+7J3nyesviqnk0v3RWbFtlUpvomLw3g/GNmC+Wnao3RP12jXnlVmfAwCFzPIZkGupFgyYUGRsKc60GubvIBag8Ug3M+P7rr7DfAkeW8oQBNzSJGPrTNGudxqJ7SNGNib9MFQD/rzLdCm5chbqR/isMUPT7+tJA4/D9XXuM3N+bLVxO8tWDNKomG/RSmbdmRf82OVQdKRcqlakEsJolIqjYA/G3W1IlLzcrXHe1p5dlphwTwBcOpbvPgr5JXG4aoWb1xRgtCQV6scE4pctnZZU3B0wSfg33uWMWy48mufr0Xq9ub7Y/AfJ8/Lk4QcPKyptgGcl353esLiGY63np0KvzrV31+d/jx8X/XV6cd/1YslUs4cAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a51fa3ad83d37650489aa430ceaad31a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e77dfda983573650489aa430ceaad385"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e77dfda983573650489aa430ceaad385^sys_idNOT IN1a2922a583db3650489aa430ceaad346,e65ae62983db3650489aa430ceaad3b2"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">5a2922a583db3650489aa430ceaad345</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 10:35:10</sys_created_on>
+        <sys_id>1a2922a583db3650489aa430ceaad346</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 15:43:10</sys_updated_on>
+        <ui_id>01c351c9-1c41-46ff-8e00-4e44b2b6f45a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TTWvjMBD9Lzonxh/ZUOdWWgqFdgtp6WUpZiyNErGy5JXkpF6T/76j2HFLT2VP9rz5eu95PDDbhbYL/sVee692hm1+vS2YMhGj94EpwTYsK4Uss7TkRb4u8jTNr1ZZvS7qLBcFoFizBTPQIFWqgI2n8AC6i/EwFCspyrWQS55BuVyVCMvyStbLokCoZcp/lJlMtsitE/50olahfKuhf/3/CXyvtHA4iWnBEbeAjm2GL6nvitNQo6bS+0ndF7Ghb2PoRgoT8DD1bGeUHpFEni4Yvgc0Amm9BO1xwRowAoJ1PdsE1xHgEMST0f1csVcm0DgWa9+9+ksbszSNhRJJEMcxOYfV5OMIy1sI8EyjeejcVMr3VnH0oxUCJXQ63HzGxoKnNihrxpYAtb50W9015ufoBJsHXD4bIZ0nEthGoZH6pEM+7+1xe2F5p8zZlCmpLQc9RxCCU3UXIp+BocaGBlUNtK0yu6p19qDOzcSlSXaagkRqe6Sl8ZQT4JF4Qr5Cckf47Rl+BaeiikcaQ82nBfO9v9Hg/YcWMrH600Umo7JJQzXaEFu4U224pgUHnOie3uLVj7NnT7nyROElYveXfyomerogxT9DR+t+R/If2Okfl1OnqZ0DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">625ae62983db3650489aa430ceaad3b2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Cleanup of Closed Project Issue">e77dfda983573650489aa430ceaad385</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 10:40:22</sys_created_on>
+        <sys_id>e65ae62983db3650489aa430ceaad3b2</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 15:43:10</sys_updated_on>
+        <ui_id>37847dd8-3dbe-42b0-a1f6-976d16fb1b03</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TwW6jMBD9F58JAkJpklvVqlKl7lZKq15WVTTYQ2KtsVnbJGUR/77jQGjVU7UnmOeZN+89TM9M65vWuxdz45zca7b59RYxqQNG7z2Tgm1YuhbVOk3WfJkVyyxJslWelsWyTDOxBBQFi5iGGqlTeqwdlUdQbaj7PiuvoCxSsciLMlvkvITFOs9xUYrr62xFrHm1irfIjRVuGGhUSNco6F7/n4EfpBIWJzMNWNLm0bJN/+Xou+YUlKio9WFy98Ws75pQ2lHCBDxOM9sZpUcQkSURw3ePWiCtr0A5jFgNWoA3tmMbb1sCLIJ40qqbOw5Se6Jjoffdyb+0MU2S0FghGeI4Hs7lbspxhKs78PBM1Ny3dmrlByM5ujEKgRW0yt9+xsaGp8ZLo8cRD6W6TBvV1vrnmASbCS6fjZDWkQhsgtEgffJRPR/MaXtReS/1OZTpUBkOaq7AeyvL1gc9PUOFNRHtamgaqfe7xpqjPA+TljreKyriSpkTLQ1XOQYehMeUK8T3hN+d4VewMrj4QTQ0PETMde5WgXMfXijE3Z82KBmdTR52YwxhhFvZ+BtacMRJ7vAWbv3IPWfKpSMJLwF7uPxT4aCjGyT5Z+hk7O8g/gMb/gHSZHQjnQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e77dfda983573650489aa430ceaad385"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e77dfda983573650489aa430ceaad385"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e77dfda983573650489aa430ceaad385"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e77dfda983573650489aa430ceaad385"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e77dfda983573650489aa430ceaad385"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e77dfda983573650489aa430ceaad385"/>
+</record_update>

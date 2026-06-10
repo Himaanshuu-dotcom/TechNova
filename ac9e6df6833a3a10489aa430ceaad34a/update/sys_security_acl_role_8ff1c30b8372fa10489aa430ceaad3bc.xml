@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-06 07:43:07</sys_created_on>
+        <sys_id>8ff1c30b8372fa10489aa430ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1912290_techno_0_skills.x_1912290_techno_0.skills_user</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_security_acl display_value="x_1912290_techno_0_skills">0bf1c30b8372fa10489aa430ceaad3b7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8ff1c30b8372fa10489aa430ceaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-06 07:43:07</sys_updated_on>
+        <sys_user_role display_value="x_1912290_techno_0.skills_user" name="x_1912290_techno_0.skills_user">faf14f078372fa10489aa430ceaad331</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="TechNova Services">6604a228831f3e10489aa430ceaad3fa</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>8c0f43b48353fe10489aa430ceaad3f8</icon>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>UltraWide External Moniter</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=fc770fe083537e10489aa430ceaad351&amp;sysparm_preview=true", "summary");</preview>
+        <price>500</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 10:14:17</sys_created_on>
+        <sys_id>fc770fe083537e10489aa430ceaad351</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>UltraWide External Moniter</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sc_cat_item_fc770fe083537e10489aa430ceaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 05:25:03</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>13</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc770fe083537e10489aa430ceaad351"/>
+    <fx_price action="delete_multiple" query="id=fc770fe083537e10489aa430ceaad351"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>500</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>fc770fe083537e10489aa430ceaad351</id>
+        <parent/>
+        <reference_amount>500</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 10:14:17</sys_created_on>
+        <sys_id>9b97032483537e10489aa430ceaad331</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 10:30:32</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>fc770fe083537e10489aa430ceaad351</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 10:14:17</sys_created_on>
+        <sys_id>d397032483537e10489aa430ceaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 10:14:17</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4c4c4c</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>73b60a2878613868a60f9f9b30b43ebb02151741f7ee54ade90595c31eae046e</hash>
+        <image_height>512</image_height>
+        <image_width>512</image_width>
+        <size_bytes>6162</size_bytes>
+        <size_compressed>4669</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 05:25:03</sys_created_on>
+        <sys_id>8c0f43b48353fe10489aa430ceaad3f8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 05:25:03</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>fc770fe083537e10489aa430ceaad351</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="8c0f43b48353fe10489aa430ceaad3f8">8c0f43b48353fe10489aa430ceaad3f8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 05:25:03</sys_created_on>
+        <sys_id>400f43b48353fe10489aa430ceaad3f9</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>7VhpWFNXt94BEakIRq2gTDX4SamiKPNMawRFURsasEICiIogECCMAZNYazlO4JAKSgCtBkqAIEUCEiBREKxggDCEeVQiBBIQwhjId7Df/Z57f94f994ft+d5znPW3tnZe+291nrXu/a1k8ddN3yx/QsAwIYjh9EYAJTA6rtuLfyZiWtdhD9q4Yd/JAKgqb/6IhbHL6Hhzm1Rh05FeRDOR8X6R54DsbGxe4PCLhID/MPP7SVEBqZL7LcDoJV1BP3tD3H0iV7KbVxgfMeUyIHTFR169MCg6w7nseRzOr8HXXP/SW9dvolYgltwVX3IOHbtnkbUhe8OH/j56c6D2d9/nXH+gBr37pZXcGt7IxVzxquDk+B1QEdT2855e1eNxgBjR9kO9Jo9O+zwBZL4paQ9LnFnn40TJS+8pCKzYSd547TjsL9Nf4KkUuQC/uef8OBcscrDP549M03HlF+w1sVvQWq51qggiyxQ/KPGGRlEx7zuDYg0Ux3klB860QGlf9i4QER38hLKRHw7aUWjpJczZ2DbJ1V70AHS0tPTMzMyKlGiRCza5wGm3B51ntO3nooKcanBISO83UafeJeGVQZI+ypdOfixqGM+oKGxUVEMle1Akc1RmX1TtmAjckpGE/RB88sfPnxIcUVLSI+lZ1FKfo2ZDm1GjlPXDK5DVq41DJxUGfTX+qJrCsNCQnrK2OyYfPE5/XenVHmZDglMO0nZ8C80wb6aqTkZwg8j76dPF+o6kGaWh7WVAnQAJ2aC9K3bqIMmt1QT3BujCKOXF9va2lJiK9/8WbsXjIyM8DMyMpZ/heaLoLQxkgG44JwM9Xd3dMw/KCkpWeLgd51pUBoYyyskS1pbW5NQQ3dZsQjqVnm02yi2vr4+6yPpTlH81V7pnK8O0opBy+yU7QVNdyeQEdXJenbJ+YWF/Z0fUAFIMD09TUiGYnNo7KjK9eB5yDeoRS2f8JctYWWDv3yAVzpedaBj1BvcuHHDI0nTgExAyzl75wA1ebyAOfYLg8G49b2Bz61F3ubZ8U4PPcfEec1Xrw2okSbt0ZdahoaGGn7XlIybUB88eBCbTcN3ty0A010x9jNNB7X6wqs3UMzflirbqlHJXK5RslObJrieiil/X7Uk6a6CnwNMM1d9UImXdkFxhJudXhsRjwJSfeMGr/pWzPUlKEK2JN2aQSXK2rwojfAJKK5D0u0fXgDTHfrXoXovT0/HltlvDZc2DpxLxbE/DCbJy+aVebkZXyKt8LG90YGll5reKA0Yn4h/q2M4dOiJrSbY1TptaWlJLpo46PJpq3OhMCHGbVQCWcduESF4P9vZ6mr4PqMoVhK6bP12xgKMm3SdFgXE5Z/PzsmhFL9TPs1VNnVyUiwjI7y6RfbXubegRhGdewdDevRED6QdC3StaadPq+CWj7u75XIrKnreeinndGsvriNse7nNyH4LUmEmkg8OhpfFDPAuF96cDAH8k3axksRP90288Z5CWb2HWyE0HNFUTp/2Rv32K7gg0+DBXp/lpKvh1DJrg4zYierDYts49+/f12AnbgUqcBTYEWJiZo0MhwJRQxXsxnobboipdk/fTI+nFKgnVVu51GspaIIqmkCcev++5OK0LoCgU97eHCfUSgs/w67fysJCxqcJ8rrs9zFmsqEL9uA0x3qOVEnEuPkmQwUmevtvQlYF+fkVdijbBeND4KOMVHjEuNII1bX4bdY7JjOzc0ZP0l6lchLbVv+k8oaimT6tuTp8t48c8bHJzzSOwl+ALfuMYciG1amVHni+FdiIDMKCojKIK3de+oV7HJ1GDDxXX3uljSY4gw5h73dizIxlB7I3ASKRGHiopr4rTQ9J0FFfaxASZAns98JeX+pSs++5+coSiyMpzzG3efYrsBbnF+N167ICe55z2KHds+1bR5R4m9l//PFpFjoV6h9VUlS0X/iRtysp4zaxinm1KBpdQYahoXrreWXnzZE4oRMS6ZquT8cEz3R1tQcCvOBVg9PpH39caIHncQ7w9PJyMkAaXCCF8V80X7zojZikZ6u2Ry8nZwcqOeswmcHyh7/CiBYREcHMjb+lyrMQ+kw/heJOVwdIcThc5ZPBB6DpOhxEHA+3rOC48fE7hq58QvCpYcRJoey1e+NNyPvV3DIibU+puUM4DIutrfm1yn7Wuo55ow9sRCkWDptB1w/C6OEU6S0o0Mri9ylw2NhiZYabm5vLSc9UA6Fuxr0tMw1MJj80xNPjyvE3NlbsHjVvdsgCpsUM8ch99+7dvskjXI2ygtxvb6k634v+9CxxlJHq2DR5DGhfJZjb7BH1dOBmLR3XdMwU7tDrLg480fv5JxcpeEpjm1vklRgoK4HaVACoSmoAfH37b+Fv4W/h/0xwj63kBZyUkSqF0ZVrAJ1Fn+40ZrCE1owj66i5NAEhdrX3SIUKACqbADj5FeI/C8H2IJL/GxzOPsNaYiazijP6ADgXd8WVrMxsPa8ENgQPm1CLV2HFPG8VaDb8Jd6yA0kP/5LAPMW9cQ142FbrDXwJpF2gKd+zqjiLGBawBzTd9lTy86EsaQNrvscSeOQM0+UvdoJ/Cea9MqWUlyMzMzNOEpIasMbVJetxjFC1n7ZbqiE2lvZE3ghcD0wjRkQiMSs2zrxP6b99MDUEBMiJmSgROsLJoziVSA5zG81FRvCh5BUXdI8Bcu4pbXbfvn2KNoivsh0F/JRM9uxJJOCEhN6enh49JNYttxgXyY8nk1ec+Qupa6+81MswUaJvJSB4Z4/AFIrrI5TBqbZLO4U7uAXplUNzbJfO9TtaWYmuqhyjRsw7aQ4UfR63GanYj8oux49swfAXbhUXFxv4+Pjo1i1T760DaRthsvMOOfWQNRenjo/42PRYIZBt4pUawerMLC3f8HAjTJBS6r6B0zGZq7iEkyLsbRFg8yOW2PcmZIKTRmxn0qf3wZaf/LgG3HwhLuSSL6LlefBsuoucWCmZJDwKcnYBvwY9mIaqYtwUv4sd9JNyA+qS38F/Cg9eNT1/4QVOOhkHE0YhTDFy1YA20UY0sdrl/kkSnr0ZmK7ofyRdrtvNiHoq1qN6wB0jTOZpKSmpbrfIvohT/eA44KV19/RUGKJ+wUmn4o6dOEHJ/4+RGrrWk7/SBJdZc9Y4Y8aJXpK4IEtM0hxoXQOOUctZCqLQjs460rPNTRAHJxhLHX2bL+sooerXLbTVw1Kgfnj3LeHTfqZlueJ/+KmbL69pDHDfEGwIHq60EiysrGKPV5v5DzU0NFTsYMxMrR6iY3FR0RSBg1eqrWnflfSBzm1uzbfsU7og330UzoLxLi1m/oLx7lLpS5pAAs0fFnISdS6amZl5FRYU9PbLUE0lV69ezXGpCblnVmcLHvpIfmYy7d3VUWeCgkYn3759K7MRCV1qYEMQ7xa+p1OCu9mhXlJ4ujzcPuVh2Cwic4diJrOWVdTivsEW1snKRuQSOEL31UVaWdlu2eWlr75WmpWevsSDdf7OLcgRlamFPKHTRlj7nq4pomseqvHNpnnmMRffCASC2q/5vxy5QyQHub0j/1zAEnODgj11EJOd2cpfMZ5vRCoeNz82HWxvb08+VFOVpEDUHnPL7V9N/duXgkOHCYg9JiZ6N6FCC/vZuzhOTOWjz8yDzKWQ0RVlg0Xpqpr68u88qrtIGjxfS4dnTGZWGBy/z3eI5C3Ncq8OodPy6AmrWewSW2lgs0lDogzmnvuC/fcC85Gui4WXzqMrWFebb+G9u7+gprBNifXh1vJ3kye/ArUdcB1jhxoazxZl08IuRuJ3I0zt7BIS0ObLaB4E4ZbJCiPvtPXgxCmYb2PRe9j7E0ik8mYtYUHlw8ysLK4DivzsarOOjaj3ystHzZuUqEZn4AhcMhxiQxfkoyU2IoWZtvpK/D0z76X9j+jTFELQTIjb6Gp03L0/oswL+vHUqfk+6xUa31Mfl4WB2VjXabBagx1ETp08OlzaHu3wcW6poOc8glrH7JdKWWKSCSqzS4CMxmKtLB2et2m2vmtspJii8J0j25BTmUwmmQybPrxeBHhWuNUyghAWthLJX3BvlsiiFLBHsLKT2DGqX6FQjBm+pchpvE5cXpXTL1UswY7kQolCAP3RP+r3dgvEMvLMx+YnsSI6xfI0eX8GkeylQ/RWuPXK5fJQZMQ5uIYY323MgGuTatg0FXl/qu4CJ1mvX7/OPZikUWnKmPkExUWj7S+iXRWd8LIMZPO42WzAGkSTdC52hD5XeolvrHsNSkAN9dGnB2l3s4xUBqJCThiHvrORQpDIpYb9/b7bGNKHT58+9XmeL90/cweG1jnXGv73dBUQ+BNNkLOXK/+kNdFZnBMWQM7LQlg/ZokNUtY5ffkFSHHHCWU6XeXzruhjJRbzZ33nX2lVxbxU0aJnYIKHXzqD8Ox4KUzvfdNVb77XcEbXjI+Pd/921VdtDdWswffEiRNcBlxiLVbbwmB3lybANb9K2Ql42wZO4YTEvLw8A8LSozsVKuGvFhcX+yc6iob90D5Wb4kIv03v6f0V5eWLL7+nWwhWaxVfX0WLnl2MvQMKbz1WfNnsKN8G82n9IH1/mK76WicrZrXL7DbqPVzE6y9hEl+QWIj8OumGU+B1miAUi63cdTpuoPFJpg3zin5QWJgkv7OzkwGliYNVgbZyVk9HR1lwaOjEm681Jz5voaur6yCMC0J0jQluAjy5Pf3mJ/00UxuRU19Hx8dbi0MGzf4Ajf6MJKHd7OV6aD5j7xzV8oX7Bvvr6aWE/qpnbHb7n0/GXFd28FzLlyScaXh3rjHjHXANlepS970SMKm3Efl2V11aEs9KehOe5/2jdozx56tXr+rHyqv2o6o4Yhx4pAJX+SUwZ1c8ER+y5SqH/5EgrZy7IcqirBj8gI32R9vniC+BR9/mVQ+G+0dHy/gsrWvaxXbASCwjCbNpfXpIxXN4mgG1+Ui0XA57jWo5/v3ZgGjVgbNisTiLMyM42l8K46UfWn5jct4P7KpfRk7lwSlKMdLuTVg+K6y3F3T0Iax/LBTaGaHwqZjFzskFAGq7YfS0w7hxS54/jypbvQBBr+Gp/eu+oOoAirwThUciRVEVm+AjUjcceoKcWoLPklIGH4sqB//R7sHvwLoTzrLxcO8yTYBFRmDRPk2y42DLhxvIiK9Eid3h1j6O4QO8/tjKptG0DhD3FF84Nw6V7UymJAwM0QQLyCkcMiJMl+vxrKT4Q9oP3kPzCvLDKOtkLmag+41NDk0QvyHlkinKcnvmnw8mLkPWdzG2m5C+9TaU/SjHdOJKCBZLqaqokHv1suZq6PsRwF08tyQU0Qlhkef5CwtXXg40ptPjd3W9IIru5eTkcLveN9AEKSYwW4i5Z+Z/N35MH2w5DIDz5TXg/5NwoVyskrZH6EN8d6+8z/+HSL5II6k6uy5s9yh3cBgrlMVH46wcZsc3rXQ7TfKUFXAIzJ4UJpiuYITrTatWr4t640UZy/RpbjJkcBMKTLrw85GTrjWpqKFkmsAgrLdcNlKZMGeJLz5mieAZy5aWU1ujl3093BqlJK0BtaVEmJudwuH0oirXDQcwxSraTnAyyYnkW2XTMptle50NM+mYxUEYH97LZDKYVW6rvQIGvGEaBRuWYpjovIVvboxi9RQFuFZWVZEThPVNDgTEpPvqtZw/FhuLrrnPikWc9sihkerr6+FI+Tks/tc6KyxWJh4c0gws/0Yk94Z9XAK0joONSCS89nUoLkiYAAwjph4fTNpajv8pTA2gUCiR/C0rFrgYMd4TqsKVqJvxrTIl3uGF9H10AKeJSH5/C8yz/t3GuDnKVc9NWflaI3hqlP7/OjRrlKTq91T+7q8ljRmM1YnH2llaj7yVqBDU0dExH45OLBE7UO/EwWETIDzaZIJwRqPzCwr0rkGl0ZWqppsIBuprKULZpqijYNLdyyfiNQFdEwyrXbB4D0aua5fk2hv7g/39/b1xwiuTtzdab14+hMV67YXZwzgJWS7SAP2fyQ87tJvVYKMohd7gpMrmIwex2GXqDSejMmXek7G5JS/YUkRjxkXUmWzxJWpLzB6RPQT5wivDOqgPHwKTenCJQkQNHTJmUO5iSBh+5+aa5AQM2t4Qxb803w9zH+lRY73R8BwMXQ/ZeB2aQN6J5Gt6YmWlNoH9Z23IzQoSOjGXJXbq5FIUj1laSv8Ld9T/fqjIeYWdXrVenlmkeLV95NBxNOs7v5/+CdwHOTESGAAA</data>
+        <length>6212</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="8c0f43b48353fe10489aa430ceaad3f8">8c0f43b48353fe10489aa430ceaad3f8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 05:25:03</sys_created_on>
+        <sys_id>040f43b48353fe10489aa430ceaad3f9</sys_id>
+    </sys_attachment_doc>
+</record_update>

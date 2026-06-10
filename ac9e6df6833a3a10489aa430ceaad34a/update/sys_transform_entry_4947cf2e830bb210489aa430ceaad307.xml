@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Import User Skill Mapping">5ab64bea830bb210489aa430ceaad38e</map>
+        <reference_value_field/>
+        <source_field>u_proficiency</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1912290_techno_0_import_user_skill_mapping_</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-17 05:04:55</sys_created_on>
+        <sys_id>4947cf2e830bb210489aa430ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_proficiency</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_transform_entry_4947cf2e830bb210489aa430ceaad307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-17 05:04:55</sys_updated_on>
+        <target_field>proficiency_level</target_field>
+        <target_table>x_1912290_techno_0_employee_s_skills</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

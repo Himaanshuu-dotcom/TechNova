@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>test</internal_name>
+        <label_cache>[{"name":"Test_1.current.project_name","label":"Trigger - Record Test➛Project Record➛Project Name","reference":"","reference_display":"Project Name","type":"string","base_type":"string","parent_table_name":"x_1912290_techno_0_project","column_name":"project_name","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"9968c94a-84ad-4aae-88c2-5424c9b3581d":["a-0"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Test</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb4a2b7c8317fe10489aa430ceaad352</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_hub_flow_fb4a2b7c8317fe10489aa430ceaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-25 06:09:54</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>70d2ac5d839b7250489aa430ceaad3b2</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fb4a2b7c8317fe10489aa430ceaad352^sys_idNOT IN7b4a2b7c8317fe10489aa430ceaad3f8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fb4a2b7c8317fe10489aa430ceaad352</id>
+        <name>Test</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:21</sys_created_on>
+        <sys_id>7b4a2b7c8317fe10489aa430ceaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7b4a2b7c8317fe10489aa430ceaad3f8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fb4a2b7c8317fe10489aa430ceaad352^sys_idNOT IN3b5aeb7c8317fe10489aa430ceaad381,7f5aeb7c8317fe10489aa430ceaad397,a75aeb7c8317fe10489aa430ceaad335"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</model>
+        <model_id>fb4a2b7c8317fe10489aa430ceaad352</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:37</sys_created_on>
+        <sys_id>3b5aeb7c8317fe10489aa430ceaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3b5aeb7c8317fe10489aa430ceaad381"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</model>
+        <model_id>fb4a2b7c8317fe10489aa430ceaad352</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:38</sys_created_on>
+        <sys_id>7f5aeb7c8317fe10489aa430ceaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f5aeb7c8317fe10489aa430ceaad397"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</model>
+        <model_id>fb4a2b7c8317fe10489aa430ceaad352</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:37</sys_created_on>
+        <sys_id>a75aeb7c8317fe10489aa430ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a75aeb7c8317fe10489aa430ceaad335"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fb4a2b7c8317fe10489aa430ceaad352^sys_idNOT INf48a23bc8317fe10489aa430ceaad30c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</flow>
+        <generation_source/>
+        <name>Test</name>
+        <published_version>0e2ae3f8b217fe10074581da55e083fa</published_version>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:25:14</sys_created_on>
+        <sys_id>f48a23bc8317fe10489aa430ceaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:25:14</sys_updated_on>
+        <trigger_definition display_value="Test">5f19efb88317fe10489aa430ceaad37d</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fb4a2b7c8317fe10489aa430ceaad352^sys_idNOT IN759164d9839b7250489aa430ceaad3df"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-25 06:04:22</sys_created_on>
+        <sys_id>759164d9839b7250489aa430ceaad3df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-25 06:04:53</sys_updated_on>
+        <ui_id>7f3885ea-17f3-41d6-8bb1-3221b4fda114</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VTy27bMBD8lYBnQZDlOG58CxL4lCZFY/gSBMRKXNksKEolKceukX/v0tTDddJHgF5y4y73MTPkPO6ZFGzG0mwynQCmk3E2TsdJMj7PL4RALIppNkoLYBHTUCJVFhKVsBRvQDU+QUchba1gtxwy+VoqYVCz2eNTxGow1OzQsNn+5OpftyvIUFHpvFt/Csftah87LAmKQx7ghfxt27xoL8+W7WVlhAc1ihhuHWqBhKYAZTFiJWgBrjI7NnOmoYRBEPda7fqKtdQusC1ha+UPWn8xSZLElxZIDPNWjD7krVAhXdyAgwcanrvG9LpVMkcbtBFYQKPc9XEuFNzXTlY6tDjIVNddqabUd0EZ1g84epfGEgisPVUPPjArHtbV89cO5FzqgygtS1XloPoInDMya5yHs2eNXByp64fRClRY0nBeQl1LveK1qTbyMJHwlfFKURAXqnomIFaudAy5JxOT2hDPKX9zSC/BSM/sM42hZoJeWzSOh+phXcDw+uVfImZ39lqBtYMg9BL8e+P5BHlaIXgY6Nfxw7/yzbmRtbuibRts6b9EnVumf/yv58P3PJo5OGbLR5ejNL1MuMN8rSueeJG+Ye5ee+lLf/FOS/0dYmephcd4dhcwvoW7s9Zp7vatAa2lkv9lqU8fyU8tjQ9iqN45v37897nmd155+gkRdLA6WwYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=759164d9839b7250489aa430ceaad3df"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fb4a2b7c8317fe10489aa430ceaad352^sys_idNOT IN89a2245d839b7250489aa430ceaad363"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c5a2245d839b7250489aa430ceaad362</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</flow>
+        <flow_variables_assigned>a</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-25 06:08:57</sys_created_on>
+        <sys_id>89a2245d839b7250489aa430ceaad363</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-25 06:09:44</sys_updated_on>
+        <ui_id>9968c94a-84ad-4aae-88c2-5424c9b3581d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/82QMQvCMBCF/8vNpeDaraN7cZFSYpLqaUxCLmkpIf+9F0R0dHT7ePfe3eMyuBR9ijS4ngivFrrz2ADaqjFnQAUdQANWPDWTYFyESZVzHjTF6dDKFIK2sfXB3bWMU/WWwk6F5I3YTj8H5A2N4tGrBsmAPvYy4sLxWRjSZaz3A4qL0X9bUGmJhM4OteXx/cs62HgRym9pdeExG7d+tLIDxDenIpUBAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fb4a2b7c8317fe10489aa430ceaad352^sys_idNOT IN8671a899839b7250489aa430ceaad330"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiUniqueId=1fc26c2c-d0aa-4640-9351-6164e0b4c09f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>a</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>a</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Test">fb4a2b7c8317fe10489aa430ceaad352</model>
+        <model_id>fb4a2b7c8317fe10489aa430ceaad352</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-25 06:03:49</sys_created_on>
+        <sys_id>8671a899839b7250489aa430ceaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-25 06:03:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:38</sys_created_on>
+        <sys_id>b35aeb7c8317fe10489aa430ceaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:38</sys_created_on>
+        <sys_id>bf5aeb7c8317fe10489aa430ceaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:24:37</sys_created_on>
+        <sys_id>f75aeb7c8317fe10489aa430ceaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:24:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fb4a2b7c8317fe10489aa430ceaad352"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fb4a2b7c8317fe10489aa430ceaad352"/>
+</record_update>

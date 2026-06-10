@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Noise Cancelling Headphone">f56b472c83537e10489aa430ceaad3c1</sc_cat_item>
+        <sc_category display_value="TechNova Services">6604a228831f3e10489aa430ceaad3fa</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 10:32:01</sys_created_on>
+        <sys_id>c3ab8f2c83537e10489aa430ceaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TechNova Services.Noise Cancelling Headphone</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sc_cat_item_category_c3ab8f2c83537e10489aa430ceaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 10:32:01</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

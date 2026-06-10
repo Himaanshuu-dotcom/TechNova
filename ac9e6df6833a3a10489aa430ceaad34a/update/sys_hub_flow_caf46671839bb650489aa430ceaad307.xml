@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3102000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9cf3bfe583177650489aa430ceaad30d</copied_from>
+        <copied_from_name>SLA Monitering and Escalation</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_sla_monitering_and_escalation</internal_name>
+        <label_cache>[{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.issue_assigned_to.email","label":"2 - Look Up Record➛Project Issue Record➛Issue Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b915eb4e-29b8-4db6-a206-c641144c86a7":["ah_to"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assignment_group.email","label":"2 - Look Up Record➛Project Issue Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b915eb4e-29b8-4db6-a206-c641144c86a7":["ah_to"]}},{"name":"SLA Task_1.task_sla_record.task.state","label":"Trigger - SLA Task➛Task SLA Record➛Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"task","column_name":"state","choices":[{"label":"Pending","used":false,"image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task","dependent_values":[""]}},{"label":"Open","used":false,"image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"label":"Work in Progress","used":false,"image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Complete","used":false,"image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Incomplete","used":false,"image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Skipped","used":false,"image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task","dependent_values":[""]}},{"label":"Assess","used":false,"image":"","reference":false,"rawLabel":"Assess","selected":false,"missing":false,"value":"-4","parameters":{"name":"change_request","title":"Change request is ready for authorization","dependent_values":[""]}},{"label":"Authorize","used":false,"image":"","reference":false,"rawLabel":"Authorize","selected":false,"missing":false,"value":"-3","parameters":{"name":"change_request","title":"Change request has been authorized","dependent_values":[""]}},{"label":"Scheduled","used":false,"image":"","reference":false,"rawLabel":"Scheduled","selected":false,"missing":false,"value":"-2","parameters":{"name":"change_request","title":"Change request has been scheduled to be actioned","dependent_values":[""]}},{"label":"Implement","used":false,"image":"","reference":false,"rawLabel":"Implement","selected":false,"missing":false,"value":"-1","parameters":{"name":"change_request","title":"Change request is in the process of being actioned","dependent_values":[""]}},{"label":"Review","used":false,"image":"","reference":false,"rawLabel":"Review","selected":false,"missing":false,"value":"0","parameters":{"name":"change_request","title":"Work checked to see if change request was successful","dependent_values":[""]}},{"label":"Closed Abandoned","used":false,"image":"","reference":false,"rawLabel":"Closed Abandoned","selected":false,"missing":false,"value":"8","parameters":{"name":"chat_queue_entry","dependent_values":[""]}},{"label":"Skipped","used":false,"image":"","reference":false,"rawLabel":"Skipped","selected":false,"missing":false,"value":"5","parameters":{"name":"help_guidance_task","dependent_values":[""]}},{"label":"Resolved","used":false,"image":"","reference":false,"rawLabel":"Resolved","selected":false,"missing":false,"value":"6","parameters":{"name":"incident","dependent_values":[""]}},{"label":"New","used":false,"image":"","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"101","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Assess","used":false,"image":"","reference":false,"rawLabel":"Assess","selected":false,"missing":false,"value":"102","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Root Cause Analysis","used":false,"image":"","reference":false,"rawLabel":"Root Cause Analysis","selected":false,"missing":false,"value":"103","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Fix in Progress","used":false,"image":"","reference":false,"rawLabel":"Fix in Progress","selected":false,"missing":false,"value":"104","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Resolved","used":false,"image":"","reference":false,"rawLabel":"Resolved","selected":false,"missing":false,"value":"106","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Closed","used":false,"image":"","reference":false,"rawLabel":"Closed","selected":false,"missing":false,"value":"107","parameters":{"name":"problem","dependent_values":[""]}},{"label":"New","used":false,"image":"","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"151","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Assess","used":false,"image":"","reference":false,"rawLabel":"Assess","selected":false,"missing":false,"value":"152","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Work in Progress","used":false,"image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"154","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Closed","used":false,"image":"","reference":false,"rawLabel":"Closed","selected":false,"missing":false,"value":"157","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Approval not required","used":false,"image":"","reference":false,"rawLabel":"Approval not required","selected":false,"missing":false,"value":"9","parameters":{"name":"roster_schedule_span_proposal","dependent_values":[""]}}],"usedInstances":{"3851f523-ea42-42ae-95a6-5711a06d7133":["condition"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.issue_title","label":"2 - Look Up Record➛Project Issue Record➛Issue Title","reference":"","reference_display":"Issue Title","type":"string","base_type":"string","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"issue_title","choices":[{"order":0.0}],"usedInstances":{}},{"name":"SLA Task_1.task_sla_record.task.sys_id","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"69100053-22a3-43fb-b4e5-b1749515ad91":["conditions"]}},{"name":"SLA Task_1.task_sla_record","label":"Trigger - SLA Task➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"472b4ff7-3bda-408b-9828-400e3f5e70e3":["record"],"d350bda6-f253-4d2b-8dd1-1c5755e4f088":["record"],"3498ada2-68e4-467e-8209-f3f7996584d4":["record"],"6b8e2c78-7714-466a-82ed-5813f245cb50":["record"],"564eb984-e71e-4c30-87ee-0f791106dca8":["record"],"83372c23-0bec-45bf-8608-a9fa7a6b34e7":["record"]},"attributes":{"":""}},{"name":"SLA Task_1.task_sla_record.task","label":"Trigger - SLA Task➛Task SLA Record➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"task_sla","column_name":"task","choices":[{"order":0.0}],"usedInstances":{"564eb984-e71e-4c30-87ee-0f791106dca8":["record"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","usedInstances":{"472b4ff7-3bda-408b-9828-400e3f5e70e3":["record"],"55dd857e-b94b-42f9-8e13-77f3e53c6c17":["record"],"6b8e2c78-7714-466a-82ed-5813f245cb50":["record"],"83372c23-0bec-45bf-8608-a9fa7a6b34e7":["record"]},"attributes":{}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assigned_to","label":"2 - Look Up Record➛Project Issue Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"assigned_to","choices":[{"order":0.0}],"usedInstances":{}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assigned_to.email","label":"2 - Look Up Record➛Project Issue Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b915eb4e-29b8-4db6-a206-c641144c86a7":["ah_to"]}},{"name":"c740724b-2878-49e0-bedc-6fc0d66dce77.Records","label":"10 - Look Up Records➛Resource Allocation Records","reference":"x_1912290_techno_0_resouce_allocation","reference_display":"Resource Allocation","type":"records","base_type":"records","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.email","label":"Flow Variables➛email","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","choices":[{"order":0.0}],"usedInstances":{"eceb4a1c-8400-419c-9b2a-67a365089fe0":["ah_to"]},"attributes":{"sourceId":"","co_type_name":"FD09d29c75bf1b76501de13c94fc6e553c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"187cb6f9-96ef-470b-b620-a345d443a0d3"}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.sys_id","label":"2 - Look Up Record➛Project Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"c740724b-2878-49e0-bedc-6fc0d66dce77":["conditions"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.project_name.project_s_manager_name.email","label":"2 - Look Up Record➛Project Issue Record➛Project Name➛Project\u0027s Manager Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"4d79a308-c10f-4c0b-b1f1-2878e599c566":["ah_to"]}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Task SLA Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task_sla","column_name":"sys_id","usedInstances":{"69100053-22a3-43fb-b4e5-b1749515ad91":["conditions"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record","label":"2 - Look Up Record➛Project Issue Record","reference":"x_1912290_techno_0_project_issue","reference_display":"Project Issue","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.task.sys_id","label":"Trigger - Record Created or Updated➛Task SLA Record➛Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"69100053-22a3-43fb-b4e5-b1749515ad91":["conditions"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.project_name","label":"2 - Look Up Record➛Project Issue Record➛Project Name","reference":"x_1912290_techno_0_project","reference_display":"Project","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"project_name","choices":[{"order":0.0}],"usedInstances":{}},{"name":"b915eb4e-29b8-4db6-a206-c641144c86a7.email.direct","label":"3 - Send Email➛email➛To","reference":"","reference_display":"To","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"direct","choices":[{"order":0.0}],"usedInstances":{"4d79a308-c10f-4c0b-b1f1-2878e599c566":["ah_to"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assignment_group","label":"2 - Look Up Record➛Project Issue Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"assignment_group","choices":[{"order":0.0}],"usedInstances":{}}]</label_cache>
+        <master_snapshot>3fc0b2f983dbb650489aa430ceaad3bb</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Copy of SLA Monitering and Escalation</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>8cd0f2f983dbb650489aa430ceaad366</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>caf46671839bb650489aa430ceaad307</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Copy of SLA Monitering and Escalation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_hub_flow_caf46671839bb650489aa430ceaad307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:05</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>37992a3d839bb650489aa430ceaad33e</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=caf46671839bb650489aa430ceaad307"/>
+    <sys_variable_value action="delete_multiple" query="document_key=caf46671839bb650489aa430ceaad307"/>
+    <sys_flow_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>sla_task</name>
+        <published_version/>
+        <sys_class_name>sys_flow_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cd0f2f983dbb650489aa430ceaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:05</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=caf46671839bb650489aa430ceaad307"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=caf46671839bb650489aa430ceaad307"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=caf46671839bb650489aa430ceaad307^sys_idNOT IN0af46671839bb650489aa430ceaad30d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>caf46671839bb650489aa430ceaad307</id>
+        <name>Copy of SLA Monitering and Escalation</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:20</sys_created_on>
+        <sys_id>0af46671839bb650489aa430ceaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 04:55:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0af46671839bb650489aa430ceaad30d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=caf46671839bb650489aa430ceaad307^sys_idNOT IN4fc072f983dbb650489aa430ceaad374,cbc072f983dbb650489aa430ceaad37a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_sla_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task_sla_record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</model>
+        <model_id>caf46671839bb650489aa430ceaad307</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_caf46671839bb650489aa430ceaad307</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="task_sla">task_sla</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:01</sys_created_on>
+        <sys_id>4fc072f983dbb650489aa430ceaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4fc072f983dbb650489aa430ceaad374"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8bc072f997dbb65021340e2f46f55473</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ac9e6df6833a3a10489aa430ceaad34a</scope_name>
+        <serialized_content>{"FlowDesigner:FD8bc072f997dbb65021340e2f46f55473":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"choiceOption\":\"\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FD8bc072f997dbb65021340e2f46f55473.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8bc072f997dbb65021340e2f46f55473\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fc072f983dbb650489aa430ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD8bc072f997dbb65021340e2f46f55473,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sla_flow_inputs</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sla_flow_inputs</label>
+        <mandatory>false</mandatory>
+        <max_length>4096</max_length>
+        <model display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</model>
+        <model_id>caf46671839bb650489aa430ceaad307</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_caf46671839bb650489aa430ceaad307</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:01</sys_created_on>
+        <sys_id>cbc072f983dbb650489aa430ceaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cbc072f983dbb650489aa430ceaad37a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=caf46671839bb650489aa430ceaad307"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=caf46671839bb650489aa430ceaad307"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=caf46671839bb650489aa430ceaad307^sys_idNOT IN1615aa71839bb650489aa430ceaad30c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <name>SLA Task</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:53</sys_created_on>
+        <sys_id>1615aa71839bb650489aa430ceaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 04:55:53</sys_updated_on>
+        <trigger_definition display_value="SLA Task">f5ce00a873723300d70877186bf6a759</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>sla_task</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=caf46671839bb650489aa430ceaad307^sys_idNOT IN22f46671839bb650489aa430ceaad38e,26f46671839bb650489aa430ceaad385,2ef46671839bb650489aa430ceaad37c,2ef46671839bb650489aa430ceaad389,62f46671839bb650489aa430ceaad380,6af46671839bb650489aa430ceaad386,a6f46671839bb650489aa430ceaad382,aaf46671839bb650489aa430ceaad387,e2f46671839bb650489aa430ceaad384,eaf46671839bb650489aa430ceaad388,eaf46671839bb650489aa430ceaad38c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>22f46671839bb650489aa430ceaad38e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:02</sys_updated_on>
+        <ui_id>eceb4a1c-8400-419c-9b2a-67a365089fe0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW1PiShD+K6k8IxuIgHieVNSFWtxFAZF1KzWZDGR0ctlkIkbL/356kgkEQeTgZfdU8UCFmeme+br7m0v3z0eVWuq+WqnvaVVztItqml7WNW2vXK+ben2k7dXqWslCakF1kUNAEtkG96B5h1gk2o+PI+ZNjDsUUGQyUiQOouzpSQERi4Y+Q3H/dUlsU2YFxFX3f/4qqD4KYC1OAnX/8dkQj31iMGQSBhNe8IC6Y1Bf14RMsest2iNmhmaYzekFlgCgF1Ryz4lrEVhjhFhICqqDXAtxL4jVfR5E0BEQZH13WZyTuA/pA8y3p2maGB8RMAGLBdRc05AeSrux7VFMvvucem7aw4Wf5KDHIsc9SzEL35IRihjPfAs9UQjzEV9AdfkUyejC9ibn2YIn1E2skoPMw4hNW4iD7WbESSj8ThhxYCLDQb4PHjH8wLujiTJgcYpjBo1iElCLhHTsFhEWwIvgGVQ8gf5G0t2X0W7DNKAsgDPq0CS4qvCe+pQ4xPgdCSipadIII/UDCIQ4oD4/gBXuiMT7VJDU1apV06yalZo+i3sdj6yaOaqiGtZnoZ4gWNZBwa2RUC9H4tIiWxNsmzKzC8pfTgTMjJ1roMyUmy5mkUWUywzuKgskbU3PYwS5M96WV/NW9iwQ16aCO2pKQoV7CoSNxQpSpiuLTm4TJQEA/xBXaKiEEK6i0vUUKsHnNApK7EWKE4UcxDiMcBSM4U9AMIAtqrntsvspm0WGVvY2lsb9f7Gb3rp1StaqI5NU505JE+PcjlncMO90jK+BKVM8PDpagvCFg7yy2YbYnuSfd5KjlaEfleeD7Vlxjo/Xkabp2FcE6B1O3djBJPA8boJnbpNB61q9TsVIKhz6yFVCHjOSjU9sMGcH+jHZV/yA/HOtphOGDA6znVGAxsKTmXirax21us3YLLd+Dy/PNPG/1T07FN/haf3Guiwx0+2w9k2TtW/b8G3dXg3O7Zmc0LeOW91WI5nHqd8OB+1UXjtmZ70mO9OaQu/uyvHZld6ZjkEfNWENFPfiNu3FHfF1zyv4tJeXmVwNWvZQb9n4dPxROLThwJa2S/3Tvm05/YfZ/P2jVb4S8kM6ZwcjX/NrNO/bjQP4HnaGg9bN8LIi9Cf9U8aHFyB/3A+vBocPw8s5X3OwPcCpfx46F71Sh/ZK50c9HX7LvwcyshldErKUNE35QQIMgVe61CHKMUN+SFIp/EWwKM+qL75suZKSW8ptKfcfKXfx7UA5hKsI26/SbPEe3pR2f4jtm1i82Tvja7f9LXtlrHHVTF8Z6UWzcPPId4bNHTZ7ZdTe+MqoVip6dfvMyD8z/IlVtgLP96Vt7/LU2F0Zf2zNAp5mKR/z8m14OBI+U5qNjJhrAJsmmWkadZ4BfA5YEtSSixjUmvFUe1N6eBCGHqZwP4W5VHBCuQ3J3ZKsTi/PMxpyRJpwbjmzm7Ph92V4WqzZmOAYMuzAeEY0mS7+mfwucYaRxP21TG91cWx3Rp/cnB/C+a6YXzlL518X25zyC1gl3ef6JNtLb2J7Fyg+V7JQuISRSw63Z3b+zKahkbJR2pYs/uZDu7K6NIDnbukwMm8I5vki3wtPm0Vyr5B8l0r163ZMFadWLLPshVJHdVuz/puqbNbK841oc8H9nCLbGpAyxWc1tlUltt1tie1vLbH9+hfijnc/6RsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=22f46671839bb650489aa430ceaad38e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>26f46671839bb650489aa430ceaad385</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <ui_id>472b4ff7-3bda-408b-9828-400e3f5e70e3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XW2/bNhTHv0qgZ9MTJUqW8hbEDhagawDH7R66QqDIQ5sYLbm6pM2CfPeREh1LtuMZiZu2wJ4SHV7O/1x+JvnpwZHcOXdcziCiBEcj7LkudsPQZxSnqR+y1E0FcQZORpegZ1ZyCXldJULRubbeUVUbs6v/57JcKXr/0ZoEVSVoM1tIxQvInPNPnwfOihZ6owoK5/xha6i6X0GiaApKr54VNfx2Zbc4VuN68SSjqYIzq/VZ8cahtqZ5roBm2pAX3AgjAwe+VZBx0H6bMAbOkmacVnlx/2QpgPKbTG0MC5lVejvHTP5Wyn/03sQ18wToGBm0Y0+fic1Xa2aLXDK4WVUyz1pLZWKwg7mql9n7NgiTaRC0VtU609pSl3o/WBnNRoRVJG4X+dfp2uGVzJrw7KDKGVVPX7SqCpnWFZSmMLWcbeemNb3bVx5QsNRukyVdrWQ2T1ZFficbV1r5cjhX+mMoVP5VSyzlPBtSZsIc6oTS4ZW2jxvzR1pIE/Mfehu92Lj8kMkvNVyb8jNGI5cFFMU+A0TClKFIMIF8SAPhB2mUjlznsclv8qU2kbWZsjlJ2rTqCSUr5Kq60BLuwIb/OLAcRPhgj4ndVirZAnitoMPCLgovpuCpdmsIjhC4Xnu7Ufa8ZotA0fFjIQhPBkHkulsYsGXWFbEPiY76nxSNbs76cHSr9jZseB72OTCEuRsh4oUeinwyQqM4Sl2i+yL14dVssMO/v/Fun/G6oE3Rvgsb483ux+rbs/R5yRaNpkJdu+Uj+P+QWJOwk6I+Dp1sfy8aFnrdmN6XppL6ZNo9OwDTUZCiOAKq+YgxojHxUBzCCIiIQp/Gr+aDxIf6Dzp3qAKYbqIOFQ8Pt+8uzma0/DvBw8r8KRVN2mmPj6dkJme1KcDZ9XiNzRGyN6eR1b0dh0WF290TyTec4MOcmHIdh4nv/RhMWoWvp6SfnS1EenURUulSJo3opMzrool3Orm8mY6TPy9ml79Ppsl0cjubXl/OJuO3OmWIENjHYYgwdn1EcBoangLkQkBJ4JEwCL3/pKgNqmmg1/HUuYuxPOPSxFN2mNIBMO2VzuGv2nV9Pgp2Odo752VkXXY1HKt/7+J9QVnAejbLl38qvsjONe1XI6yXnj5gvQy/CS3AozAN9HUMRKTvZP4oQjH2PBSGlGNMGBfuSWkJDnYb7Vx1NntuaFkfOruMmFPpTB9PL3/JN2/x962/Y7X2Fj+j3ULRs1kovBM+Xn7xy1kvPVuP+F5lyqTtLytavOXj3sNRHJHUR35KAkRiIVDkRgQRoPrN7/ERwezFF7TP/wLh7y/p5hIAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26f46671839bb650489aa430ceaad385"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>2ef46671839bb650489aa430ceaad37c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <ui_id>83372c23-0bec-45bf-8608-a9fa7a6b34e7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YW2/bNhTHv0qgZ8sjJUqW8hbEDhagawDH7R66QqDIQ5sYLbm6pM0Cf/eREh1LtuMZSZq2wJ4SHV7O/1x+JqVPD47kzrmDOIOIEhyNsIcQRmHoM4rT1A9ZilJBnIGT0SXomZVcQl5XiVB0rq13VNXGjPT/XJYrRe8/WpOgqgRtZgupeAGZc/7p88BZ0UJvVEHhnD/sDFX3K0gUTUHp1bOiht+u7BanatwsnmQ0VXBmtT4p3jjU1jTPFdBMG/KCG2Fk4MC3CjIO2m8TxsBZ0ozTKi/uHy0FUH6Tqa1hIbNKb+eYyd9K+Y/emyAzT4COkUE79viY2Hy1ZrbIJYObVSXzrLVUJgY7mKt6mb1vgzCZBkFrVW0yrS11qfeDldFsRFhF4naRf51uHF7JrAnPDqqcUfX4RKuqkGldQWkKU8vZbm5a07tD5QEFS+02WdLVSmbzZFXkd7JxpZUvh3OlH4ZC5V+1xFLOsyFlJsyhTigdXmn7uDF/pIU0Mf+ht9GLjcsPmfxSw7UpP2M0QiygbuwzcEmYMjcSTLg+pIHwgzRKR8hZN/lNvtQmsjZTNidJm1Y9oWSFXFUXWsId2PDXA8tBhI/2mNhvpZItgNcKOizso/BsCh5rt4HgBIGbtbdbZU9rtggUHT8WgvDVIIgQ2sGALbOuiENIdNT/pGh0c9aHo1u1t2HD87DPgbmYo8glXui5kU9G7iiOUkR0X6Q+vJgNdvz3N97vM14XtCnad2FjvN39VH0Hlj4t2aLRVKhrt3wE/x8SGxL2UtTHoZPt70XDQq8b0/vSVFKfTPtnB2A6ClI3joBqPmLs0ph4bhzCCIiIQp/GL+aDxMf6Dzp3qAKYbqIOFQ8Pt+8uzma0/DvBw8r8KRVN2mnr9Wsyk7PaFODserzB5gTZ29PI6t6Nw6LC7e6J5FtO8HFOTLlOw8T3fgwmrcKXU9LPzg4ivboIqXQpk0Z0UuZ10cQ7nVzeTMfJnxezy98n02Q6uZ1Nry9nk/FbnTJECOzjMHQxRr5LcBoangIXQUBJ4JEwCL3/pKgNqmmgl/HUuYuxPOPSxFN2mNIBMO2VzuGvGiGfBwdeUQ7OeR5Zl10Np+o/uPhQUBawns3y5b8WX2TvmvarEdZLTx+wXobfhBbgUZgG+joGItJ3Mn8UuTH2PDcMKceYMC7QK9CyMTbduY1RPx2d7NTaiZCZ7pn1ektccLRjaee6tNW1JW5zcO1zZk62M33EPf9rQPM+/771d6rW3uIntFuwejYLlveKL0C/+AWvl56dDwG9ypRJ22FW9OYT0JsA5+Eojkjqu35KApfEQrgRiohLgCIWeHxEMHv2Je/zv2hRUgUqEwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ef46671839bb650489aa430ceaad37c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>2ef46671839bb650489aa430ceaad389</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:02</sys_updated_on>
+        <ui_id>0f8c3c43-92ec-40d9-8371-51b492acbe96</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2UXW/aMBSG/wrKdYicL9ZwNw0h9WLtxKbedFXkxCfgyXEyx6EwxH/fceIAbdcOVZ2mSeMqPj4f73v8iNudw5kzdSJgxE/8SR76YRgQElxEfjYJMz9gIQXwHdeRtATMVJBXiuF5TUVrArvdJPEJIXE4DgIajqOwyMZZBPE4899FSezHlCW+t+jq9nusZLypBd3e2AYYyVdcMAXSmd7euU5NFc7SoJzp7tGV3taQCpqBwMJZlbclSD26nGGPc30M1YvByGNjZgaeme2echPEK6PHJ64DGw2SAY4rqGjAdUoqGdWV2jpTrVoMKKDsWortIWPFpe6dlnTT8B/YPyImrwC0ltstHI6p3dCwnIrncF1rXsk+omkmhs1Voi3lVW/B7BYK2gp9stu2wX5QG8lGRK+w+Lyq7hfDvDmXnTurVlQ5FYcT1VrxrNXQmOcAAd1SSlrXXC7TWlVr3hWjlNJbCjx4hajucWbDl9KjudHt4YKoN8f4rAvfUMWNiY/YBov3nfn0e2vm9jas4LTz3BlOu4fC1CZXvNbvsfEarMy9a0EmwYsAwPG9O36bE5B507SQNrAGxfX2a0tIyD7gJzfbeELtb7JfR/QXKHGGhlE/xT3b09BgzkGw5hcmLdTaDkjXdsCB6zcD25+Q7vcf7z+Adxa/hEKeHF/+pOcR8U2KxUGQkFRDvpJVSozDb5Djv5zh+Snmn/rr0aW9fiXXRszoqhdzrpEHxc8YG7A+jVmk4zcj+uIvsWwV/WMwP4fw3U8g3DexbAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ef46671839bb650489aa430ceaad389"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>62f46671839bb650489aa430ceaad380</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <ui_id>69100053-22a3-43fb-b4e5-b1749515ad91</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1X227jNhD9FUHPjktZtmXnbbGBgQDbptikedkuCEqkYnZpUktSuRn+95IiJTm243vQFuiToOGQM3PmzAz5bR5SHF6GAwzG+Xg8GCUAxDEAw2GcoShN42GWgjSNwk7I0YwYTSWkhvqlIEb0iFjZyJDKjAhTVTD0cu9XUKBF8Grk2ZQyLAkPL79974QFkuY0TWR4OV9ZskdDhlLCzPbPU0Eza2lfJ+uNt8aj4M55ucHx6nNpLPvjhcTWl7gTkmdNOCbGXI6YIp1whjhGWsiXRiIJwjectYIp5dqcFlrlZ0VfzdFxz+rlxISVEbfW/EKPkRM7H5QJft5436C2AWDvKlh0Wv1Xq49W9TFZ3hAtDLiY5Khk+vNxNqNDbfasTRfgTaGpMCkOYws/SplHJROsnPHfXIrCxsP7DcxyK1fvEKxUBlhS2OTZbPjU5LdT8fS1Rn5CeeWXX2QiQ6z5Q1pLmpba4jIPcwxzShiGlDPKrSUtS0sVwsjMWIAzVBSUP8BCikdanWpimXUfmPnp5kw8WSzoA++izEbeNSRC3YmRX1XieySpReFXc4zZ3LEGp2artwdVJmmh4RPFD0S31mstLPQTYj82rXt2NTVUhRcuKgLCn6WN2AHtsYJVWqyCs/nJ+PtIPCw241XtRVtrD+GVOnNpXWLHems4uilMbF6CijKdvZ2rN99YZgbpy3v++s7gcs+djZrNZ+sOI3BYd2iK56DaWS8KS5ITauIDqb+p1nZR1iGxi7fjrTNj3PKA5nBm0KMFI1CSzCRdQSQJzEXJMXShLBHaQptTqbRXXif4V6JLyQNhyBDoKQkq7aDRPsdE3CO6euN1HtTheR9UYMILqvCCJrzDwHhnjvbPVin9Ayvl7UybIMoq6JUmxVLuiJRCvjNLd2RtS/r3HLR7OhWd1anTJ/Emvm+cyDt8PfOc/piedOq0zAhK+z00TOIoAiACOAGjJIlGwzQfoqSft4UGoeKZGefm5NwQwxwPayLUWQXrrcXN9GN7yJ3prr9M/BH7+ltvvhL8zxKAXqID67DJc1A7vDsk3y9SIRhBvKXn4B9rGOcarafyuKR3q9g40ZdNSfuoSVzSPzj9WZJrS4oRAb1RhLOLURIlF/0cDy/GGA0u0DgdJDEmWT8//V6JB1uvbkvzORMcUxuFWn50vChIsSVkjOfz2y+fgjukfsCoq+1HMeS7VfXfddqLxXpBHX3OkVN8OZZ9cdi4eRM49VReltVT5YyFBv6/xe4/MbZdVmthRZo2aeZvq3JormIkNxdmHC4WbUFtvRKifssZ51JbS88wGke93hhATbIpFxBYbP4imYZUqep5uVI1v7vl4NovHzmOrB9v3nN7xPBm83pMvgSq35VnHPjPP+P+nXcm4xBlJtvQga5EKStUHmHGSlUtSMSVfzscOze+/w1bCsQqshQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=62f46671839bb650489aa430ceaad380"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>6af46671839bb650489aa430ceaad386</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <ui_id>4d79a308-c10f-4c0b-b1f1-2878e599c566</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YWXPiOBD+Ky4/B2JjbOLs0+SGWpgJIReTKUqWBNZEPsaWQzyp/Pdt+QATEobNtdmqPNlqqVtfd39qt/X9TmVE3VZNe0uznHETtTSjYWjaVsO2HcMea1stW9MJUjdUH3kUViJ3JAIY3iCeyLFyd+fYukmdJq01bGer1iSOVUMNzaphq6nrzSbeslCrTj3EeJ2wiGJxfw9alq1rmmYatUYDGbWmMXZqYMOsOXqraZu6iYit1/sUBxGph1HwE/RGEsNsEI885KMJjXJxtgFYBmyExSFH6dkHhohdxklEfXX7+48NNUQRzAsaqdt3D6ZEGtIRRw7l4MmJiJg/AfV1k1YqDoLlDErLMIxLm+CFBGBsqPRWUJ9Q2GOMeEw3VPCCIBFEqbotogQEEUXkq8/TyorbmP0Ge1sQMTk/puAClhuoleGoSE0uxm7AMP0aChb4uUQghxc6OOCJ5/dyzDKpdIwSLsqkgiSJwR4NJVRfzJCMT9xg2i83PGB+5lUxyQOM+GyEBPjuJILGMu6UUw8MQcrCECIygiTesEwZsHj1CYdBfcyDKWwas4lfR1gCr0NkUP0A5HuZ+AxFTHrRBTOgLIFz5rEsuaqMnnqfBWT0K5FQctcKJ0Z5HGBBjCMWii+www0t8N5vFIdVsyzHsRyzZczzbuMxaTljoDE25qmeItjWQ9H1KKNe5djqy8ckw/ZcZg5AefNAwizZuQbKUrntY54QqpyXcFd5UNDWCQJOkT/nbWM1bwvJEnFdJrmj5iRURKBA2niqIGW2sxQKlyoZAHhDQmGxEkO66sogUFgBvqKxoaRBonhJLGCZgBmBogm8RHmpUCvHpfkuh6VIbSHdezTv/4vT9NKjo5NVJZNaC1XSwbhyYpYPzCuV8TUwlYo7u7uPIHyikJvPOxCflfz9KjlamfpxYzHZAUkrfLxKNM3AoSJB1wTzUw/TKAiEA5G5zibJlXqVL6P54jhEvhKLlNNyfuqCOzWQY7qthBH960rNDcYcilltHKGJjGS5vDMgu51BO3UanV/D854m3zuD3o58Dg/tn+Rc545/zLs/27x73YVn5/ryou/O10l9st8ZdPYyO559Pbzo5uu1fd47bfOe1pZ6N5deyC+N49kcyJgDe6D0NO2y0/RYPv2+iQ9Pq2umlxcdd2h0XHw4eSsc2vDCLXwv9A/PXOKd/Z7bP9tdFSu5fsgW/OD0qLpH2+idgPxgh2OvV8R05xRBfEF/2j+/dfFRjw93KzY83cWeeIDhbD/38/FnSY+WqXyjEYZMKwPmUWWfozCmJGfNpqRNlUabYT5arogFJ/81516I4nlV+GjQ/buswWscxFkNzo/h0rksqrArPD6vwa0X1mDLNA3rswhXi3A4JQ0SBWFY+PYqhbi5Mv+YzBOe93Bv0xfsBTiRMVPaeyUx1wA2a8HzJrNfAnwIuCAoKTYZMTLnqfai5vlLHAeYwQcjrjTKUyZcaH0f6XmNxiKjoYNmGeceZ3Z7Pv26DM9/ZZ9NcAz/H9HoAdGKZvq/6X6zYGRXDX/sg1dfHTTn9KnYfBPOD6R9pZfbXxfbgvITWAu6L8gKtusvYvsAKL7wQ6eIAkaldf6s2dWazeJRzsbCt2zzFxdtc/WPE174SseJI6/kKiR+ot1Y5vbTC1/lFu/PXswUZz485tcTv4HW533eR7qBICurG9UWkvs+FxBrQCoVH9w/rLp+aH5eP3zU64cf/wBp9pJt9xkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6af46671839bb650489aa430ceaad386"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>a6f46671839bb650489aa430ceaad382</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <ui_id>b915eb4e-29b8-4db6-a206-c641144c86a7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW3faOBD+Kz5+BmIwhpB9ai6kcBbapEASmh4fWRJYQb7UlkPdnPz3HfkCJiSUhiTb3ZMnWyPN6JuZT+Oxvt6pjKgHqtHa1xrWpI6aml7TNW2/1mpZemui7TdbWpUgtaS6yKGwEtmm8GB4i3gkx4qi3N01WlVN0wy9XKshvVzXJ1bZqlOjbFWb9ZZRNRBpVSvnFHsBqaAwZFOXEjBToQ5i/P7+Ny2wMIyoubud1IJDXWFOAy/yF2bAPcJCn6N49P/2EtuMk4C66sHXbyXVRwHkWNBAPbh7MCVin5ocWZRDML6IgLlTUN+WOrniwFvnkbQMwzC3CZAlAL2k0h+CuoTCHhPEQ1pSHeQSJLwgVg9EEIEgoIh8cnlcWPEjZD/B3j6ER85PKLiA5QZqYWhm2U3F2PYYpp98wTw3lQhk8UwHezxy3H6KWfKCTlDERc4LkEQh2KO+hOqKBZLJF9ubn+cbtpmbeJVNcg8jvhghAb5bkaChjDvlNMmVg3wfImL6gXfLEmXA4lSmHAaVCffmsKlMbAVhCbwCkUGVNsiPE/EIBUx60QMzoCyBc+awJLmqjJ56nwTE/B5JKKlrmRNmGgdYEOKA+eID7HBLM7z3paxkaI2GZTUso6kv897CE9K0Jg3UxPoy1XME2zoomJkJ9QrFo7p+0hJsz2XmAJT32hJmzs4tUObKHRfziFDlIoe7yYOMtpbncYrcJW9rm3mbSdaIazPJHTUloSI8BdLGYwUpi52lUNhUSQDAGxIKC5UQ0lVRBp7CMvAFjZISe5HiRKGAZQJmBAqm8BKkdUEtHJf6mxyWLLWZ9PjRvP8nTtOuR6dKNpVM2lipkhbGhROzfmBeqIxvgSlXPDw6egThE4XceN6BeK/kb1fJ0cbUT2qryfZIXODjdaRpOvYVCbosmBs7mAaeJyyIzCyZJNfqdbqMpotDH7lKKGJO8/m5De6UQY7pgeIH9K9rNTUYcihm5UmApjKS+fLugBx1B53YqnW/jy/6mnzvDvqH8jk+bd2Qiyq33DPeu+nw3qwHz+7s6vLcXq6T+uSkO+geJ3ac1mx82UvXaye8P+zwvtaRerdXjs+v9LPFHMiYBXugeBj32DA+k0/33MCnw+Ka+dVl1x7rXRufTl8Lhza+tDPfM/3TkU2c0c+l/dHRpljJ9WO24genH4t7dKq9I5C3Dzl2+llMD4cI4gv6c5RgPWxbp+05ro1mK1gu2jHSH/gyPAN/zp56LtiScMXQlM80wJB2ZcAcKj92Jxz5ISUpi/YkjYq02vPT0XqFzDj62xzcHcjzCvPHQe/vvCxvcTYXZTk9mWtHNSvMtnD4siw3dyzLDcPQG+91uViX/TmpkcDz/cy3F6nN9Y35x2SZ8LSte51W4djDkYyZ0jnOibkFsEVXnvad5znAh4AzgpJsE5ORJU+1nfrpD2HoYQbfkLDQO8+ZsKEbfqQN1murjIammiWce5zZneX0yzI8/bt9NsEx/JIE5gOiZf31v9MQJ8Ewk7z/qjXefJtQX9KnYPNVOD+Q9pV+an9bbCvKT2DN6L4iy9he3YntA6D4yj+eIjIYhW76vWYXazYLzZSNmW/J5jsXbWPzvxRe+UqHkXVDsSiQ+OmOY53eG9e+yPXer31ZKC48ecy7J/4PG+8XfX/S1QTZWOOotpLct7mZ2AJSrvjgYmLTvUT9/V7iT72X+PYPXM1mjJYaAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6f46671839bb650489aa430ceaad382"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>aaf46671839bb650489aa430ceaad387</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:02</sys_updated_on>
+        <ui_id>fbd328e3-917a-4447-85d8-0bb168e04495</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2UXW/aMBSG/wrKdYicL9ZwNw0h9WLtxKbedFXkxCfgyXEyx6EwxH/fceIAbdcOVZ2mSeMqPj4f73v8iNudw5kzdSJgxE/8SR76YRgQElxEfjYJMz9gIQXwHdeRtATMVJBXiuF5TUVrArvdJPEJIXE4DgIajqOwyMZZBPE4899FSezHlCW+t+jq9nusZLypBd3e2AYYyVdcMAXSmd7euU5NFc7SoJzp7tGV3taQCpqBwMJZlbclSD26nGGPc30M1YvByGNjZgaeme2echPEK6PHJ64DGw2SAY4rqGjAdUoqGdWV2jpTrVoMKKDsWortIWPFpe6dlnTT8B/YPyImrwC0ltstHI6p3dCwnIrncF1rXsk+omkmhs1Voi3lVW/B7BYK2gp9stu2wX5QG8lGRK+w+Lyq7hfDvDmXnTurVlQ5FYcT1VrxrNXQmOcAAd1SSlrXXC7TWlVr3hWjlNJbCjx4hajucWbDl9KjudHt4YKoN8f4rAvfUMWNiY/YBov3nfn0e2vm9jas4LTz3BlOu4fC1CZXvNbvsfEarMy9a0EmwYsAwPG9O36bE5B507SQNrAGxfX2a0tIyD7gJzfbeELtb7JfR/QXKHGGhlE/xT3b09BgzkGw5hcmLdTaDkjXdsCB6zcD25+Q7vcf7z+Adxa/hEKeHF/+pOcR8U2KxUGQkFRDvpJVSozDb5Djv5zh+Snmn/rr0aW9fiXXRszoqhdzrpEHxc8YG7A+jVmk4zcj+uIvsWwV/WMwP4fw3U8g3DexbAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aaf46671839bb650489aa430ceaad387"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>e2f46671839bb650489aa430ceaad384</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <ui_id>74fa193d-d33c-4fef-8547-b8741831ed5c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2U32vbMBDH/5XgZ8fIv7I6b4MQ6EPbkY2+dMXI1jlRkWVPltNmIf/7TracpO0aQukYg/ntTrq77/f0wXdbhzNn6kTAiJ/4kzz0wzAgJLiI/GwSZn7AQgrgO64jaQl4U0FeKYbxmorWJLbbSeITQuJwHAQ0HEdhkY2zCOJx5n+KktiPKUt8b9HV7XZYyXhTC7q5tQ0wk6+4YAqkM727d52aKpylQTnT7YsjvakhFTQDgYWzKm9LkHp0OcMe5/oYqheDkZfGzAyMme2ecpPEI6PHJ64DTxokAxxXUNGA65RUMqortXGmWrWYUEDZjRSb/Y0Vl7p3WtKnhv/E/hEx9wpAa7ndwj5M7YaG5VQ8h5ta80r2GU0zMWyuEm0pr3sLZrdQ0Fboo922DfaD2kg2InqFxddV9bgY5s257NxZtaLKqdhHVGvFs1ZDY54DBHRLKWldc7lMa1WteVeMUkpvKTDwClE94syGL6VHc6PbwwVRb475WZe+pYobE1fYBot3nfn0R2vm9jas4LTz3BlOu4fCq02ueK0/Y+M1WJk714JMgpMAwOG9O36bI5B507SQNrAGxfXme0tIyK7oQ6VeI3vq6vtY/gYlDtAw6ke4Z7sZGsw5CNb8xp7FWdsB6doO2BP9YUj7E9J9/8H+A2Bn8SkU8uTw8kc9D3A/pVgcBAlJNeQrWaXEOHyAHP9vBubXjH/pj0eX9vidXBsxo+tezLlGnhW/YWzA+jhnkY4/jOiLv8SyVfSPwfwWwve/AMTs0AdmCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e2f46671839bb650489aa430ceaad384"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>eaf46671839bb650489aa430ceaad388</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:02</sys_updated_on>
+        <ui_id>6b8e2c78-7714-466a-82ed-5813f245cb50</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XW2/bNhTHv0qgZ9MTJUqW8hbEDhagawDH7R66QqDIQ5sYLbm6pM2CfPeREh1LtuMZiZu2wJ4SHV7O/1x+JvnpwZHcOXdcziCiBEcj7LkudsPQZxSnqR+y1E0FcQZORpegZ1ZyCXldJULRubbeUVUbs6v/57JcKXr/0ZoEVSVoM1tIxQvInPNPnwfOihZ6owoK5/xha6i6X0GiaApKr54VNfx2Zbc4VuN68SSjqYIzq/VZ8cahtqZ5roBm2pAX3AgjAwe+VZBx0H6bMAbOkmacVnlx/2QpgPKbTG0MC5lVejvHTP5Wyn/03sQ18wToGBm0Y0+fic1Xa2aLXDK4WVUyz1pLZWKwg7mql9n7NgiTaRC0VtU609pSl3o/WBnNRoRVJG4X+dfp2uGVzJrw7KDKGVVPX7SqCpnWFZSmMLWcbeemNb3bVx5QsNRukyVdrWQ2T1ZFficbV1r5cjhX+mMoVP5VSyzlPBtSZsIc6oTS4ZW2jxvzR1pIE/Mfehu92Lj8kMkvNVyb8jNGI5cFFMU+A0TClKFIMIF8SAPhB2mUjlznsclv8qU2kbWZsjlJ2rTqCSUr5Kq60BLuwIb/OLAcRPhgj4ndVirZAnitoMPCLgovpuCpdmsIjhC4Xnu7Ufa8ZotA0fFjIQhPBkHkulsYsGXWFbEPiY76nxSNbs76cHSr9jZseB72OTCEuRsh4oUeinwyQqM4Sl2i+yL14dVssMO/v/Fun/G6oE3Rvgsb483ux+rbs/R5yRaNpkJdu+Uj+P+QWJOwk6I+Dp1sfy8aFnrdmN6XppL6ZNo9OwDTUZCiOAKq+YgxojHxUBzCCIiIQp/Gr+aDxIf6Dzp3qAKYbqIOFQ8Pt+8uzma0/DvBw8r8KRVN2mmPj6dkJme1KcDZ9XiNzRGyN6eR1b0dh0WF290TyTec4MOcmHIdh4nv/RhMWoWvp6SfnS1EenURUulSJo3opMzrool3Orm8mY6TPy9ml79Ppsl0cjubXl/OJuO3OmWIENjHYYgwdn1EcBoangLkQkBJ4JEwCL3/pKgNqmmg1/HUuYuxPOPSxFN2mNIBMO2VzuGv2nV9jt09b5T9k17G1mVXxbER7F28LyyLWM9mCfNPRRjZuaj9aoz10tNHrJfhN+EFeBSmgb6QgYj0rcwfRSjGnofCkHKMCePCPSkvwcFuo53LzmbPDS/rY2cXEnMunekD6uVv+eY1/r71d6zW3uJntFsoejYLhXfC58svfj3rpWfrGd+rTJm0/WVFi7d83ns4iiOS+shPSYBILASK3IggAlS/+j0+Ipi9+Ir2+V/el31s6BIAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eaf46671839bb650489aa430ceaad388"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>eaf46671839bb650489aa430ceaad38c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:02</sys_updated_on>
+        <ui_id>c740724b-2878-49e0-bedc-6fc0d66dce77</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1W32/aMBD+V1CeA3JIoIW3qlWlPXSVaNWXbrIc2wFvxskSB0oR//vOcRIopJRSOm3SnqKc7+d33539uHQEc4YOigKEiNc7P0PI9xHq931KvDD0+zREYW/guI4iUw6aWZxqrBcJB9GMyLyWkYyCiIkskWTxUJ6Qlo5bzyCnEyFZypUzfPzuOglJwZvmqTNcbh0Z11iSkEswv5zEgppIhyZZGd5BRq17m2VD4sVnCJFL93HKTC6+6/AnzRXjEC4iMuOuMyWKER2ni1qScsJulVwLJkJp8OYY5adMPINrv2v0Ig5lUW7P6l9cYmTFNocMil/W2deoNQBcpopW7lr/2eiTbX3GNw28FYDLeERyqS+Pi+m9N2bXxLQF3iZaxNBixzfwk1CWqNBY5lP11bbIqTN8aGCWPbl6hWB5BsDyxDTPdKNsTXQ3ieejCvlroYq8ykMZUyLrP6J1KsJcG1yWTsRwJLhkWCgplImk09xQhUs+hQh4SpJEqDFO0ngmCq9Qy7QzlvDTiWQ8N1iIseoQairvAIlI5xrkV4X4gaTCoHADbsDYNQEnYFrGwxlNRaLxXLAx1+volRaL9ZzIn03nJbvqGSrKc1YFAfGv3FRsgS6xwkVbjIKNeQH5zngJi+l4MXv0bO/s9bbmzLZ1gx27q+HopXBt+tIqKOMenFxlfGuY2QoXr+Vbbgbbe2VjVGw+2XY4R+/bDvXwvGt2dofCkOQDM/GJ1G+atbcoa5F4g7fB3juj7615AN3BKc8AwGyDtx5CaJe7nmvFxxH4i9J8XFR+aIqV5Q15ao3qHBsTLwks6hgle4OTsTf4I+ytgG/c+hX+J176n0Pwj67e8/3PHrRmAo0VEyajTQZDET841cUy62SLDAv2LQdPbLnsDwzKPb/d7RK/HfhR2A4D3muH3lkw6Hk9wgZeZ8QpUKi0XK12h+H0AY58LG5WfyhyjcZNcFZPxk1Z9S464Wih/1fD4ZNz0A2wnwRBuO63dbeenCfsDbxud4Cw5nSiYozMno1z6ASRBo0C+p15GBmdlPLWxabScZy+Nym9eOscUM4L493ySiYXv1tPHPTPP3H+zisAEhISuo0t6JYf4HKGqcyz4iAlKrO+jr4wvv8G8TMCf84PAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eaf46671839bb650489aa430ceaad38c"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=caf46671839bb650489aa430ceaad307"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=caf46671839bb650489aa430ceaad307^sys_idNOT IN62f46671839bb650489aa430ceaad379"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aaea9875835b7650489aa430ceaad376</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</flow>
+        <flow_variables_assigned>email</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:21</sys_created_on>
+        <sys_id>62f46671839bb650489aa430ceaad379</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:02</sys_updated_on>
+        <ui_id>5371a440-216b-4361-85ec-700bea952e3e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1XTW/jNhD9K4ROTuoo8necnAJs0y6w3aCbdC/rQKCokc1diVT4EccN/N87Q0l24BZFmy7Qi32ROOK8efNIztAvkfau9s7e62tr5VJFl18e+pFUZMP3l0jxCqLLCCouy6gfPfHS0xhfc2nrkm8+7y1iJcvcQAtSc4O+Dkx0+XLwyW1qSEueQYmOd85ItUR3meNoMizG0+lscDGaZ9l0kowv5pyPR4kAzvPRcIrzOseO0wFFAseh7WC1yYnDoB/BswOVA4YpeGmhH1Vc5dxps9lZDPD8VpV7w0oq12RX8Wcrf0doZJUkNLUAzEi0ye+GaStMp4mWAm5rJ7VqLI5nZSeYLn2lPjb8SVIouC/dK0m9RTyoiTbxaEkVdyu9/tQFvJEqZNh+LLXg5W7EHeqQeQeWlsHL+wN1GsuHw7WAEiqMmFa8rtGS1kY/yRAFSVfxssRBXJR6jexo38RcUIYxysnjG7S/C+bP3EhK9xeEQWcK95uSjx7e01oPLmYimxbzs/kUirPxLMnOsukwOeOj8SQfj0c8yUfRNkibPnpKqhGplSNtFMUJVhhZu2uk8AS7zBsjZd3sDHz523nR+elCnZ5eCwHWMsrh/DokxSgp5i3qwNwKWJGnwaKzryBczO4CAKu8dcyA80YxzsJBiRkh3tIGZMpXGT6kZbooLDiWbdgPAyYV+9EYbdjPuBdLCnEHjZSBzBMyJwGZDjvIsnZzMV8jsdogVfJZRPEiYrzA09bRI3d45lVdwiWyMcyutHG4LIItfJKM8m5ijGu+XIKJhTe4n1wcJtK6hrww6hVhtZntUMh4vlALRdhB4Q8SBWixvzxc0bedPa69XfW6iOkwTUutv6W+Tg0IPKFx++ChCkGeOh0H55OrN6OEDbw02tf/AQo3Pq1ySkVmN7B4LhRHzRrzDr0Rw/BOBQVr9hMdlU8BrEfm4ew5HcwHw+E8SR2IldJpgjGt9lg6eEmnlzRvphKo4THP8189mE0L8JpTY+mzf5mJ3dhU5i38Y8BuElhjoYYeGhVWy97JCXtZKIa/3Sp3uRGtvcwBdAkOi1Kb6wkNQyVrWQfvfVoEKoteo10XhX4HS7QTl75tF2pLLNvNuJ/6VUvVxul3MaLtdvtALaupQU0/+6dN5o19rw2wB7h5l8zz4VzMJlkxyGYYbJDDYCTm40JMYTIZie/aVRuXtuUlb2t5h43uzy3s+3al7V9X8O3xDnG8QxzvEMc7xPEOcbxD/M93iByEtKjoPZ2j992/Y/qwQdZSvDattflGVW1v2/4BWxmzLmcPAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=caf46671839bb650489aa430ceaad307"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=caf46671839bb650489aa430ceaad307^sys_idNOT IN52f46671839bb650489aa430ceaad326"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=187cb6f9-96ef-470b-b620-a345d443a0d3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>email</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</model>
+        <model_id>caf46671839bb650489aa430ceaad307</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_caf46671839bb650489aa430ceaad307</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 04:55:20</sys_created_on>
+        <sys_id>52f46671839bb650489aa430ceaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 04:55:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sla_flow_inputs</element>
+        <help/>
+        <hint/>
+        <label>sla_flow_inputs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_caf46671839bb650489aa430ceaad307</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:01</sys_created_on>
+        <sys_id>07c072f983dbb650489aa430ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task_sla_record</element>
+        <help/>
+        <hint/>
+        <label>task_sla_record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_caf46671839bb650489aa430ceaad307</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:01</sys_created_on>
+        <sys_id>47c072f983dbb650489aa430ceaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_caf46671839bb650489aa430ceaad307"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_caf46671839bb650489aa430ceaad307"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9cf3bfe583177650489aa430ceaad30d</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>copy_of_sla_monitering_and_escalation</internal_name>
+        <label_cache>[{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.issue_assigned_to.email","label":"2 - Look Up Record➛Project Issue Record➛Issue Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b915eb4e-29b8-4db6-a206-c641144c86a7":["ah_to"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assignment_group.email","label":"2 - Look Up Record➛Project Issue Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b915eb4e-29b8-4db6-a206-c641144c86a7":["ah_to"]}},{"name":"SLA Task_1.task_sla_record.task.state","label":"Trigger - SLA Task➛Task SLA Record➛Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"task","column_name":"state","choices":[{"label":"Pending","used":false,"image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task","dependent_values":[""]}},{"label":"Open","used":false,"image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"label":"Work in Progress","used":false,"image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Complete","used":false,"image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Incomplete","used":false,"image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"label":"Closed Skipped","used":false,"image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task","dependent_values":[""]}},{"label":"Assess","used":false,"image":"","reference":false,"rawLabel":"Assess","selected":false,"missing":false,"value":"-4","parameters":{"name":"change_request","title":"Change request is ready for authorization","dependent_values":[""]}},{"label":"Authorize","used":false,"image":"","reference":false,"rawLabel":"Authorize","selected":false,"missing":false,"value":"-3","parameters":{"name":"change_request","title":"Change request has been authorized","dependent_values":[""]}},{"label":"Scheduled","used":false,"image":"","reference":false,"rawLabel":"Scheduled","selected":false,"missing":false,"value":"-2","parameters":{"name":"change_request","title":"Change request has been scheduled to be actioned","dependent_values":[""]}},{"label":"Implement","used":false,"image":"","reference":false,"rawLabel":"Implement","selected":false,"missing":false,"value":"-1","parameters":{"name":"change_request","title":"Change request is in the process of being actioned","dependent_values":[""]}},{"label":"Review","used":false,"image":"","reference":false,"rawLabel":"Review","selected":false,"missing":false,"value":"0","parameters":{"name":"change_request","title":"Work checked to see if change request was successful","dependent_values":[""]}},{"label":"Closed Abandoned","used":false,"image":"","reference":false,"rawLabel":"Closed Abandoned","selected":false,"missing":false,"value":"8","parameters":{"name":"chat_queue_entry","dependent_values":[""]}},{"label":"Skipped","used":false,"image":"","reference":false,"rawLabel":"Skipped","selected":false,"missing":false,"value":"5","parameters":{"name":"help_guidance_task","dependent_values":[""]}},{"label":"Resolved","used":false,"image":"","reference":false,"rawLabel":"Resolved","selected":false,"missing":false,"value":"6","parameters":{"name":"incident","dependent_values":[""]}},{"label":"New","used":false,"image":"","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"101","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Assess","used":false,"image":"","reference":false,"rawLabel":"Assess","selected":false,"missing":false,"value":"102","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Root Cause Analysis","used":false,"image":"","reference":false,"rawLabel":"Root Cause Analysis","selected":false,"missing":false,"value":"103","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Fix in Progress","used":false,"image":"","reference":false,"rawLabel":"Fix in Progress","selected":false,"missing":false,"value":"104","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Resolved","used":false,"image":"","reference":false,"rawLabel":"Resolved","selected":false,"missing":false,"value":"106","parameters":{"name":"problem","dependent_values":[""]}},{"label":"Closed","used":false,"image":"","reference":false,"rawLabel":"Closed","selected":false,"missing":false,"value":"107","parameters":{"name":"problem","dependent_values":[""]}},{"label":"New","used":false,"image":"","reference":false,"rawLabel":"New","selected":false,"missing":false,"value":"151","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Assess","used":false,"image":"","reference":false,"rawLabel":"Assess","selected":false,"missing":false,"value":"152","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Work in Progress","used":false,"image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"154","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Closed","used":false,"image":"","reference":false,"rawLabel":"Closed","selected":false,"missing":false,"value":"157","parameters":{"name":"problem_task","dependent_values":[""]}},{"label":"Approval not required","used":false,"image":"","reference":false,"rawLabel":"Approval not required","selected":false,"missing":false,"value":"9","parameters":{"name":"roster_schedule_span_proposal","dependent_values":[""]}}],"usedInstances":{"3851f523-ea42-42ae-95a6-5711a06d7133":["condition"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.issue_title","label":"2 - Look Up Record➛Project Issue Record➛Issue Title","reference":"","reference_display":"Issue Title","type":"string","base_type":"string","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"issue_title","choices":[{"order":0.0}],"usedInstances":{}},{"name":"SLA Task_1.task_sla_record.task.sys_id","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"69100053-22a3-43fb-b4e5-b1749515ad91":["conditions"]}},{"name":"SLA Task_1.task_sla_record","label":"Trigger - SLA Task➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","choices":[{"order":0.0}],"usedInstances":{"472b4ff7-3bda-408b-9828-400e3f5e70e3":["record"],"d350bda6-f253-4d2b-8dd1-1c5755e4f088":["record"],"3498ada2-68e4-467e-8209-f3f7996584d4":["record"],"6b8e2c78-7714-466a-82ed-5813f245cb50":["record"],"564eb984-e71e-4c30-87ee-0f791106dca8":["record"],"83372c23-0bec-45bf-8608-a9fa7a6b34e7":["record"]},"attributes":{"":""}},{"name":"SLA Task_1.task_sla_record.task","label":"Trigger - SLA Task➛Task SLA Record➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"task_sla","column_name":"task","choices":[{"order":0.0}],"usedInstances":{"564eb984-e71e-4c30-87ee-0f791106dca8":["record"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","usedInstances":{"472b4ff7-3bda-408b-9828-400e3f5e70e3":["record"],"55dd857e-b94b-42f9-8e13-77f3e53c6c17":["record"],"6b8e2c78-7714-466a-82ed-5813f245cb50":["record"],"83372c23-0bec-45bf-8608-a9fa7a6b34e7":["record"]},"attributes":{}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assigned_to","label":"2 - Look Up Record➛Project Issue Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"assigned_to","choices":[{"order":0.0}],"usedInstances":{}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assigned_to.email","label":"2 - Look Up Record➛Project Issue Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"b915eb4e-29b8-4db6-a206-c641144c86a7":["ah_to"]}},{"name":"c740724b-2878-49e0-bedc-6fc0d66dce77.Records","label":"10 - Look Up Records➛Resource Allocation Records","reference":"x_1912290_techno_0_resouce_allocation","reference_display":"Resource Allocation","type":"records","base_type":"records","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.email","label":"Flow Variables➛email","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","choices":[{"order":0.0}],"usedInstances":{"eceb4a1c-8400-419c-9b2a-67a365089fe0":["ah_to"]},"attributes":{"sourceId":"","co_type_name":"FD09d29c75bf1b76501de13c94fc6e553c","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"187cb6f9-96ef-470b-b620-a345d443a0d3"}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.sys_id","label":"2 - Look Up Record➛Project Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"sys_id","choices":[{"order":0.0}],"usedInstances":{"c740724b-2878-49e0-bedc-6fc0d66dce77":["conditions"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.project_name.project_s_manager_name.email","label":"2 - Look Up Record➛Project Issue Record➛Project Name➛Project\u0027s Manager Name➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"order":0.0}],"usedInstances":{"4d79a308-c10f-4c0b-b1f1-2878e599c566":["ah_to"]}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Task SLA Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task_sla","column_name":"sys_id","usedInstances":{"69100053-22a3-43fb-b4e5-b1749515ad91":["conditions"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record","label":"2 - Look Up Record➛Project Issue Record","reference":"x_1912290_techno_0_project_issue","reference_display":"Project Issue","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.task.sys_id","label":"Trigger - Record Created or Updated➛Task SLA Record➛Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"69100053-22a3-43fb-b4e5-b1749515ad91":["conditions"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.project_name","label":"2 - Look Up Record➛Project Issue Record➛Project Name","reference":"x_1912290_techno_0_project","reference_display":"Project","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"project_name","choices":[{"order":0.0}],"usedInstances":{}},{"name":"b915eb4e-29b8-4db6-a206-c641144c86a7.email.direct","label":"3 - Send Email➛email➛To","reference":"","reference_display":"To","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"direct","choices":[{"order":0.0}],"usedInstances":{"4d79a308-c10f-4c0b-b1f1-2878e599c566":["ah_to"]}},{"name":"69100053-22a3-43fb-b4e5-b1749515ad91.Record.assignment_group","label":"2 - Look Up Record➛Project Issue Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1912290_techno_0_project_issue","column_name":"assignment_group","choices":[{"order":0.0}],"usedInstances":{}}]</label_cache>
+        <master>true</master>
+        <name>Copy of SLA Monitering and Escalation</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Copy of SLA Monitering and Escalation">caf46671839bb650489aa430ceaad307</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3fc0b2f983dbb650489aa430ceaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3fc0b2f983dbb650489aa430ceaad3bb^sys_idNOT INfbc0b2f983dbb650489aa430ceaad3bc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3fc0b2f983dbb650489aa430ceaad3bb</id>
+        <name>Copy of SLA Monitering and Escalation</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_id>fbc0b2f983dbb650489aa430ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fbc0b2f983dbb650489aa430ceaad3bc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3fc0b2f983dbb650489aa430ceaad3bb^sys_idNOT IN7fc0b2f983dbb650489aa430ceaad3bf,b3c0b2f983dbb650489aa430ceaad3d6"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDbbc0b2f9f8dbb65094d54e7fa47967be</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ac9e6df6833a3a10489aa430ceaad34a</scope_name>
+        <serialized_content>{"FlowDesigner:FDbbc0b2f9f8dbb65094d54e7fa47967be":{"duration":"String","duration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"32\"}"},"relative_duration_works_on":"String","relative_duration_works_on.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"relative_duration_works_on\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"32\"}"},"is_repair":"Boolean","is_repair.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"choiceOption\":\"\",\"default_value\":\"false\",\"label\":\"is_repair\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"32\"}"},"duration_type":"String","duration_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"duration_type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}"}},"FlowDesigner:FDbbc0b2f9f8dbb65094d54e7fa47967be.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDbbc0b2f9f8dbb65094d54e7fa47967be\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"sla_flow_inputs\",\"mandatory\":\"false\",\"order\":\"100\",\"max_length\":\"4096\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bfc0b2f983dbb650489aa430ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDbbc0b2f9f8dbb65094d54e7fa47967be,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sla_flow_inputs</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sla_flow_inputs</label>
+        <mandatory>false</mandatory>
+        <max_length>4096</max_length>
+        <model display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</model>
+        <model_id>3fc0b2f983dbb650489aa430ceaad3bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3fc0b2f983dbb650489aa430ceaad3bb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_id>7fc0b2f983dbb650489aa430ceaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7fc0b2f983dbb650489aa430ceaad3bf"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_sla_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>task_sla_record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</model>
+        <model_id>3fc0b2f983dbb650489aa430ceaad3bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3fc0b2f983dbb650489aa430ceaad3bb</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="task_sla">task_sla</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_id>b3c0b2f983dbb650489aa430ceaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b3c0b2f983dbb650489aa430ceaad3d6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3fc0b2f983dbb650489aa430ceaad3bb^sys_idNOT INfbc0f2f983dbb650489aa430ceaad308"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <name>SLA Task</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>fbc0f2f983dbb650489aa430ceaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <trigger_definition display_value="SLA Task">f5ce00a873723300d70877186bf6a759</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>sla_task</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3fc0b2f983dbb650489aa430ceaad3bb^sys_idNOT IN37c0f2f983dbb650489aa430ceaad303,3fc0b2f983dbb650489aa430ceaad3fe,77c0f2f983dbb650489aa430ceaad304,7fc0b2f983dbb650489aa430ceaad3ff,b3c0f2f983dbb650489aa430ceaad301,bbc0b2f983dbb650489aa430ceaad3f8,bbc0b2f983dbb650489aa430ceaad3fa,bbc0f2f983dbb650489aa430ceaad307,f3c0f2f983dbb650489aa430ceaad302,f3c0f2f983dbb650489aa430ceaad306,ffc0b2f983dbb650489aa430ceaad3fc"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>37c0f2f983dbb650489aa430ceaad303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>6b8e2c78-7714-466a-82ed-5813f245cb50</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Y227jNhCGXyXQteWSEiVLuQvsBA2QbgDbu73YLgSKHMZEacmrQ3ZTI+9eUqJj+RDXaZwAQXuVaMTDP//MZ9L+unQkd84dxBlElOBogD2EMApDn1Gcpn7IUpQK4vScjM5Bj6zkHPK6SoSidzp6T1Vtwkj/z2W5UPThiw0JqkrQYTaTiheQOedfv/WcBS30QhUUzvly69WxShRNQemhlxlNFZxZRc9KrB4WJprmuQKa2cCNXWNa1PDLlVWaF9zoIj0HflaQcdCCmix6zpxmnFZ58fAUKYDy20ytAzOZVXpFxwz+Wcq/9KYEmXECdIoM2ndPj4m1qw2LEa3opCpqVtWFHcpmuWRQtuZwELRW1bAbawfcLiqZZ+2UyjhiZ+eqnmefWkucpwVW1dGRutQiYGESNcptGmIyy3+MVyqvZNZ4Yl+qnFH19ESrqpBpXRk9S6eW022n29Ber0HBXG+bzOliIbO7ZFHk97LZSiuf9++UfugLlf/QEkt5l/UpM2n2dRVo/0rHR034Cy2kyfk3vYyebLb8nMnvNVybZmKMRogF1I19Bi4JU+ZGggnXhzQQfpBG6QA5jz2nfCiHipbl2i1dpuR7bXJtvbMuJa3RZgor5KK60KLuwRry2LM0RfhgD4vdVi3ZDHitoEPULlAvZukIHSuWJmsBz0uzJK07epOlcSduUQpPhlKE0BZMbJ51xe0Dq5PVhwRMTIAWbHYlQZl6NpV5FrtuWTbB6xbmfbjzPOxzYC7mKHKJF3pu5JOBO4ijFBHdeqkPb8AdO3x2xLvNzeuCNsU9KXdH6FhxN1oLeF6a5a6pzXb8Znchy17w/zH2qmNsx+5NqDqGvxVTMz1vRB9K0xX67Nw93QDTQZC6cQRUUxZjl8bEc+MQBkBEFPo0fgPKSHyou6FzVyyA6V7ssLVcTm4uzqa0/DPB/cr8KRVN2mGPjycg7wht6ulD0YrbFmtp4zmrm6pKvo2afXN2PVrThg/TZup3HGy+94Fga9N6PWubZm+BtmG3kEqXP2lEJ2VeF41J48vh7XiU/H4xHf56OU7Gl5Pp+Ho4vRy914lHhMA+DkMXY+S7BKehoTJwEQSUBB4Jg9D7Fyy2aTYd+joqO3dOlmdcmgzLDpk6JaZ3pXfwR42QzzHa841u/6CTEtq9kw67QveJt6TuxG72LWA59U/FKdm5kP4nSN0wexPUDbvfhTrgUZgG+ooJItL3TH8QuTH2PDcMKceYMC7QG1MXHOxm2rnWrddcU7c6AndRM2fkmT4sX87XPyta8TVt2mm/QovWTuymO/fsU/vCouW98MLZtuTe73ofCKyT3Tc3vN765aTrtiyTtiWtaPGev6h4OIojkvqun5LAJbEQboQi4hKgiAUeHxDMTnjn/PY3QD1QLKEUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=37c0f2f983dbb650489aa430ceaad303"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>3fc0b2f983dbb650489aa430ceaad3fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>74fa193d-d33c-4fef-8547-b8741831ed5c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UXU/jMBD8K5Wf28pJ2h7t24kKCYmPEyBeAEWOvaFGjpOznUKv6n+/deK0PeAQSDwc0vXNuzv2zGSnN2siBZmREQgaTaMJT6IkiSmND0ZRNkmyKBYJA4hIn2hWAE4a4KUReF4yVfvCej2ZRpTScTKIY5YMRkmeDbIRjAdZ9G00HUdjJqbR8KLBbTaIFNJWiq2uwwVY4QuphAFNZjd3fVIxg285MGS2ftZ6L1nFMlA4etGxfc7erSp/FiWvC9AulV3xJCDnodM7nmMHQZ5ORPsEnhxoAUgkZ8pCnxRMC+ZKsyIzZ2osGGDiXKvVdmIhtWuFFuzJyl/48oj6uRxQGQ8mbI9pMKgt53Pm2CXezF1ttn6VkoNtPRGQs1q5w/1aO3BeOVnqFuJYpjp0qepCn7WOkO0Fe9+jtkgCKq/TM29l5ZeL8vGiI3kkdWNJkKhKztT2xJwzMqudp7MmoKDxuGBVJfV9WplyKRswUimG9woPw1yVj/imlfd6yLjnPURX2fAI6/OmfM2M9CJO8RoEb/rEruyhYtbupKCH6c/aM2mFBQlp40JjQdpsggdzIyv3HZ9aQiC+6Yc40PjNDYPdQjUpsHtxkNbWkFpYgpFudVtTmohT9lCal4v/1ujHEvEOvl0ijiQoYV8REBLhoECODtJW0J+huArN3nVobnPxacGIJrT5/Y/HvxuPbPzWuvHpbrv27txF5ClFcBxPaeqAL3SZUq/5ATj+DftIvEzKj7bdOw7tj6XjHXS7dFw1a/A6/S4gz2sn+9jeWdsIwRh/Wi4OvlIigowvH4m/BeHuN5kjfSc4CQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3fc0b2f983dbb650489aa430ceaad3fe"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>77c0f2f983dbb650489aa430ceaad304</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>0f8c3c43-92ec-40d9-8371-51b492acbe96</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U0U7bMBT9lcrPbeUkbUf7NrVCQmIwAeKFocixb6gnx8lsp9BV/fddJ07bAWMg8TCk9am+9x77nNN7erMhUpAZGYGg0TSa8CRKkpjS+GgUZZMki2KRMICI9IlmBeCkAV4agecVU7UvbDaTaUQpHSeDOGbJYJTk2SAbwXiQRZ9G03E0ZmIaDS8a3HaLSCFtpdj6OlyAFb6UShjQZHZz2ycVM/iWA0Nmm0et15JVLAOFoxcd28fs3bryZ1HyugDtUtkVTwNyETq9kwV2EOTpRLRP4MGBFoBEcqYs9EnBtGCuNGsyc6bGggEmzrVa7yaWUrtWaMEerPyJL4+on8sBlfFgwu6YBoPacr5gjl3izdzVZudXKTnY1hMBOauVmx/W2oHzyslStxDHMtWhS1UX+qx1hOwuOPg9aoskoPI6PfNWVn65LO8vOpLHUjeWBImq5EztTsw5I7PaeTobAgoajwtWVVLfpZUpV7IBI5VieKfwMMxVeY9vWnmnh4x73kN0lQ2Psb5oytfMSC/iC16D4G2f2LWdK2btXgp6mP6oPZNWWJCQNi40FqTNJngwN7Jyn/GpFQTi236IA41f3DDYL1STAnsQB2ltDamFFRjp1t9qShMxx6/S+/Nk9/8y/bZcvIJ1l4tjCUrYZ2SEXDgokKaDtJX1ezSuQrN3HZq7dLxbPKIJbT7/Q/LvhiQbv7RufLrfroM790F5SBEcx1OaOuBLXabUa/4OHP+MfSqehuVr2+6dhPbb0vEKul06rpo1eJ5+F5DHtdNDbO+sbYRgjN8tF0cfKRFBxoePxJ+CcPsLsoUkeT4JAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=77c0f2f983dbb650489aa430ceaad304"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>7fc0b2f983dbb650489aa430ceaad3ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>472b4ff7-3bda-408b-9828-400e3f5e70e3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/iOBSG/0qVa8LGiROS3lVAtZW6UwmY2YvZUeTYx2CtSZh8dIZF/e9rJwYCod12SytVu1eQE3+85z3nqV2+bizBrEvLYRRCglE4QK7jICcIPEpQkngBTZyEY6tnpWQJamQplpBVZcwlmavoPZGVDjvqOxPFSpL1FxPiRBagwnQhJMshtS6/futZK5KrhUrIrcvN0avnKpEkAamGjlOSSLgwih6VWK5XOppkmQSSmsCtWWOWV/DLtVGa5Uzrwj0LfpaQMlCC6ix61pKkjJRZvt5FciDsLpX7wEKkpVrR0oN/FuIvtSl29DgOKkUKzbvdY2zsasJ8REoyLfOKllVuhtJFJigUjTkMOKlkOWzHmgF3q1JkaTOl1I6Y2ZmslumnxhJrt8C2OipSFUoErHSiWrlJg08X2Y/JVuW1SGtPzEuZUSJ3T6Qsc5FUpdazsSoxO3a6CZ30GiQs1bbxkqxWIp3Hqzy7F/VWSvmyP5fqoc9l9kNJLMQ87ROq0+yrKpD+tYqP6vAXkgud829qGTVZb/k5Fd8ruNHNRCkJHeoTO/Io2DhIqB1yym0PEp97fhImA8d66FnFuhhKUhR7t1SZ4u+VzrXxzrgUN0brKTQXq/JKiboHY8hDz9AUoid7mHdbtaALYJWEFlFdoF7M0jN0bFma7gU8Ls2QtO/oQ5YmrbhBKTgbSqHjHMFEl2lb3CmwWll9SMD4FEhOF9cCpK5nXZlHsWuX5RC8dmHehzvXRR4DaiPmhDZ2A9cOPTywB1GYOFi1XuLBG3BHnz47om5zsyondXHPyt0zdGy5G+0FPC7NcFfX5jh+213IsOf/f4y96hjr2H0IVcvwt2JqoeaNyLrQXaHOzu7pBogM/MSOQiCKsgjZJMKuHQUwAMzDwCPRG1CGo6e6G1p3xRyo6sUWW5vN9PbqYkaKP2PUL/VHIUncDHt4OAN5z9Amd38UjbhjsYY2ltGqrqpgx6iZNxc3oz1t6GnadP2eB5vnfiDYmrRez9qh2UegHdjNhVTlj2vRcZFVeW3SZDy8m4zi369mw1/Hk3gyns4mN8PZePReJx7mHHkoCGyEHM/GKAk0lb7tgE+w7+LAD9x/wWKTZt2hr6OydeekWcqEzrBokalSompXMoc/Ksfx2MDv0nhyzFn5bN9Ih22Zp6QbTjux21MLGEq9c1GKO9fR/wSnB2YfYnpg97swBywMEl9dMIGH6pbpDUI7Qq5rBwFhCGHKuPPGzPlPdjNpXer2a+6Z2x6AXdL0CXmhjsqX8/XPirZ8zep2Oq3QoNWJ3bbnXnxqXhi03BdeN5uWPPmf3gcC62y3zQOvj343abstirhpSSOav+fvKS4KoxAnnu0l2LdxxLkdOiG2MRCH+i4bYETPeOP89jeKz22vnxQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7fc0b2f983dbb650489aa430ceaad3ff"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>b3c0f2f983dbb650489aa430ceaad301</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>4d79a308-c10f-4c0b-b1f1-2878e599c566</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW3PaOhD+Kx4/AzUYTMh5asilMIWeJuRG02FkScZq5EttOdTN5L+flS2DuZSGk2SazuQJtFpJ366+by3py73OiL6vtzp7hmU7TdQ2zIZpGHuNTsc2O46x1+4YdYL0iu4jj4IncicigOYd4olsa/f3dqfeonaTVhsde6/aJLZVRQ3DqmKrWa83m3jPQu0a9RDjNcIiisXDA4yyOnXDMFpmtdFAZrVpOnYV5mhV7Xq72WnVW4h06rVTioOI1MIo+AbjJhLDvBFPPOSjKY1yc7YAzAzYCItDjtKLVwwRu4yTiPr6/pevFT1EEfQLGun79ytdj90ejmzKwXUUrO+VSEPZjEXE/Klqf1T+Z4URgpDrmxWd/hDUJxQWdhCPaUWHIAgSQZTq+yJKwBBRRD75PC15/IjZT1hkDxIm+x0KEWC5ql5qTtTO5GbnEAkE6ydYJJFyxW7AMI3z2Al1UMJFt2zLHT6FggV+PkQgmxejA554/jCPXp9PUBABLEkMIGgo4/PFHL5z5gaz0wLlMfOzVKhOHmDE5y0kIGF2IiSee51y6sFEsM1hCGmcwMbfsWwwYPFqUw6NmsODGSwas6lfQ1gCr0E6Ue0Y7IeZ+QJFTEYxgGlgsATOmccyQugy5fpDRY/TuMtRHC/Cg7xOvicSXB6sCmuSZ0YOwRELxXtY846qCB4qSvKGZdm2Zbfa5oJTHeyQtu2AGLC5oNEMARAPRbeTjMAl8dfXxZah3ZXfj8BS8LvnY54Qql0WoLbhVMS3g4BT5K8wfwRI3x3LnCzY39jOfmVZo7/LJJn0nJWaCDTYR55qSJtDkkbhUi1DBv+Q0FisxbBbNW0UaExFVRpR0dIg0bwkFuAmoEegaAp/orze6CXRNV+v5BQdlPVwI1f+Ck0+vwDrZFtRp9ZSHbcxLuluXXY7S+4RqxeSO+h2N2DZ5aPS+n+yevuq/HVfFbSVVk5jmUgBSUusvkkMw8ShJsOoCuanHqZREAgbcnWbdZIb/SZ3o7lzHCJfi0XKadE/cyHAKtgx3dfCiP5zo+cTxhwqa9WJ0FTmtnDvj0i3P+qldqP/fXw5NOT//mh4IH/HJ51v5LLObf8zH3zr8cHtAH77t9dXp+7CT44nR/1R/zCbx+vcjq8Gub9xxIfnPT40enLc3bUX8mvz87wPbMyGNVB6ng7YefpZ/vqnLXxyXvaZXV/13bHZd/HJ9KVwGOMrV8Wuxp9cuMS7+LmY/6K7LVfSf8yW4uD0Q3mNnjk8A/vxAcfeUOX04BxBfmH87PTyh4s/DPm4W5rDq7vYEysYLo7yODf/FvRot7R/aYRhp7UR86h2xFEYU5Kz5p2kTZlG78K8tV5XFSd35twTUexWyx8hunktzyW3pkFVzV3h8ZVa/mE0+Lio5O0nVnKr1TKtt1L+5FIezkiDREEYqtheqJw3tzILkwWV8mPp855RHrH6/NqbH45PCxSrqBS/SYCTbD8YWaH5oerReocLthtPug68j+MAM/jqxKWj/4wJFw7zG07xZmNZF3AnYBkJN+ujt+h+BTrJ3wV2kIlzRlGE3WNGudxqP/HsjNjL8sFwb4smK6RV14bXcs7P0pY98Pz2xL/9Gae54G1pzuc99f8ewUJRkg2bESk1rdk+lsdqw7xDaam+o5ZyRikpjUA/S/dfTSh4pTvC22flyZ8VFk9yAqvYssVf4LvS2n77xEtHlDix5WtqSQm/OFetC+TXjjs+wP4eb6GbsznaTRHscmu23p5i/7gknp/6ZGsJpsYScZ771ecRixc8Xnn02fnNp/n25vPn6fuibz5f/wMnOUG/PhwAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b3c0f2f983dbb650489aa430ceaad301"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>bbc0b2f983dbb650489aa430ceaad3f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>83372c23-0bec-45bf-8608-a9fa7a6b34e7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Y227jNhCGX8XQteWKEiVLuQvsBA2QbgDbu73YLgSKHMZEacmrQ3Zdw+9eUqIj+RA3aZwAQXuVaMTDP//MZ9L+urYEsy4sh1EICUbhELmOg5wg8ChBSeIFNHESjq2+lZIFqJGlWEBWlTGX5F5FH4isdNhR/zNRLCVZfTEhTmQBKkznQrIcUuvi67e+tSS5WqiE3LpY7716rhJJEpBq6FVKEgk9o+hJieVqqaNJlkkgqQncmjVmeQW/XBulWc60Lty34GcJKQMlqM6iby1IykiZ5avHSA6E3aWyDcxFWqoVLT34ZyH+UptiR4/joFKk0Lx7fIyNXU2Yj0lJpmVe0bLKzVA6zwSFojGHASeVLEfdWDPgblmKLG2mlNoRMzuT1SL91FhiPS6wrY6KVIUSAUudqFZu0uDTefZjslV5LdLaE/NSZpTIxydSlrlIqlLrWVuVmO073YSOeg0SFmrbeEGWS5Hex8s8exD1Vkr5YnAv1cOAy+yHkliI+3RAqE5zoKpABtcqPq7DX0gudM6/qWXUZL3l51R8r+BGNxOlJHSoT+zIo2DjIKF2yCm3PUh87vlJmAwda9O3ilUxkqQoWrdUmeLvlc618c64FDdG6yk0F8vyUol6AGPIpm9oCtHJHuaHrVrQObBKQoeoQ6BezNIzdGxZmrYCnpZmSGo7epelSSduUArOhlLoOHsw0UXaFXcMrE5WHxIwPgWS0/m1AKnrWVfmSey6ZdkFr1uY9+HOdZHHgNqIOaGN3cC1Qw8P7WEUJg5WrZd48Abc0dNnR3TY3KzKSV3cs3L3DB1b7satgKelGe7q2uzHbw8XMuz5/x9jrzrGDuzehapj+FsxNVfzxmRV6K5QZ+fh6QaIDP3EjkIgirII2STCrh0FMATMw8Aj0RtQhqNT3Q2du2IOVPVih631enp72ZuR4s8YDUr9p5AkboZtNmcg7xna5OOHohG3L9bQxjJa1VUVbB8186Z3M25pQ6dp0/V7Hmye+4Fga9J6PWu7Zu+BtmM3F1KVP65Fx0VW5bVJk6vR3WQc/345G/16NYknV9PZ5GY0uxq/14mHOUceCgIbIcezMUoCTaVvO+AT7Ls48AP3X7DYpFl36Ouo7Nw5aZYyoTMsOmSqlKjaldzDH5XjeMw/8oXu6Jiz8tm9kY66Mo9JN5wexG6PLWAo9c5FKT64jv4nON0xexfTHbvfhTlgYZD46oIJPFS3TG8Y2hFyXTsICEMIU8adN2FuG6x7vM1aPZ0cbFVqEy5S1XqbTcutf5II0rkYtrpabreH6CGt+pTtqeP25Yz+s6Ito7O6JY8rNHgexG67c3ufmhcGT/eFV9amrY9+W/xAcJ7txrrj9d5vL123RRE3TWlE8/f8TcZFYRTixLO9BPs2jji3QyfENgbiUN9lQ4zoGW+t3/4G0fKoLeMUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bbc0b2f983dbb650489aa430ceaad3f8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>bbc0b2f983dbb650489aa430ceaad3fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>69100053-22a3-43fb-b4e5-b1749515ad91</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX227jNhD9FUHPjitZtmXnbZHAQIB0U2zSvGwXBCVSMbs0qSWpJI7hf9+hRFmurfiycYoUfRI4HHFu58yQXxc+I/65PyDBOBuPB6M4CKIoCIbDKMVhkkTDNAmSJPQ7vsAzCppaKoPMPKcgesS8WMmwTkFEmM45nt+7HewZ6b2APJ0yThQV/vnXbx0/xwpOM1T554uNrUPd4TihHFRvwbZ3V/nT4mL5OQcbkqX1+tr9elELpSLWlajj02dDBaHgQ4a5ph1/hgXBRqr5SqIoJjeCN4IpEwZO863ys2YvYC/qWb2MQlQprfZWS+RSVImzS2zwrVFFagrlVCtnNeRjsQpzlciWnDv3g2Wn0X+x+nhTn9D1H8Il5JvQDBfcXPyazfBYmz1rswrwJjdMQtX9yNYFJ7wOX/JiJj5XtfRXHt63gK3auXwFc4WGZNPcFtRWyJUru53Kpy91NSZMlH65TS5TzFcrbIxiSWFsXhZ+RlDGKCeICc6EtQRls/ChnM7AAprhPGfiAeVKPrLyVIhl1n3gsOhmXD7ZXLAH0cWpjbwLwMLdCcgvS/E9Vsxm4Xc4Bn7uWINT+NXZQzpVLDfoiZEHahrrtRaR5gnz7237DnGoLlQZnr/s+HquLzjWukk2wBT9KGwOqtS77KGyUOUvpRefIIJH6hJlMVDSNtxJW0w2KFoVeg0v2/3j6M5xgAt1Fm4sIr1k/ppXrnVUNS81/tk+JnbD+1xt1PA+WQsZBadpIW0U36bgUQzcppaF2huY9Y4EamPs8cCvcrMP/eOdQ2vc4IxlaAb5ZDmnSNEUsKMRVhRlshAEVcGt0cImO2NKG6e8TZMvFEovPAmY8syUeqW2t9I+kkL746gpdJV5dSDOmvYgEK8MxFsFclzYx4zs/sn41j8R35pxOMGMl9XQhuZr5aRKSfXK2N5TyB2IOHCmH+hUeFKn3j702yjQOvz3+HriK8H7NK7TD+aU4qTfw8M4CsMgCAMSB6M4DkfDJBviuJ81HEVIixTuEnByBlCB41ENjbrOwXb/qS4UxzaaA7yqIXgpxV9FEPRi41m3oL5e7dZ+x11DSaTkFIuNjnIHE+G3ifPf4XXw4brKvzLF38qGgt1tZroSteb6vYZ+wf4U7EdBryzERjTojUKSno3iMD7rZ2R4NiZ4cIbHySCOCE372XtchMlg5y107SqQSkGYjUuvv5vmGjFiAR+RxeL2+pN3h/V3FHaN/WiOXRcs191Ke7ncpuUvn3Mcjw+ItubxxXq4bSmoh/+m7LrtgHpYnZCuwX+JsB/y2n3a23UtLKHX1B5WO5V9uFHSDO78xF8uG1ruvNnifoPJyqWGkc8oHIe93jhAhqZTIVFgs/U3TQ1iWpfv7A3u/VFte1du+0hK7fe0ptSdc3XDc0ekctn2ei1/23i9Bv/P1+vHvAWCQ4wDQlBVQi0LVabyEaW80OWGwkK7Z9PpZti3n8VT81sUFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bbc0b2f983dbb650489aa430ceaad3fa"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>bbc0f2f983dbb650489aa430ceaad307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>eceb4a1c-8400-419c-9b2a-67a365089fe0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1ZbVPqOhD+K51+RiwgKN5PCuqBEc9FXlSOZ5g0SW00fTltKlbH/343bYDyclF8GT0zfGDabDbZZzfPdpPw60lnRN/Xy9U9o2JaO2jXKBVLhrFXrFbNUtUy9narRoEgPae7yKGgieyh8KB5j3gk209PFvdGw3sUMGRymqcOYvz5WQMVwkKfo7j/sia2GScBdfX9X79zuo8CsCVooO8/zXW9FixHJuWg2vUWkYvYl81QBMy9Ue1Tpd8ZC72ASPulnE4fBHUJBcMW4iHN6Q5yCRJeEOv7IohAEFBEfro8zmg8hOwRjOwZhiH7LQoeYGlVzzSHKkCp2KojgcB+hEUUKFVsewzTMPWdUAtFXNSyslThpy+Y56ZDhIytGu3xyHHPUu/1yQTj9QBJFAII6kv/XDGBb3Vsb3Q+RnnM3CQUqpN7GPFJCwkImBkJiedJp5w6MNHQQb4PYRz6gXfPksGAxcnfcGjkExIQGrIbN4+wBJ6HcKL8McjribivGNKCaWCwBM6ZwxJC6DLk+nNOD+OwxlEYTt2DuA7/RBJc6qxya5hGRg7BAfPFAdi8p8qD55xKAKNSMc2KWd4tTTlVxRbZNa0K2sWlKY1GCIA4KLgbJgTOpEJhkfMJ2nX5/QosY343XMwjQrWLMahVOBXxTc/jFLlzzO8C0u1jGZMp+4ur2a8kC/S3mSSTnrJSE54G68hjDWkTSFIobKolyOANCY2FWgirlde6nsaUV5kROS32Is2JQgFqAnoECm7gJaAYwOb1TNLtfN+UU3RQ0vpSrvwVOfnxCVggqz7qtDLzHTcxzuTdYtqtnXKvsD5OucNabQmWdYpK+W1ptakqf11VQStpZRVnieSROMPq68gwStjXpBtbgrmxg2ngecKEWN0lneRav07VaKoc+sjVQhFzOu4f2eDgFsgx3df8gP5zracThhy+rFtWgG5kbMfqzS6pNbuN2Cw2/wwuzgz53uyeHcrn4KR6Sy4K3HTbvHXb4K27Fjybd1eX5/ZUT44nR81us57M41TvBpetVN844me9Bj8zGnLc/ZXj86tSe9IHMmaCDRT34hbrxW35dM/L+KSX1RldXTbtQalp45Obz8JhDC5t5bsaf9K3idN/nM7fr62KldQfsBk/OP2RtdF4aNUP4HnYHlw2bwcXZTl+1D/hYtAB/aN+eHV5+Di4mIm1AN8DnMbnsd3pFdqsVziv9UrwW/48UCs7pktCloJhaP/SAMPCa13mUO2IIz+kqRbelizKsmrbVy1XUXJDuQ3l1qRc5/RAO4SKhu0XabZYzd9Kuy9i+1s8Xm+38oqyMtmtpEVlocqo/YotHD63W/nRbZ1O9yq779yrVMrlUmWzWXn3ZsUfkSIJPN9Xvn3ShmVnJbMwmVIpPXh97C78FdYnFzvp8e98jGIeleI38XCUrAcjczSvqx6tUZ+y3XjXgfcgDD3MoMiFmcPtiAkbjqtLzqml4mxewKmXJSRcnh+Nafc3yJP05muNNLE6FAXYPmaUy6V2I8dMiD2bPpiD1nCOtOpg/F1OsknYhgnhXjrTrr6o3JnyNjPnx55rX0YwzSjJhuWIVDYtyE6zY7WztEPlUmHNXEoZpVKpC/kzc8OjCQUvcwrelJV3lxUWDlMCK98S459QV8qr71fwzBYljMxbikX2ZvV/9nCLGbJCc80/GV5GPM6czgTvMh/WuRmqbP5u+PKk+Hjyk5UfYWrMEOejbzZfYXzM47mLzbXvNXc295pfT99Pvdf8/R9CAjgPMB4AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bbc0f2f983dbb650489aa430ceaad307"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>f3c0f2f983dbb650489aa430ceaad302</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>fbd328e3-917a-4447-85d8-0bb168e04495</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U0U7bMBT9lcrPbeUkbUf7NrVCQmIwAeKFocixb6gnx8lsp9BV/fddJ07bAWMg8TCk9am+9x77nNN7erMhUpAZGYGg0TSa8CRKkpjS+GgUZZMki2KRMICI9IlmBeCkAV4agecVU7UvbDaTaUQpHSeDOGbJYJTk2SAbwXiQRZ9G03E0ZmIaDS8a3HaLSCFtpdj6OlyAFb6UShjQZHZz2ycVM/iWA0Nmm0et15JVLAOFoxcd28fs3bryZ1HyugDtUtkVTwNyETq9kwV2EOTpRLRP4MGBFoBEcqYs9EnBtGCuNGsyc6bGggEmzrVa7yaWUrtWaMEerPyJL4+on8sBlfFgwu6YBoPacr5gjl3izdzVZudXKTnY1hMBOauVmx/W2oHzyslStxDHMtWhS1UX+qx1hOwuOPg9aoskoPI6PfNWVn65LO8vOpLHUjeWBImq5EztTsw5I7PaeTobAgoajwtWVVLfpZUpV7IBI5VieKfwMMxVeY9vWnmnh4x73kN0lQ2Psb5oytfMSC/iC16D4G2f2LWdK2btXgp6mP6oPZNWWJCQNi40FqTNJngwN7Jyn/GpFQTi236IA41f3DDYL1STAnsQB2ltDamFFRjp1t9qShMxx6/S+/Nk9/8y/bZcvIJ1l4tjCUrYZ2SEXDgokKaDtJX1ezSuQrN3HZq7dLxbPKIJbT7/Q/LvhiQbv7RufLrfroM790F5SBEcx1OaOuBLXabUa/4OHP+MfSqehuVr2+6dhPbb0vEKul06rpo1eJ5+F5DHtdNDbO+sbYRgjN8tF0cfKRFBxoePxJ+CcPsLsoUkeT4JAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f3c0f2f983dbb650489aa430ceaad302"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>f3c0f2f983dbb650489aa430ceaad306</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>c740724b-2878-49e0-bedc-6fc0d66dce77</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9KyjPFDkEaOGtalVpUj8kWvWlqyzHdsCbSbLE4aOI/77rjwQGaVe2VOq0pyjX177H555j+2ntCeaNPBT1ECJ+/+wUoSBAaDAIKPHDMBjQEIX9odf2YjLjkJknmcJqlXIIzYksqhjJKYSYyFNJVo9uhLRU0nqBOJ0KyTIee6On57aXkgxWUzzzRuu9offCkSTkElLvoXbrweKpgWg+I6iRCFr+X7upF2UwyZiGErQ9vlQ8ZhwwRETmvO3NSMyISrJVFck4YXex3AamIlawmqeTl7l4gXpBV+dFHHZFuR2rfrGjyIajS6LIvcoKqorMpVqwOfCxrrZZEVnDuYOPNu1t/ovOJ/v5jO9O8DfAN+MRKaS6+LOa/rE1u7qm3eBdqkQCXfcC3RcSynL7iSxm8a3tpVchfKwRmx25fEVzRQ5k81Q3VHfItSu6nyaLcdmNKxEbXG5QJpTI6o8olYmwUJqXtRcxHAkuGRaxFLGuBG3T8uGSz6ACnpE0FfEEp1kyF2ZV2MusM5Hw04lkstBciEncIVTvvAPCIp0riF+a8CPJhGbhBpaByW1dcApTXT2c00ykCi8Em3C1rV5msUQtiPxeN+4Uh8tGme15m7aXr/ILSfJ8SzbIFP8oNAeWesceNo0yUwyKc9jBnDuitAaMbenpm7bt71nUNnpHL4fnx9EnxzsglCzcaUW2wtVrqNzRYXtuMn49Pq70QOvWDpTybuwIOUPNHCF1Fj+04FEOPLSWltpfOOsDDVTn2OOFb7n5jfp7b15aA3+rM2gyzngOlOY76vcRQocO8Ns2fJwN3oGltMENWbbGFZhahM4JIFI+McTu2uBLFXUe6DXmgd7n9UDZrNobqOxZwxfQx9ik+Wvg7O3XG9rKjCYxExrjrg9gW984VebI7QA0LNjXAlZi6/VgqHnvByfdLglOekEUnoQ93j8J/dPesO/3CRv6nTGnoEQ3c7M5tFTzBY4z5zv4Kc15sUtQHWnl+3Y/dl23QPloa9Cg6PNa9B+5pj7oNnpbZL1wqye73NZ/S+wP/W53iLDidBonGOmrICmgoURqfkwzDlw11jkZ5a3z3aQmnWFAl854cKj3NuH8YH7rHm1m2t6jDf2fj7bPeR0BICFBIdi20GoKlpxjKovcDGQkzu1aDV5ezz8B6rwBwgsRAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f3c0f2f983dbb650489aa430ceaad306"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>ffc0b2f983dbb650489aa430ceaad3fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>b915eb4e-29b8-4db6-a206-c641144c86a7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y21LbOhT9FY+fk+DEuRDOUwmEJkPSAuGW0snIkhwL5EttmdRl+PezZSuJc2kgB5jSMzzZkraktbfW2rp8e9AZ0ff0WnPXqFt2FTUMs2Iaxm6l2bTMpm3sNppGmSC9oHvIpWCJnJHwoXiPeCzLmqY9PNSbZcMwamaxUkFmsWraVtGq0lrRKjeqzVq5hkizXDql2A9JCUURG3uUwDAl6iLGHx+3HIFFUUxHLx8nG8GlnhiNQz8OZsOAe4RFAUfJxf/bS+wwTkLq6Xvfvhf0AIWwxoKG+t7DUtNzScKRRTmYDvxVxogkkMVIhMwbq/Kxsj+bVgJiOb9Z0OlPQT1CYWIb8YgWdBd5BAk/TPQ9EcZQEVJEvng8yVn8jNgvmGQXoiPbbQoeYDmrniuO1OJm1fYBEgjmj7GIQ2WKHZ9hGmW+E2qjmItWvi4z+BII5ntZF4EsPu3t89j1+pn3+myAKZegJo4ABA2kf56YwbfPHH9yOkXZZl4aCtXIfYz4rIQEBMyKhcTzoFNO0/V1URBAGEdB6N+ztDNgcUtjDoWSzf0JTCrJUEJYAi9BOFGpDfUHafUFCpn0ogfDQGcJnDOXpYTQZcj1x4IeJVGLA6fm7kFcRz9iCS5zVrk1yiIju+CQBeITzHlPlQePBZV4jHrdsupWrWHOOdXENmlYdh01sDmn0QQBEBeFd6OUwLkUVF7Va4p2W34/A8uU3x0P85hQ7XIKahNORXzL9zlF3hLzB4B0py1jMmd/ZTP7Vc0K/R0myaRnrNSEr8E68kRD2gySrBQO1VJk8IeExiItgtUqaQNfY8qrXI+Clvix5saRADMBLQKFY/gJs+Si50RXfb+SU3RQtQdrufJXaPL1BVgmm5I6rS/kcQvjnO5WZbe15J4x+1Ry+63WGizbbCq1/yarj13lr9tV0EZa2ZVFIvkkybH6JjYMEweadKMomJe4mIa+LyyI1V3aSG70m8yMZsZRgDwtEgmn0/aJAw4WoR7TPS0I6T83ejZgxCGzFu0QjWVsp+bdAWl1B53EqnR/DC/7hvzvDvr78js8at6SyzK3vBPeu+3w3l0Pvt2766tTZ24n+5PD7qB7kI7jNu+GV73M3jjk/fMO7xsd2e/+2g34tXkya4M6ZsEcKDlPeuw8OZFf77SGj87zNpPrq64zNLsOPhq/FQ5jeOUo31X/owuHuBe/5uNftDbFStoP2YIfnH7Oz9Ep91pQ397n2O2rmO6fI4gv9J+gFOt+2zpqT3Dl4m4By2U7QeaSL+cn4M/J774ztqRcqRnaVxpiWHZtwFwqd95DjoKIkoxFO5JGeVrtBFlpNc8qjm7NwZcD2S69P0OHs/SeqXBFlirBO8LlS+n986B3PE/ujRcm93qtZtY/svuLs3swIRUS+kGgfHujDF/dyCxM5lTKTqqve2x5xuyzm3B2Xj6dolhGpfhNfByn68HIEs0PVIvWOZiz3XjRDeFTFPmYwUYU5W4DEyYcON+vOdiblUVdwDWBpSRcr4/OvPkd6CR7KthCJvYZRSF22oxyudRe7FopsRflg+EqF46WSKtuEu/l6J+GbZQS7qlLwOaXneqct7kxX/ci8DSCuaIkG9YjUmpaqTvO99X6WYPSUnlLLWWMUlIagH4WrsSaUPBy14aPbeXF2wqLRhmBlW/p5G+wr9Q2X0jxwhEliq1bikVOCb8/Wq1qZKPtli+zT6OequdshnmdH9tcp+sfb7R/XBivLwCyMRFTY4E4r/0c9IzJpzxeeg3a+jGo+vEY9Ofp+6aPQd//BdtELgPdHAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ffc0b2f983dbb650489aa430ceaad3fc"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3fc0b2f983dbb650489aa430ceaad3bb^sys_idNOT IN77c0b2f983dbb650489aa430ceaad3f6"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aaea9875835b7650489aa430ceaad376</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</flow>
+        <flow_variables_assigned>email</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:04</sys_created_on>
+        <sys_id>77c0b2f983dbb650489aa430ceaad3f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:04</sys_updated_on>
+        <ui_id>5371a440-216b-4361-85ec-700bea952e3e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y224bNxD9FWKfbFder+6W/WTEdRsgqdHYyUsULLjkrMRkRa55ka0a+vfO7E2CEwRNWvRJetHyLHnmzJkhReg5MsGXwbt7c+WcWujo4uOnXqQ0Yfj8HCkZXUTjQT6aTKb98+EsyybjZHQ+43w0TARwLoeDSdSLNF8BzoQVVwUO17wINMZHqVxZ8M2HHSKWqpAW9C7AjuDmOpnJwUxMx1nez6YYrC+hPxSzUS4mMB4PxQ+wYyolt0jswUYXzy9e+U3ZLDFW0oSkF8GTBy0BNeW8cNCLVlxL7o3ddIgFLm91sdmb8uTUX0iFYpOEBBgl4Lb0yuiaPzhIJZTErH23Lr9bmsd3kAMqEnCjdCWieVkYwYtuxL23KgsesCjP220vcsKq0l8Jr9bQzNp+P9t/WsiCZ1DsVfJFYRvTHOrRi2b8plly14KNn/2f83OpyCTy7aWztjWrft0N06YLaji/5p6jliB8sF1TUE1cbYWEnIfCv9rHvi6a51nRrjZFWOk/aieijmCv6f7bCkdB3b/wuUa+choKWGHEdMXLEpG0tGatqigoehUvChzEeWEeUR3t75gLyjDGGvD4BvHrCv7AraJ03yINLqZw77V6CPCauqZ/PhXZJJ+dziaQn46mSXaaTQbJKR+OxnI0GvJEDiNqyo17VXDndkZhhdKHQGnWtjUGpbXH3+7jFiQf6q7Dh+/Oi85O5vrk5EpgNR2jrM6uqjQZpcmCQ2eYXwLLZVohJvsMwsfsriJgq+A8s4Ddohln1eESM2K8pT5mOqwy/FKOmTx34Fm2Yb/0mdLsV2uNZb9jSxcU4g5qcysxa1ROljJT9ZRjTY+yUKKw0qJUWjOP4nnEeI57tpVHy+GJr8oCLlCNZW5prMdCCTYPSTKU7cQYu2CxABuLYLHDfFxNpEpXeWHUS+JqMutYCDyb67km7srhNwoNaLg/frqkdx0el8Etj9qI6SBNC2O+pKFMLQjc6HHzxavfD5CpN3G1+Pjyp1mqll5YE8p/QYVbgaqc0gHWDRzuFM3Rsxru2GszLG9d0PDIfqPN864iOyJ4MH1K+7P+YDBLUg9iqU2aYExnAp5AvKD9TJ7XU4nU8phL+WcAu2kI9jXVSI/9YCa4yVIlG/qHirtO4BGPezhCUOOhe3R8zJ7nmuGnq3KbG8na2VyRLsDjMdXkekzD6mxrVFerd2kRqcqPau/aKPR5UaLOXHq3nestqWyacTf1s1G6idNrY0TbLf2arZtT6XATOdxEDjeRw03kcBM53EQON5HDTeT/v4lIEMqho/e0j163/47Qiw2qVmIfejT2C51zO2z7N0hajXdnEQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3fc0b2f983dbb650489aa430ceaad3bb^sys_idNOT INffc0b2f983dbb650489aa430ceaad3ec"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=187cb6f9-96ef-470b-b620-a345d443a0d3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>email</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of SLA Monitering and Escalation">3fc0b2f983dbb650489aa430ceaad3bb</model>
+        <model_id>3fc0b2f983dbb650489aa430ceaad3bb</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_3fc0b2f983dbb650489aa430ceaad3bb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_id>ffc0b2f983dbb650489aa430ceaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task_sla_record</element>
+        <help/>
+        <hint/>
+        <label>task_sla_record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3fc0b2f983dbb650489aa430ceaad3bb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_id>7fc0b2f983dbb650489aa430ceaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sla_flow_inputs</element>
+        <help/>
+        <hint/>
+        <label>sla_flow_inputs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3fc0b2f983dbb650489aa430ceaad3bb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:03</sys_created_on>
+        <sys_id>b7c0b2f983dbb650489aa430ceaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3fc0b2f983dbb650489aa430ceaad3bb"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>caf46671839bb650489aa430ceaad307</sys_id>
+        <latest_snapshot>3fc0b2f983dbb650489aa430ceaad3bb</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=caf46671839bb650489aa430ceaad307^sys_idNOT INccd0f2f983dbb650489aa430ceaad367"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>caf46671839bb650489aa430ceaad307</plan_id>
+        <snapshot>3fc0b2f983dbb650489aa430ceaad3bb</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 05:47:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ccd0f2f983dbb650489aa430ceaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 05:47:05</sys_updated_on>
+        <trigger display_value="sla_task">8cd0f2f983dbb650489aa430ceaad366</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=caf46671839bb650489aa430ceaad307"/>
+</record_update>
