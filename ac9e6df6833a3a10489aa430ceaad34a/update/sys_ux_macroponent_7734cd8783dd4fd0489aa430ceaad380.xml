@@ -969,7 +969,7 @@
                                                                                         "container": {
                                                                                             "listId": {
                                                                                                 "type": "JSON_LITERAL",
-                                                                                                "value": "9240f50783558fd0489aa430ceaad3cd"
+                                                                                                "value": "f4cfa5c383558fd0489aa430ceaad387"
                                                                                             }
                                                                                         },
                                                                                         "type": "MAP_CONTAINER"
@@ -1367,19 +1367,54 @@
                                                                         "event": {
                                                                             "apiName": "x_1912290_techno_0.NAV_ITEM_SELECTED_RELAY_7734cd8783dd4fd0489aa430ceaad380",
                                                                             "payload": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": {
-                                                                                    "external": null,
-                                                                                    "fields": null,
-                                                                                    "multiInstField": null,
-                                                                                    "navigationOptions": null,
-                                                                                    "params": null,
-                                                                                    "passiveNavigation": null,
-                                                                                    "redirect": null,
-                                                                                    "route": "list",
-                                                                                    "targetRoute": null,
-                                                                                    "title": null
-                                                                                }
+                                                                                "container": {
+                                                                                    "external": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "fields": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "multiInstField": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "navigationOptions": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "params": {
+                                                                                        "container": {
+                                                                                            "listId": {
+                                                                                                "type": "JSON_LITERAL",
+                                                                                                "value": "3f63a98b83d18fd0489aa430ceaad388"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": "MAP_CONTAINER"
+                                                                                    },
+                                                                                    "passiveNavigation": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "redirect": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "route": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "listpage"
+                                                                                    },
+                                                                                    "targetRoute": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "title": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    }
+                                                                                },
+                                                                                "type": "MAP_CONTAINER"
                                                                             },
                                                                             "sysId": "878ac60b83198fd0489aa430ceaad3ea"
                                                                         },
@@ -2039,19 +2074,54 @@
                                                                         "event": {
                                                                             "apiName": "x_1912290_techno_0.NAV_ITEM_SELECTED_RELAY_7734cd8783dd4fd0489aa430ceaad380",
                                                                             "payload": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": {
-                                                                                    "external": null,
-                                                                                    "fields": null,
-                                                                                    "multiInstField": null,
-                                                                                    "navigationOptions": null,
-                                                                                    "params": null,
-                                                                                    "passiveNavigation": null,
-                                                                                    "redirect": null,
-                                                                                    "route": "list",
-                                                                                    "targetRoute": null,
-                                                                                    "title": null
-                                                                                }
+                                                                                "container": {
+                                                                                    "external": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "fields": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "multiInstField": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "navigationOptions": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "params": {
+                                                                                        "container": {
+                                                                                            "listId": {
+                                                                                                "type": "JSON_LITERAL",
+                                                                                                "value": "9240f50783558fd0489aa430ceaad3cd"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": "MAP_CONTAINER"
+                                                                                    },
+                                                                                    "passiveNavigation": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "redirect": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "route": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "listpage"
+                                                                                    },
+                                                                                    "targetRoute": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "title": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    }
+                                                                                },
+                                                                                "type": "MAP_CONTAINER"
                                                                             },
                                                                             "sysId": "878ac60b83198fd0489aa430ceaad3ea"
                                                                         },
@@ -2897,14 +2967,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-10 05:10:44</sys_created_on>
         <sys_id>7734cd8783dd4fd0489aa430ceaad380</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_update_name>sys_ux_macroponent_7734cd8783dd4fd0489aa430ceaad380</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-10 12:58:42</sys_updated_on>
+        <sys_updated_on>2026-06-10 13:06:48</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=7734cd8783dd4fd0489aa430ceaad380"/>
 </record_update>
