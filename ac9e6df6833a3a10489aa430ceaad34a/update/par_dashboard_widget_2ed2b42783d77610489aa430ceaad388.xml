@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">4d0f202f83977610489aa430ceaad306</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"dataSource":"dGFibGV4XzE5MTIyOTBfdGVjaG5vXzBfZW1wbG95ZWVfc19za2lsbHMxNzcyNjA3NTEyMzcy","id":"ZEdGaWJHVjRYekU1TVRJeU9UQmZkR1ZqYUc1dlh6QmZaVzF3Ykc5NVpXVmZjMTl6YTJsc2JITXhOemN5TmpBM05URXlNemN5MTc3MjYwODg1MTIxMQ==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":null,"sortBy":null,"sortByOrder":"desc","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"lx4w0zjz","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","columns":null,"table":"x_1912290_techno_0_employee_s_skills","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"headerTitle":"My Skill Profile","showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Employee's Skills","sourceType":"table","tableOrViewName":"x_1912290_techno_0_employee_s_skills","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MTIyOTBfdGVjaG5vXzBfZW1wbG95ZWVfc19za2lsbHMxNzcyNjA3NTEyMzcy","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false}</component_props>
+        <h>15</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 07:06:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ed2b42783d77610489aa430ceaad388</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>par_dashboard_widget_2ed2b42783d77610489aa430ceaad388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 05:23:46</sys_updated_on>
+        <visualization/>
+        <w>33</w>
+        <widget_props/>
+        <x>0</x>
+        <y>18</y>
+    </par_dashboard_widget>
+</record_update>

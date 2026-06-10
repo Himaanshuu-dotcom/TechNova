@@ -23,7 +23,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>emergency_contact_number</field>
+        <field>emergency_contact</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -45,7 +45,7 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>true</mask_use_encryption>
-        <name>emergency_contact_number</name>
+        <name>emergency_contact</name>
         <not_available_conversation>false</not_available_conversation>
         <order>500</order>
         <post_insert_script/>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-23 09:16:10</sys_created_on>
         <sys_id>d62afe2083df3e10489aa430ceaad330</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Enter Emergency Contact Number</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_update_name>item_option_new_d62afe2083df3e10489aa430ceaad330</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-23 09:28:03</sys_updated_on>
+        <sys_updated_on>2026-02-24 06:18:04</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

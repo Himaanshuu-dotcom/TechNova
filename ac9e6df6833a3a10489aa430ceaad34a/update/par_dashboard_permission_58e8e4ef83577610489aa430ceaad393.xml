@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="TechNova PM Workspace">1dae1fba839f3210489aa430ceaad382</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1912290_techno_0.technova.manager" name="x_1912290_techno_0.technova.manager">71fd6bc383f6fa10489aa430ceaad38f</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 06:22:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>58e8e4ef83577610489aa430ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1dae1fba839f3210489aa430ceaad382</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>par_dashboard_permission_58e8e4ef83577610489aa430ceaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-04 06:22:33</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>
