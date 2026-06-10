@@ -4,15 +4,29 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-13 08:55:39</sys_created_on>
-            <sys_id>f63223d683e33e50489aa430ceaad344</sys_id>
+            <sys_created_on>2026-06-10 12:33:33</sys_created_on>
+            <sys_id>9a996acb831d8fd0489aa430ceaad38a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">f5ae879e83233e50489aa430ceaad342</sys_ui_formatter>
             <sys_ui_section caption="Project Issue" display_value="Project Issue" name="x_1912290_techno_0_project_issue" sys_domain="global" view="Default view">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-13 08:55:39</sys_updated_on>
+            <sys_updated_on>2026-06-10 12:33:33</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-10 12:33:33</sys_created_on>
+            <sys_id>12996acb831d8fd0489aa430ceaad38c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Issue" display_value="Project Issue" name="x_1912290_techno_0_project_issue" sys_domain="global" view="Default view">1dc05bd283633e50489aa430ceaad30b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-10 12:33:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Project Issue</caption>

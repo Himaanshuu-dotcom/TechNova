@@ -940,20 +940,62 @@
                                                                     {
                                                                         "broker": null,
                                                                         "clientScript": null,
-                                                                        "clientTransformScript": "javascript(/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\t\n\tconsole.log('ok');\n\n\treturn {\n\t\troute: \"/list\",\n\t\tfields: null,\n\t\tparams: null,\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: null,\n\t\tnavigationOptions: {\n\t\tnavigateExternal: false \n\t}\n\t};\n})",
+                                                                        "clientTransformScript": "",
                                                                         "conditional": null,
                                                                         "declarativeAction": null,
                                                                         "event": {
                                                                             "apiName": "x_1912290_techno_0.NAV_ITEM_SELECTED_RELAY_7734cd8783dd4fd0489aa430ceaad380",
                                                                             "payload": {
-                                                                                "script": {
-                                                                                    "apiVersion": "1.0.0",
-                                                                                    "controllerElementId": null,
-                                                                                    "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\t\n\tconsole.log('ok');\n\n\treturn {\n\t\troute: \"/list\",\n\t\tfields: null,\n\t\tparams: null,\n\t\tredirect: null,\n\t\tpassiveNavigation: null,\n\t\ttitle: null,\n\t\tmultiInstField: null,\n\t\ttargetRoute: null,\n\t\texternal: null,\n\t\tnavigationOptions: {\n\t\tnavigateExternal: false \n\t}\n\t};\n}",
-                                                                                    "scriptSysId": null,
-                                                                                    "target": null
+                                                                                "container": {
+                                                                                    "external": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "fields": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "multiInstField": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "navigationOptions": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": {
+                                                                                            "navigateExternal": false
+                                                                                        }
+                                                                                    },
+                                                                                    "params": {
+                                                                                        "container": {
+                                                                                            "listId": {
+                                                                                                "type": "JSON_LITERAL",
+                                                                                                "value": "9240f50783558fd0489aa430ceaad3cd"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": "MAP_CONTAINER"
+                                                                                    },
+                                                                                    "passiveNavigation": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "redirect": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "route": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "listpage"
+                                                                                    },
+                                                                                    "targetRoute": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    },
+                                                                                    "title": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": null
+                                                                                    }
                                                                                 },
-                                                                                "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                                                "type": "MAP_CONTAINER"
                                                                             },
                                                                             "sysId": "878ac60b83198fd0489aa430ceaad3ea"
                                                                         },
@@ -1201,7 +1243,7 @@
                                                             },
                                                             "interaction": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "none"
+                                                                "value": "click"
                                                             },
                                                             "manageSelected": {
                                                                 "type": "JSON_LITERAL",
@@ -1537,7 +1579,7 @@
                                                             },
                                                             "interaction": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "none"
+                                                                "value": "click"
                                                             },
                                                             "manageSelected": {
                                                                 "type": "JSON_LITERAL",
@@ -1873,7 +1915,7 @@
                                                             },
                                                             "interaction": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "none"
+                                                                "value": "click"
                                                             },
                                                             "manageSelected": {
                                                                 "type": "JSON_LITERAL",
@@ -2209,7 +2251,7 @@
                                                             },
                                                             "interaction": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": "none"
+                                                                "value": "click"
                                                             },
                                                             "manageSelected": {
                                                                 "type": "JSON_LITERAL",
@@ -2855,14 +2897,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-10 05:10:44</sys_created_on>
         <sys_id>7734cd8783dd4fd0489aa430ceaad380</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_update_name>sys_ux_macroponent_7734cd8783dd4fd0489aa430ceaad380</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-10 11:10:27</sys_updated_on>
+        <sys_updated_on>2026-06-10 12:58:42</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=7734cd8783dd4fd0489aa430ceaad380"/>
 </record_update>
