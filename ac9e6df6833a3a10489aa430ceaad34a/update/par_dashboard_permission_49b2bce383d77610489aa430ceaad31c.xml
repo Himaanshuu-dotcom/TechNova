@@ -4,7 +4,7 @@
         <can_share>false</can_share>
         <can_write>false</can_write>
         <dashboard display_value="Employee Workbench">8d0fac2783977610489aa430ceaad3c3</dashboard>
-        <group display_value="TechNova QA Team" name="TechNova QA Team">4b9aad62837ab610489aa430ceaad397</group>
+        <group display_value="">4b9aad62837ab610489aa430ceaad397</group>
         <owner>false</owner>
         <role/>
         <sys_class_name>par_dashboard_permission</sys_class_name>

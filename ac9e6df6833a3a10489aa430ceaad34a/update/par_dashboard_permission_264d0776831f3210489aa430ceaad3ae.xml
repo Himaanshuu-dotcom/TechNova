@@ -4,7 +4,7 @@
         <can_share>false</can_share>
         <can_write>false</can_write>
         <dashboard display_value="TechNova Ops Overview">c4d96afa83d73210489aa430ceaad381</dashboard>
-        <group display_value="TechNova Operations" name="TechNova Operations">7ccae1a2837ab610489aa430ceaad350</group>
+        <group display_value="">7ccae1a2837ab610489aa430ceaad350</group>
         <owner>false</owner>
         <role/>
         <sys_class_name>par_dashboard_permission</sys_class_name>

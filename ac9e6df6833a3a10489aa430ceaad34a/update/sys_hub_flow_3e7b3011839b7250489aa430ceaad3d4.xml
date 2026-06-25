@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=92769000,viewActivatedIn=diagramming</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=92769000,viewActivatedIn=diagramming</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>resource_allocation_record_creation</internal_name>
-        <label_cache>[{"name":"subflow.assignment_role","label":"Input➛Assignment Role","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"Developer","value":"Developer","order":1.0},{"label":"QA","value":"QA","order":2.0},{"label":"Architect","value":"Architect","order":3.0}],"usedInstances":{"c593959a-6920-43eb-91a3-97dc0ed3c919":["assignment_role"],"7db3e914-5042-47b9-beb7-e695d815bea7":["assignment_role"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"8ab7a774-6d19-4577-8ca8-9d37e7e6d27b"}},{"name":"subflow.assignment_role.sys_created_by","label":"Input➛Assignment Role➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_user_has_role","column_name":"sys_created_by","usedInstances":{"c593959a-6920-43eb-91a3-97dc0ed3c919":["assignment_role"]}},{"name":"flow_variable.loop_count","label":"Flow Variables➛Loop Count","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"6e795f17-0cf7-4af2-881f-100b098f1740":["condition"],"f94a5f02-f22f-4859-9275-76edb578d8f8":["loop_count-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"49c6852f-1248-4bc7-9f8b-b8bf2f13c727"}},{"name":"subflow.total_assignment","label":"Input➛Total Assignment","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c7a8d5c3-be1d-4a36-8ca8-919de1b492f3":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"27ae46f3-a274-4cb2-913d-7ef73df2c47a"}},{"name":"subflow.number_of_assignment","label":"Input➛Number of Assignment","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"feff008d-c037-41e3-8123-d1bbdae65bd6":["condition"],"8a263886-e76e-454f-8ff1-6d5075d9f48a":["condition"],"d75400b1-cace-4b2f-bff7-1fedd0a75fd9":["loop_count-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5be07462-d66d-4093-a97f-c1b7d0d2cce1"}},{"name":"subflow.number_of_developer","label":"Input➛Number of Developer","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"bd7f0326-07a1-4c2b-89ac-aa72d4efc1d6":["total_assignment-0"],"f14500c7-5a20-452e-82ae-3365ec4784f0":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6c4a1dc7-759c-4285-a823-f479ae28e703"}},{"name":"subflow.number_of_qa","label":"Input➛Number of QA","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"e265f1be-942b-48f3-9f04-f58e2edec57b":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"31f9834a-6d3d-4ca8-b151-8e4912d8d82b"}},{"name":"subflow.project_name","label":"Input➛Project Name","reference":"x_1912290_techno_0_project","reference_display":"Project","type":"reference","base_type":"reference","column_name":"","usedInstances":{"a22c4eb4-2ca2-4282-b409-394465a57d9d":["project_name"],"95dbf8f5-b54d-468c-a6fd-7cc376889a15":["project_name"],"c593959a-6920-43eb-91a3-97dc0ed3c919":["project_name"],"7db3e914-5042-47b9-beb7-e695d815bea7":["project_name"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a274eba1-14bc-4634-88da-a637433c8bf2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.number_of_architect","label":"Input➛Number of Architect","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"ea55880d-e4d0-474f-bf8f-91f379336730":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7edae742-aa6f-40f5-936d-2cfaac95e125"}}]</label_cache>
+        <label_cache>[{"name":"subflow.number_of_architect","label":"Input➛Number of Architect","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"ea55880d-e4d0-474f-bf8f-91f379336730":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7edae742-aa6f-40f5-936d-2cfaac95e125"}},{"name":"subflow.project_name","label":"Input➛Project Name","reference":"x_1912290_techno_0_project","reference_display":"Project","type":"reference","base_type":"reference","column_name":"","usedInstances":{"a22c4eb4-2ca2-4282-b409-394465a57d9d":["project_name"],"95dbf8f5-b54d-468c-a6fd-7cc376889a15":["project_name"],"c593959a-6920-43eb-91a3-97dc0ed3c919":["project_name"],"7db3e914-5042-47b9-beb7-e695d815bea7":["project_name"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a274eba1-14bc-4634-88da-a637433c8bf2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.number_of_qa","label":"Input➛Number of QA","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"e265f1be-942b-48f3-9f04-f58e2edec57b":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"31f9834a-6d3d-4ca8-b151-8e4912d8d82b"}},{"name":"subflow.number_of_developer","label":"Input➛Number of Developer","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"bd7f0326-07a1-4c2b-89ac-aa72d4efc1d6":["total_assignment-0"],"f14500c7-5a20-452e-82ae-3365ec4784f0":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6c4a1dc7-759c-4285-a823-f479ae28e703"}},{"name":"subflow.number_of_assignment","label":"Input➛Number of Assignment","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"feff008d-c037-41e3-8123-d1bbdae65bd6":["condition"],"8a263886-e76e-454f-8ff1-6d5075d9f48a":["condition"],"d75400b1-cace-4b2f-bff7-1fedd0a75fd9":["loop_count-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5be07462-d66d-4093-a97f-c1b7d0d2cce1","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.total_assignment","label":"Input➛Total Assignment","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c7a8d5c3-be1d-4a36-8ca8-919de1b492f3":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"27ae46f3-a274-4cb2-913d-7ef73df2c47a"}},{"name":"flow_variable.loop_count","label":"Flow Variables➛loop_count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"f94a5f02-f22f-4859-9275-76edb578d8f8":["loop_count-0"],"6e795f17-0cf7-4af2-881f-100b098f1740":["condition"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"49c6852f-1248-4bc7-9f8b-b8bf2f13c727","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.assignment_role.sys_created_by","label":"Input➛Assignment Role➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_user_has_role","column_name":"sys_created_by","usedInstances":{"c593959a-6920-43eb-91a3-97dc0ed3c919":["assignment_role"]}},{"name":"subflow.assignment_role","label":"Input➛Assignment Role","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"Developer","value":"Developer","order":1.0},{"label":"QA","value":"QA","order":2.0},{"label":"Architect","value":"Architect","order":3.0}],"usedInstances":{"c593959a-6920-43eb-91a3-97dc0ed3c919":["assignment_role"],"7db3e914-5042-47b9-beb7-e695d815bea7":["assignment_role"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"8ab7a774-6d19-4577-8ca8-9d37e7e6d27b"}}]</label_cache>
         <master_snapshot>a35dd62d835b3650489aa430ceaad3bd</master_snapshot>
         <master_snapshot_digest/>
         <name>Resource Allocation Record Creation </name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e7b3011839b7250489aa430ceaad3d4</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Resource Allocation Record Creation </sys_name>
         <sys_overrides/>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_update_name>sys_hub_flow_3e7b3011839b7250489aa430ceaad3d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:39</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:23</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>035a96a5835b3650489aa430ceaad36c</version_record>
+        <version_record>ab64600783e54f54a322fdc6feaad3c1</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3e7b3011839b7250489aa430ceaad3d4"/>
     <sys_variable_value action="delete_multiple" query="document_key=3e7b3011839b7250489aa430ceaad3d4"/>
@@ -422,10 +422,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:21:08</sys_created_on>
         <sys_id>8a389e61835b3650489aa430ceaad3e8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:30:28</sys_updated_on>
+        <sys_updated_on>2026-06-22 12:48:04</sys_updated_on>
         <ui_id>c593959a-6920-43eb-91a3-97dc0ed3c919</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9VUyW7bMBD9FYNnQZCs1Ih9C1D4VgdIi1zShKDIsc2CIlUuXmro3zukZNd1aiAoihbVbdb33gxHTwciBZmRSQnFu2k54VVZVeOiGN/elPWkqsuxqBjADcmIZg1gpme1ApqMjGyYCtG5o+W0HI+nBfXA19rQglpwJnCgTCnDmZdGY76QrlVs/ziUPcQcy2F0d57E11IJC5rMnp4z0jKLWB4smR0uQn7fAlWsBoW9PkVeo0XP662afiq+ojGiXPqMFZFQkRHYedACEG/JlIOMNEwL5o3dk5m3AR0WmLjXan/KWEvtsSGJuTsnv2H32yLmLQGlcehjJ5MOQ+vdfG0kh/s2zSp5ErEhaFRo9KIXEccNSxaUP44bPcFhP2gj5UhiYLT8uDbbhyPgXOqkbgjGzaiTxby3sg4eXNwHKGiwEW1Y20q9oq01G5mKkUuTrxQa+VKZLYI6udI545F4jhNi+Rz975P7kVkZVXzANljcJfX0a4i4vY6BMe1FY4LjVrb+DtttYCDXZcfHLKCYXl18Wf9YdHq/7uwho4AvwH3a8+dQFJU4HFyoo4T8PNZ1L84zH1yftIDtC3NRShqHNepV9UW4616fw98F/80zgwYpexj1pLM3T/zYYC5BCfeLFRzvbACgmwFguLXyT91aOSnS928uruf5nx3c2b/vyuk9fwe04jCLSQYAAA==</values>
@@ -446,10 +446,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:30:28</sys_created_on>
         <sys_id>be5a96a5835b3650489aa430ceaad304</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:30:28</sys_updated_on>
+        <sys_updated_on>2026-06-22 12:48:04</sys_updated_on>
         <ui_id>7db3e914-5042-47b9-beb7-e695d815bea7</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/9VUTW/bMAz9K4HOhiHHXdDkVmDIbe3QDb10nSBLTKJBljx9pMmC/PdRspNl6QIUw7BhvpF8JN8jRT/uiJJkRiYV0DfTaiLqqq7HlI6vr6pmUjfVWNYc4IoUxPAWEBl4o4FloyBrrmNyblg1rcbjKWUBxMpYRpkDb6MAxrW2ggdlDeKl8p3m24ch7T5hnIDRzSlIrJSWDgyZPT4VpOMOewVwZLY7C4VtB0zzBjTW+ph4jW57Xq/V9FPyBY2py7nPOpkI0YLAJoCRgP0WXHsoSMuN5MG6LZkFF9HhgMs7o7dHxEqZgAVJwm68+obVr2nCLQClCehjR5MNQ+vdYmWVgLsuzyp7MrEhaHVszW0vIo0bFjzqcBg3eqLHetAlyonEwGjxYWWf7w8N58pkdUMwbUYfLR6CU00M4NM+QEOLhVjLu06ZJeucXaucjFzacqnRKBfaPmNTr5am5CIRL3FCvJyj/212P3Cnkop3WAaT91k9+xpT317HwJj1ohHghVNduMFyaxjI7YvDY5ZApxcXXzU/Fp3frz95yCjgC4iQ9/wpUlrL3c7HJkkoT2P7/WfuE/Us31n9An0WxgQfeIi+x71HPTiwlyfx9wn85rlBi7QDjHrixasnfygwV6Cl/8UqDvc2NGDrocFwc9WfurlqQvP3by6v5/mfHd7JP/DCCT59B88bOvBRBgAA</values>
@@ -459,7 +459,7 @@
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3e7b3011839b7250489aa430ceaad3d4^sys_idNOT IN34e79261835b3650489aa430ceaad332,5f27daed831b3650489aa430ceaad30b,82f6d2ed831b3650489aa430ceaad39e,9cc65ead831b3650489aa430ceaad3ef,ae1a1629831b3650489aa430ceaad35e,aeb7da21835b3650489aa430ceaad37a"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">be5a96a5835b3650489aa430ceaad306</block>
+        <block display_value="">c800e48b83a54f54a322fdc6feaad30c</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -475,18 +475,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:19:41</sys_created_on>
         <sys_id>34e79261835b3650489aa430ceaad332</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:37</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:23</sys_updated_on>
         <ui_id>f94a5f02-f22f-4859-9275-76edb578d8f8</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYJny9BmW/YtaBHAQNoArZtLEQgjcmgTpUiFouy4hv+9Q0tygrSH3pub5pGct3AInZjtfNP5dmNv2lZtDVv9eJwwZQJG3ydmoEa2YtrapuS2M55N2B50F8DTSYrSOzCttK5eZUmSSAFZxItZHOVVkkZVnBRRLON5mqRpjPPZ+UznhWobDceHoQ0hfKe0cDjQN+CI1aNjq9ObJX9ssNRQoaaDa+NxS7tIsKBSLGEhiKnIZlU2n8V5sQTIs5gjgMjSivaNJ+/IzoePg52/WQw8hKkrg3Ui6EkmDJ89GoHEKEG3OGE1GAHeuuMVcQji3ugXYEeNeqc1PLfqF/XO47BPIlnjQwrXshwSGsOxiuN945U1PeKh0mNyVne1+dJbCNmihE77V9l2LfXDJmgOIgZF8tvOHr6OhLfKXOwNi9py0NcKvHeq6jy24T46tXmbTQ/d/XErqLEmzrKGplFmWzbO7tWFh2TX062mYiq1PZC+MHxT4MHjlNKE6S3hny7wAzgVDH+mNgPfd6OeOlyHW8+XfF7MUhklaV7Q1PFFtJRFFVVFJVOZZHyRLtj5Em751AVbfUxDIGWfKW1ouVONvyEJexy8nx/DsPfs/XP410F7fzbvz+a/fjYCuWpJ1SZIWI//k7BwpMFR/DV0sO5n8POCnX8DCMcJQZkGAAA=</values>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9F54tQ5tt2bcARQADbQO0aS5FIIzIoU2UIhWSsuMa/vcOLdlJ0x56b26aR3LewiF0ZLYPXR/8vb3xXm0MW31/nDBlIkbfR2agRbZi2tqu5rY3gU3YDnQfweNRijo4MF5a166KLMukgCLh1SxNyibLkybNqiSV6TzP8jzF+ex0ovNC+U7D4WFsQwjfKi0cjvQdOGIN6Njq+GYpHDqsNTSo6eDaBNzQLhIsqBRLWAhiqopZU8xnaVktAcoi5QggiryhfZeTv9n5m8XIQ5i6Mlgnop5swvA5oBFIjBK0xwlrwQgI1h2uiEMQd0a/AFtqNDht4dmrn9S7TOM+iWSNjylcy3pM6BKOVRzvuqCsGZAAjb4kZ3Xfms+DhZgtSuh1eJVt76kfdlFzFDEqkl+3dv/lQnirzNneuKgtB32tIASnmj6gj/fRq/u32QzQxz9uBTW2xFm30HXKbOrO2Z0685DsdrrRVEyltnvSF4dvCjx6nFKaML0l/MMZfgCnouFP1Gbk+2bUU4/reOvlks+rWS6TLC8rmjq+SJayapKmamQus4Iv8gU7ncOtn/poa4hpDKQeMqUNnjvVhRuSsMPR++kxDvvAPjyHfx2092fz/mz+62cjkCtPqu6jhPXlfxIXDjQ4ir+G9tb9iH5esNMvAE1KEJkGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">2a5a56a5835b3650489aa430ceaad3ff</block>
+        <block display_value="">8c00a48b83a54f54a322fdc6feaad3df</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -502,10 +502,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:16:35</sys_created_on>
         <sys_id>5f27daed831b3650489aa430ceaad30b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:37</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:22</sys_updated_on>
         <ui_id>c7a8d5c3-be1d-4a36-8ca8-919de1b492f3</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2UTWvbQBCG/4rQWQh9xKbxLbQECmkDjcmlDWK0GtlLV7vq7sqOa/zfO6MPx7QOSUOPvRjtOzsz78w+eB+azredd0tz5Zxc6XDx9SEKpWaNvvehhgbDRSiMrqSXRhe9EIUbUB0HlsaDCobkBrUPpAtu0LnAr0EH+KOjqDdBmlBOJV2rYHf/hlSxlqqyOPprwZILjzZc7H8L+V2LhYISFXW481bqFaXLik51AnV6KVKRZ/M8S5Ls3UVazvMyzaocEHK6NyW+n8YNbnolenYP3I90N3UytmJbaRKF+OhRV0ita1AOo7ABXYE3dndULEJ1q9WTsJbaU7mQLz86+ZNqZ7MZX6yRZhQ4BI/HYtzpIIu1kQJvWzY4KB5KNeYIo7pGfx7m4NfAGjrlp9cgpXNUD1s2zS5GS/Xd2my/TA2vpe4HHIPKCFDHE3haQ9l5dPwwqJCftWigbWk5RWvNRvbJ5KWJV4oOca3MlpoyAzEINh7TjiC+Jv1DL9+DlTzFJypDyYPNEpwURc8plfOWRjj0aykYm2nAcZRi2AZdcMLK1l9Rnw2Org/Rn5Cf8L3fu65kk7FnXAs44no4fOuSJBf9b3UO8L/K/ReEX8KsnqXJ7DzhF/NzhJ9h+3mssxew5od4JdVJkvzH+hRr6YoBz3G2vvmbqX5ghIcObuCmQiEdGVmy9nH6h+fAjgCQ4lTaGvudR3jSDr8AeqDpyisGAAA=</values>
@@ -513,7 +513,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">ee5a56a5835b3650489aa430ceaad3fc</block>
+        <block display_value="">c400a48b83a54f54a322fdc6feaad3dd</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -529,18 +529,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:15:40</sys_created_on>
         <sys_id>82f6d2ed831b3650489aa430ceaad39e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:37</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:22</sys_updated_on>
         <ui_id>6e795f17-0cf7-4af2-881f-100b098f1740</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1UTWsbMRD9K8uel2XtrePgW0gJFNoEEpNLGxZZmrVFtZKqDzuu2f/emf1wQmvTEHqsT6snzbz3Zh4+pCYGG4Nfmivv5Vqni69PWSo1Yfh9SDVrIF2k3GghgzS66oAs3TIV6eLaAQuQ3AM3TiRLqVRya/LE1EnfsAEdEumTAmuE9Fax/eM7SvlGKuFg0GeZQxUBXLo4/HYV9hYqxVagkOEhOKnXWC4FnlaCTfmq+DAvi3JSFsXFZMqn87LG3wWbz4hmLLwe7SafOyQ7OwfiQ9yPTGiFZE2KIkvhOYAWgNw1Ux6ytGFasGDc/ojgCMSdVi/ARuqA/VJ6/OzlT2w+nc3oYQ1okkN/eTxWw1B7mG+M5HBnSWGPBLZSQw03Kjb6tjdC64CaRRXGdSASPfYDS6JJxSCpftiY3f1IeCN153C4VIYzdTyxgHNYxQCeNgMKaIdVw6zF6VTWma3silFLk68VHvJamR2S0sJzxkl4jjNi+Q3iHzv4kTlJLr5gGyxuO/fVj0i8vY9BcdWbxgeeO2nDFbbbwiCuzf4M86scHw6dkO3AlStjbMVN1KFtv8WiKMWJBL+t6F9kV8wn5WV9LruX/FR2T6T2fGCnfwtscPGteS2o1//AjoHFFfqqT+TgrSN/d5CfKLU9g++DI4BLj0KWhH0a/7zpYo8JkPw1tDPuO1l4wdpfUj6yBQYGAAA=</values>
+        <values>H4sIAAAAAAAA/+1UTWsbMRD9K4vOy7L21nHwLbQECmkDjcmlDYsszdqiWknVhx3X+L93Zj+S0No0hB7r0+qNZt57o4cPzKboUgxLexWCWhu2+PqQM2UIw+8DM7wFtmDCGqmisqbugJxtuU5UWNrIddY3t2BipkJ2AyFkccNNBj8SVqPNJiX2SBWc5vv7N7SKjdLSw6DPcY8qIni2OPxWinsHteYr0MhwF70ya2xXEk8ryadiVb6bV2U1qcryYjIV03nV4O+Cz2dEMza+H+1mNx2Sn90D8SEeRibrJcmalGXO4DGCkYDcDdcBctZyI3m0fv+EeODy1uhnYKNMxHmMLj8G9ROHT2czutgAmhTQF5+O9bDUHhYbqwTcOlLYI5Gv9NAjrE6t+dwboeeAhicdx+dAJAWcB45Ek4pBUnO3sbsvI+G1Mp3Doait4PrpxCPuYZUiBHoZ0EDvWrfcOdxO7bzdqq4ZtbTFWuOhaLTdISmFoOCChBe4I15cI/6hg++5V+TiE47B5mPnvqZ4jD4GxXVvGi8E4ZWLVzhuC4O4Y/5nmF/k+HDohGwHrkJb62phk4nH47dUlpU8keDXNf2L7Mr5pLpszmX3UpzK7onUng/s9G+BjT69Nq8lzfof2DGw+ISh7hM5eOvI3xzkB0ptzxD64EgQKqCQJWEfxz9vKuwxAUq8hHbWfycLz9jxF/Yiii0GBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">ea5a56a5835b3650489aa430ceaad3f9</block>
+        <block display_value="">4400a48b83a54f54a322fdc6feaad3da</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -556,10 +556,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:14:44</sys_created_on>
         <sys_id>9cc65ead831b3650489aa430ceaad3ef</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:37</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:22</sys_updated_on>
         <ui_id>8a263886-e76e-454f-8ff1-6d5075d9f48a</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1V227TQBD9FcvPluVLHdG8VUClSjRBJKqEaLHG63GyYr1rdtdJQ5R/Z9aXNIJUBQRvvHnPzuycMzNH3vuqtU1rzVJdGcNX0p9+egh8Lh1G33tfQo3+1GdKltxyJfMOCPwNiNZdzFToqcrrs2uU1uPGk8p6WDd254EsvYjCS24aAbu738tiay5KjQOrBjTVtqj96f6HK7trMBdQoKDHF1ZzuaJ0XtKpiqCKL1nM0mSSJlGUvLqIi0laxEmZAkJKcWPi61Gk965DgmfVu3qEm7GS0qWjFUeBj48WZYlUugJhMPBrUgNW6d0R0QjlXIonYM2lped8F/xo+Dd6O8kyF1ghaWTYXx6P+dDOHmZrxRnOG0ewRywUYshhSrS1nPU63CCwglbYcRCEtIbew8aRdiwGStVirbYfxoLXXHYCh0uhGIjjCSy1oWgtGjcYFOgGmtfQNNScvNFqw7tk4lKHK0GHsBJqS0Xd9ENgjnhIPYLwmvA3HXwHmjsVt/QMJfc0CzCc5d120nNWk4RD15b8a+sI9QIHKXnfDQowTPPGXlGdDQ6sD8HPq32y1fu9aQtHMpRtXaDOVZXDcVkPh5vFbL58e/t++fHzS6H3bRSleMYD/6TG33DMJWRVFkfZecdcTM455oxXnrdJ8oJN3GB/0SVRFP23yalNuMn7dR+0dcX/2CUPzhJ9BdPvTYmMGyKydNjN+J9wFztaAM5Ooa3SX5yEJ+zwHRMMbDBxBgAA</values>
@@ -567,7 +567,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">3a5a96a5835b3650489aa430ceaad303</block>
+        <block display_value="">0800a48b83a54f54a322fdc6feaad3e4</block>
         <comment/>
         <connected_to>c7a8d5c3-be1d-4a36-8ca8-919de1b492f3</connected_to>
         <decision_table/>
@@ -583,10 +583,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:29:22</sys_created_on>
         <sys_id>ae1a1629831b3650489aa430ceaad35e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:37</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:22</sys_updated_on>
         <ui_id>46bc3a1b-c1dd-4ef2-886a-4112a6646165</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -594,7 +594,7 @@
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">265a56a5835b3650489aa430ceaad3f6</block>
+        <block display_value="">0000a48b83a54f54a322fdc6feaad3ca</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -610,13 +610,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:19:00</sys_created_on>
         <sys_id>aeb7da21835b3650489aa430ceaad37a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:43:37</sys_updated_on>
+        <sys_updated_on>2026-06-22 13:07:22</sys_updated_on>
         <ui_id>d75400b1-cace-4b2f-bff7-1fedd0a75fd9</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1VS4/aMBD+K5XPEEEIELitWq2EtO1KLd1LtYrGzgSsOrbXD1iK+O8dk8Cutj303r3Fn8fzPTxWjszEYGPwa3PjvdxotvzxOGBSJ4y+j0xDi2zJlDG2EibqwAZsByom8Hj0kTfK7DMdW46uMk0F5zYt6nA6UWktvVVweOhPECK2UtUOeyYLjggCOrY8vtkKB4uVAo6KDq50wA1VkbaalvUC5vUsH5eTKZ/MpqOiXAAUk5FAgHqSc6q7nLwj5R8+9sr/5ibxECavDMbVSc94wPA5oK6RGBtQHgesBV1DMO5wRRxCfa/VC7ClRp3TFp69/EW9i1Gqa5CsiT6F67LqE7qEY6TAexuk0R0SgKtLckbFVn/pLKRssYGowqtso6d+aJPmJKJX1Hzbmv3XC+Gt1Gd7/aYyAtR1BSE4yWNAn+4jyvXbbDro7o9bQYXpzqsWrJV6U1lndvLMQ7LbbKNokaVRIX1pQDIQyWNGaUJ2S/inM/wATibDn6lNz/ddy6eIq3TrxULMymneDMd5UQ4LLubDRVPyIS95kzfjiZjnc3Y6h1s9xWSri6kPpOoypQIvnLThhiTssPd+ekxz3bF3k/+vg/b+Qt5fyP/yQmoU0pOqdZKwuvwl0saBBkeK19DeuJ/Jzwt2+g3cI4BKbwYAAA==</values>
+        <values>H4sIAAAAAAAA/+1VS28aMRD+Lz7DCpYFFm6RqkhIbSO1NJcqWs3as2DVazt+QCjiv3fMLiRNe8g9ua0/j+d7eKw9MhODjcGvzY33cqPZ8ufDgEmdMPo+Mg0tsiVTxtiKm6gDG7AdqJjA49HHulFmn+nY1ugq01RwbtOiDqcTlQrprYLDfX+CEL6VSjjsmSw4Igjo2PL4aiscLFYKalR0cKUDbqiKtAlaigXMxSwfl5NpPZlNR0W5ACgmI44AYpLXVHc5+Zfy/7lJPITJK4NxIukZDxg+BdQCibEB5XHAWtACgnGHK+IQxJ1Wz8CWGnVOW3jy8jf1LkaprkGyxvsUrsuqT+gSjpEc72yQRndIgFpdkjMqtvprZyFliw1EFV5kGz31Q5s0JxG9oub71uy/XQhvpT7b6zeV4aCuKwjByToG9Ok+oly/zqaDPv9zK6gw3XnVgrVSbyrrzE6eeUh2m20ULbI0KqQvDUgGPHnMKE3Ibgn/dIbvwclk+Au16fl+aPkYcZVuvVjwWTnNm+E4L8phUfP5cNGU9bAu6yZvxhM+z+fsdA63eozJVhdTH0jVZUoFnjtpww1J2GHv/fSQ5rpj7yb/rYP28UI+Xsh7eSECufSkap0krC5/ibRxoMGR/CW0N+5X8vOMnf4AC7OUrW8GAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=3e7b3011839b7250489aa430ceaad3d4^sys_idNOT IN01285a61835b3650489aa430ceaad3e9,4d285a61835b3650489aa430ceaad3e9"/>
@@ -692,7 +692,7 @@
         <help/>
         <hint/>
         <internal_type display_value="Integer">integer</internal_type>
-        <label>Loop Count</label>
+        <label>loop_count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="Resource Allocation Record Creation ">3e7b3011839b7250489aa430ceaad3d4</model>
@@ -718,14 +718,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:18:38</sys_created_on>
         <sys_id>d9a7d621835b3650489aa430ceaad32b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 09:30:28</sys_updated_on>
+        <sys_updated_on>2026-06-22 12:48:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1700,11 +1700,11 @@
         <sys_created_on>2026-02-26 09:43:38</sys_created_on>
         <sys_id>2b5dd62d835b3650489aa430ceaad3e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Number of Assignment</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a35dd62d835b3650489aa430ceaad3bd_number_of_assignment_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-26 09:43:38</sys_updated_on>
         <url/>
@@ -1723,11 +1723,11 @@
         <sys_created_on>2026-02-26 09:43:39</sys_created_on>
         <sys_id>735dd62d835b3650489aa430ceaad3f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project Name</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a35dd62d835b3650489aa430ceaad3bd_project_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-26 09:43:39</sys_updated_on>
         <url/>
@@ -1746,11 +1746,11 @@
         <sys_created_on>2026-02-26 09:43:38</sys_created_on>
         <sys_id>ef5dd62d835b3650489aa430ceaad3d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Total Assignment</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a35dd62d835b3650489aa430ceaad3bd_total_assignment_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-26 09:43:38</sys_updated_on>
         <url/>
@@ -1769,11 +1769,11 @@
         <sys_created_on>2026-02-26 09:43:39</sys_created_on>
         <sys_id>f75d1a2d835b3650489aa430ceaad305</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Assignment Role</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a35dd62d835b3650489aa430ceaad3bd_assignment_role_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-26 09:43:39</sys_updated_on>
         <url/>
@@ -1866,15 +1866,15 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>3e7b3011839b7250489aa430ceaad3d4</sys_id>
         <latest_snapshot>a35dd62d835b3650489aa430ceaad3bd</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-zurich-07-01-2025__patch6-01-16-2026_02-02-2026_1554.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3e7b3011839b7250489aa430ceaad3d4"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3e7b3011839b7250489aa430ceaad3d4^sys_idNOT IN7b5d1a2d835b3650489aa430ceaad344"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@29a65d53</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"7b5d1a2d835b3650489aa430ceaad344","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Resource Allocation Record Creation ">3e7b3011839b7250489aa430ceaad3d4</plan_id>
-        <snapshot>a35dd62d835b3650489aa430ceaad3bd</snapshot>
+        <snapshot>cfd9fb7a83614f54a322fdc6feaad312</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 09:43:39</sys_created_on>
         <sys_domain>global</sys_domain>

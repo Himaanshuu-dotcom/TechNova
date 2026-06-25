@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="numeber_of_qa_needed" table="x_1912290_techno_0_project">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-06 07:54:33</sys_created_on>
-        <sys_id>c62047078372fa10489aa430ceaad34f</sys_id>
         <sys_name>Numeber of QA Needed</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>

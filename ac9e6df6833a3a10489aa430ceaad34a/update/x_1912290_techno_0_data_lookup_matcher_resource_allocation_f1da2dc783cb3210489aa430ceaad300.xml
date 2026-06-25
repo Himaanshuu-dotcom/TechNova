@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_1912290_techno_0_data_lookup_matcher_resource_allocation">
     <x_1912290_techno_0_data_lookup_matcher_resource_allocation action="INSERT_OR_UPDATE">
         <active>true</active>
-        <group display_value="TechNova Developers" name="TechNova Developers">f6aa21a2837ab610489aa430ceaad383</group>
+        <group display_value="">f6aa21a2837ab610489aa430ceaad383</group>
         <order>100</order>
         <role>Developer</role>
         <sys_class_name>x_1912290_techno_0_data_lookup_matcher_resource_allocation</sys_class_name>

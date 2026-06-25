@@ -6,7 +6,7 @@
         <disable_auto_reflow>false</disable_auto_reflow>
         <disable_interoperable>false</disable_interoperable>
         <event_mappings/>
-        <macroponent display_value="Standard record page">2a8a060f83198fd0489aa430ceaad326</macroponent>
+        <macroponent display_value="Default">2a8a060f83198fd0489aa430ceaad326</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",

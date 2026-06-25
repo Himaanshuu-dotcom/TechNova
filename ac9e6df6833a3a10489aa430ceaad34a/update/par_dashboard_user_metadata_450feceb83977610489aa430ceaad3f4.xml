@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
     <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
         <background_color/>
-        <cache_expiration_time>24</cache_expiration_time>
+        <cache_expiration_time>0</cache_expiration_time>
         <card_bg_image/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on>2026-03-04 06:49:21</created_on>
@@ -20,8 +20,8 @@
         <include_trends>true</include_trends>
         <include_widget_notification>true</include_widget_notification>
         <last_deactivated_on/>
-        <last_updated_on>2026-03-05 05:30:09</last_updated_on>
-        <po_project_id_list>[]</po_project_id_list>
+        <last_updated_on>2026-03-04 06:49:21</last_updated_on>
+        <po_project_id_list/>
         <refresh_information>false</refresh_information>
         <refresh_interval/>
         <requested_by_user/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>450feceb83977610489aa430ceaad3f4</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
@@ -41,9 +41,9 @@
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_450feceb83977610489aa430ceaad3f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-05 05:30:09</sys_updated_on>
+        <sys_updated_on>2026-03-04 06:49:21</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
-        <widgets_margin/>
+        <widgets_margin>$now-global-space--sm</widgets_margin>
     </par_dashboard_user_metadata>
 </record_update>

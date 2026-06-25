@@ -22,7 +22,7 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2026-02-24 06:18:05</sys_updated_on>
         <table/>
-        <ui_policy display_value="When Severity is Critical than make Emergency Contact Number Mandatory and visible.">e2ca32e483df3e10489aa430ceaad3ca</ui_policy>
+        <ui_policy display_value="">e2ca32e483df3e10489aa430ceaad3ca</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <variable>emergency_contact</variable>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Import Skills" language="en" table="x_1912290_techno_0_import_skills">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Import Skills</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_import_skills</name>
+            <plural>Import Skills</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-10 11:52:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Import Skills</sys_name>
+            <sys_package display_value="">7d3819f2834803105d9b7429feaad3ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+            <sys_update_name>sys_documentation_x_1912290_techno_0_import_skills__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-10 11:52:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

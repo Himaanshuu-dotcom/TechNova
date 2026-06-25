@@ -50,7 +50,7 @@
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>d86c1aa9835b3650489aa430ceaad304</version_record>
+        <version_record>5c1ac22383e58394a322fdc6feaad320</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=568c05dd83df7250489aa430ceaad3be"/>
     <sys_variable_value action="delete_multiple" query="document_key=568c05dd83df7250489aa430ceaad3be"/>
@@ -1814,11 +1814,11 @@
         <sys_created_on>2026-02-25 09:12:17</sys_created_on>
         <sys_id>2e9c81518313b250489aa430ceaad3e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_568c05dd83df7250489aa430ceaad3be_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-25 09:12:17</sys_updated_on>
         <url/>
@@ -1837,11 +1837,11 @@
         <sys_created_on>2026-02-25 09:12:17</sys_created_on>
         <sys_id>a69c81518313b250489aa430ceaad3ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
         <sys_policy/>
         <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_568c05dd83df7250489aa430ceaad3be_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-25 09:12:17</sys_updated_on>
         <url/>
