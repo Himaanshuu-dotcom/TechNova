@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-02-08 17:50:40</sys_updated_on>
         <table>x_1912290_techno_0_project</table>
-        <ui_policy display_value="When project status is completed than expected date will be hidden">402f537383b27250489aa430ceaad39a</ui_policy>
+        <ui_policy display_value="When project status is completed than expected date will be hidden and other fields will be read only">402f537383b27250489aa430ceaad39a</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>false</visible>

@@ -44,6 +44,6 @@
         <sys_updated_on>2026-03-05 05:30:09</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
-        <widgets_margin/>
+        <widgets_margin>$now-global-space--sm</widgets_margin>
     </par_dashboard_user_metadata>
 </record_update>

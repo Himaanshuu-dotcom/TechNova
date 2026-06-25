@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Stories">04b2214b83d18fd0489aa430ceaad329</category>
+        <category display_value="Defects">04b2214b83d18fd0489aa430ceaad329</category>
         <columns>number,priority,issue_assigned_to,project_name,state</columns>
         <condition table="x_1912290_techno_0_project_issue">issue_assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="issue_assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>

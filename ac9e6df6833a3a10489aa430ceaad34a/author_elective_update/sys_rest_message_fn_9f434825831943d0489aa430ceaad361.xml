@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Comment Post</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Test [ Comment Post ]</qualified_name>
+        <rest_endpoint>https://freedcamp.com/api/v1/comments?api_key=955cdddcad3e443d0815722e0fbf77d3e4283d9c</rest_endpoint>
+        <rest_message display_value="Test">4e03cce1831943d0489aa430ceaad3fb</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-05 08:36:52</sys_created_on>
+        <sys_id>9f434825831943d0489aa430ceaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Comment Post</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_rest_message_fn_9f434825831943d0489aa430ceaad361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-05 08:36:52</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</application>
+        <file_path/>
+        <instance_id>3aee23141b563d18168f4089bd4bcbfb</instance_id>
+        <instance_name>dev199422</instance_name>
+        <name>sys_rest_message_fn_9f434825831943d0489aa430ceaad361</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Comment Post</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Test [ Comment Post ]</qualified_name><rest_endpoint>https://freedcamp.com/api/v1/comments?api_key=955cdddcad3e443d0815722e0fbf77d3e4283d9c</rest_endpoint><rest_message display_value="Test">4e03cce1831943d0489aa430ceaad3fb</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-05 08:36:52</sys_created_on><sys_id>9f434825831943d0489aa430ceaad361</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comment Post</sys_name><sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package><sys_policy/><sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope><sys_update_name>sys_rest_message_fn_9f434825831943d0489aa430ceaad361</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-05 08:36:52</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1105175012</payload_hash>
+        <record_name>Comment Post</record_name>
+        <reverted_from/>
+        <source>649e6df6833a3a10489aa430ceaad379</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-05 08:36:52</sys_created_on>
+        <sys_id>2a738c25831943d0489aa430ceaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e96ed92520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-05 08:36:52</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>e6738c25d61943d0ea3e59f34344c15d</update_guid>
+        <update_guid_history>e6738c25d61943d0ea3e59f34344c15d:-1105175012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-05 09:10:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>0373486e124040dc8099f9cb4f332110</sys_id>
+        <sys_metadata>9f434825831943d0489aa430ceaad361</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Comment Post</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_parent display_value="Test">4e03cce1831943d0489aa430ceaad3fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_scope_delete display_value="">01dc793d398d4bdc81b06b5f20c75504</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_9f434825831943d0489aa430ceaad361</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_9f434825831943d0489aa430ceaad361">2a738c25831943d0489aa430ceaad35e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-05 09:10:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

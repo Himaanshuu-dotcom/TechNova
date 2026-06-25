@@ -14,7 +14,7 @@
   "comment" : ""
 } ]</required_translations>
         <route/>
-        <suffix/>
+        <suffix>chrome_toolbar</suffix>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-10 06:51:16</sys_created_on>

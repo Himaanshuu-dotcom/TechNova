@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Configure Disk Name Transformation">fbc1770ec3aa0210f8792ecf6d40dd78</content>
+        <effective_weight>0</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>1</previous_status>
+        <progress>0</progress>
+        <related_log_entry display_value="18-06-2026 02:55:41">8432d72183a54754489aa430ceaad3a7</related_log_entry>
+        <status>3</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 12:53:24</sys_created_on>
+        <sys_id>eba7e54d83a10354489aa430ceaad3ec</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>gsw_status_of_content_eba7e54d83a10354489aa430ceaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 09:55:41</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Project Issue</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Project Issue</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">60024c62486132108bb2a3a8cef797a4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-06 09:50:48</sys_created_on>
+        <sys_id>a53f1f078376fa10489aa430ceaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Issue</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_wizard_answer_a53f1f078376fa10489aa430ceaad34a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-06 09:50:48</sys_updated_on>
+        <table/>
+        <target_url>x_1912290_techno_0_project_issue.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="85bba77e83e10394489aa430ceaad3ef" extends="cmdb_ci_computer" label="Test Child CI" max_length="40" name="x_1912290_techno_0_cmdb_ci_test_child_ci" type="collection">
+        <element label="Test Name" max_length="40" name="u_test_name" type="string"/>
+    </element>
+</database>

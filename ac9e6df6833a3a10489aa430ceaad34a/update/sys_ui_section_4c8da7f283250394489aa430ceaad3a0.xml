@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4c8da7f283250394489aa430ceaad3a0" sys_domain="global" table="x_1912290_techno_0_cmdb_ci_test_child_ci" version="3" view="ot">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>4c8da7f283250394489aa430ceaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ot_entity.ot_display_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>c48da7f283250394489aa430ceaad3a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ot_entity.ot_asset_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>448da7f283250394489aa430ceaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ot_entity.business_criticality</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>408da7f283250394489aa430ceaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ot_entity.isa_entity_site</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>c88da7f283250394489aa430ceaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>448da7f283250394489aa430ceaad3a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>c08da7f283250394489aa430ceaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>cc8da7f283250394489aa430ceaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>488da7f283250394489aa430ceaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>d08da7f283250394489aa430ceaad3aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ot_entity.purdue_level</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>dc8da7f283250394489aa430ceaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ot_entity.zone</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>d88da7f283250394489aa430ceaad3ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>d48da7f283250394489aa430ceaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>508da7f283250394489aa430ceaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>5c8da7f283250394489aa430ceaad3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>588da7f283250394489aa430ceaad3ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_id>548da7f283250394489aa430ceaad3b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1912290_techno_0_cmdb_ci_test_child_ci" sys_domain="global" view="d3527a34c3a43010303167340440dd05">4c8da7f283250394489aa430ceaad3a0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1912290_techno_0_cmdb_ci_test_child_ci</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 09:07:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c8da7f283250394489aa430ceaad3a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1912290_techno_0_cmdb_ci_test_child_ci</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+            <sys_update_name>sys_ui_section_4c8da7f283250394489aa430ceaad3a0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 09:07:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Operational Technology (OT)" name="ot">d3527a34c3a43010303167340440dd05</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

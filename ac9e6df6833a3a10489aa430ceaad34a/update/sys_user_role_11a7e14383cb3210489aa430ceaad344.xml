@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>5ui8DVRptTUI5oaQVDJgob/rBK/tERcxvmkxyd2Cx0g=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1912290_techno_0.data_lookup_matcher_resource_allocation_user</name>
