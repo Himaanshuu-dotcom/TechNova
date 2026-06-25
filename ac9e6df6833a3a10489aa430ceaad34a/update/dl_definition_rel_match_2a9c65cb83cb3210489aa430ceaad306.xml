@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="Data Lookup for Resource Allocation">125c2d8b83cb3210489aa430ceaad3d8</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_1912290_techno_0_data_lookup_matcher_resource_allocation</matcher_table>
+        <matcher_table_field>role</matcher_table_field>
+        <source_table>x_1912290_techno_0_resouce_allocation</source_table>
+        <source_table_field>assignment_role</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-18 11:46:05</sys_created_on>
+        <sys_id>2a9c65cb83cb3210489aa430ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_role</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>dl_definition_rel_match_2a9c65cb83cb3210489aa430ceaad306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-18 11:46:05</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

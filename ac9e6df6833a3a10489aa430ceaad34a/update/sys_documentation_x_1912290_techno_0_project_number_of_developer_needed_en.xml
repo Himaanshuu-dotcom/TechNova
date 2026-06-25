@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number_of_developer_needed" label="Number of Developer Needed" language="en" table="x_1912290_techno_0_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_developer_needed</element>
+            <help/>
+            <hint/>
+            <label>Number of Developer Needed</label>
+            <language>en</language>
+            <name>x_1912290_techno_0_project</name>
+            <plural>Number of Developer Needed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-06 07:54:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number of Developer Needed</sys_name>
+            <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+            <sys_update_name>sys_documentation_x_1912290_techno_0_project_number_of_developer_needed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-06 07:54:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

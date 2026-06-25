@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Software Design Suite">1250e7e483177e10489aa430ceaad380</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 12:50:46</sys_created_on>
+        <sys_id>2f6bef6c83577e10489aa430ceaad36a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Common OnBoarding Information.Software Design Suite</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>io_set_item_2f6bef6c83577e10489aa430ceaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 12:50:46</sys_updated_on>
+        <variable_set display_value="Common OnBoarding Information">8c54ebec83177e10489aa430ceaad363</variable_set>
+    </io_set_item>
+</record_update>

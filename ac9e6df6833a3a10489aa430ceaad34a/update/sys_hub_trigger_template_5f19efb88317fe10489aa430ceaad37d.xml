@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_trigger_template">
+    <sys_hub_trigger_template action="INSERT_OR_UPDATE">
+        <accessible_from>public</accessible_from>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <category display_value="Record">8886dd64c3d322002841b63b12d3aed4</category>
+        <comment/>
+        <description/>
+        <name>Test</name>
+        <order>0</order>
+        <published_trigger_id>0e2ae3f8b217fe10074581da55e083fa</published_trigger_id>
+        <source_trigger/>
+        <state>published</state>
+        <sys_class_name>sys_hub_trigger_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-24 07:19:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f19efb88317fe10489aa430ceaad37d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sys_hub_trigger_template_5f19efb88317fe10489aa430ceaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-24 07:23:41</sys_updated_on>
+        <template_properties>{"showAdvancedProperties":"true","showDefinitionConditions":"true","canAddAdditionalConditions":"true"}</template_properties>
+        <trigger_category/>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_values>[{"name":"table","label":"Table","type":"table_name","displayValue":"Project","value":"x_1912290_techno_0_project","readOnly":false,"extendable":false},{"name":"condition","label":"Condition","type":"conditions","displayValue":"project_size&lt;","value":"project_size&lt;","readOnly":false,"extendable":false},{"name":"run_when_setting","label":"run_when_setting","type":"choice","displayValue":"Run for Both Interactive and Non-Interactive Sessions","value":"both","readOnly":false,"extendable":false},{"name":"run_when_user_setting","label":"run_when_user_setting","type":"choice","displayValue":"Run for any user","value":"any","readOnly":false,"extendable":false},{"name":"run_when_user_list","label":"run_when_user_list","type":"glide_list","displayValue":"","value":"","readOnly":false,"extendable":false},{"name":"run_on_extended","label":"run_on_extended","type":"choice","displayValue":"Run only on current table","value":"false","readOnly":false,"extendable":false},{"name":"run_flow_in","label":"run_flow_in","type":"choice","displayValue":"Run flow in background (default)","value":"background","readOnly":false,"extendable":false},{"name":"trigger_strategy","label":"trigger_strategy","type":"choice","displayValue":"Once","value":"once","readOnly":false,"extendable":false}]</trigger_values>
+        <type>record_create_or_update</type>
+    </sys_hub_trigger_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f19efb88317fe10489aa430ceaad37d"/>
+</record_update>

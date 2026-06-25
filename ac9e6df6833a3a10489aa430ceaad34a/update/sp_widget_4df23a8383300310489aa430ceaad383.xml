@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>simplelist</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SimpleList</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  data.table = "incident";
+  data.fields = ["number", "short_description", "state", "priority", "caller_id", "opened_at"]; // 6 columns
+  data.query = "active=true"; // edit filter here
+  data.limit = 10; // edit limit here
+
+  var gr = new GlideRecord(data.table);
+  gr.addEncodedQuery(data.query);
+  gr.orderByDesc("opened_at");
+  gr.setLimit(data.limit);
+  gr.query();
+
+  data.rows = [];
+  while (gr.next()) {
+    var row = {};
+    data.fields.forEach(function(f) {
+      row[f] = gr.getDisplayValue(f);
+    });
+    data.rows.push(row);
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-16 16:43:42</sys_created_on>
+        <sys_id>4df23a8383300310489aa430ceaad383</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SimpleList</sys_name>
+        <sys_package display_value="TechNova Project Management" source="x_1912290_techno_0">ac9e6df6833a3a10489aa430ceaad34a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TechNova Project Management">ac9e6df6833a3a10489aa430ceaad34a</sys_scope>
+        <sys_update_name>sp_widget_4df23a8383300310489aa430ceaad383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-16 16:46:05</sys_updated_on>
+        <template><![CDATA[<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th ng-repeat="f in data.fields">{{f}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="row in data.rows">
+      <td ng-repeat="f in data.fields">{{row[f]}}</td>
+    </tr>
+  </tbody>
+</table>]]></template>
+    </sp_widget>
+</record_update>
